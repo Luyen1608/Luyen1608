@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+
+<head>
+    <base href="../">
+    <meta charset="utf-8">
+    <meta name="author" content="Softnio">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A powerful and conceptual apps base dashboard template that especially build for developers and programmers.">
+    <!-- Fav Icon  -->
+    <link rel="shortcut icon" href="../images/favicon.png">
+    <!-- Page Title  -->
+    <title>Edit Campaign</title>
+    <!-- StyleSheets  -->
+    <link rel="stylesheet" href="../assets/css/dashlite1.css?ver=2.0.0">
+	<link rel="stylesheet" href="../assets/css/custom.css?ver=2.0.0">
+	<link rel="stylesheet" href="../assets/css/columnChart.css?ver=2.0.0">
+    <link id="skin-default" rel="stylesheet" href="../assets/css/theme1.css?ver=2.0.0">
+</head>
+<style>
+.btn-white.btn-outline-light:not(.btn-dim):not(:disabled):not(.disabled):hover, .dt-buttons .btn-secondary:not(.btn-dim):not(:disabled):not(.disabled):hover {
+    color: #fff;
+    background: #DFEBF6 !important;
+    border-color: #DFEBF6 !important;
+}
+.btn.bg-xanh-3:not(.btn-dim):not(:disabled):not(.disabled):hover, .btn-text-white:not(.btn-dim):not(:disabled):not(.disabled):hover {
+    color: #fff;
+    background: #3F84AD !important;
+    border-color: #3F84AD !important;
+}
+
+.nk-tb-item:not(.nk-tb-head):hover{
+	background: transparent;
+    box-shadow: none;
+}
+.accordion {
+	background: none!important;
+}
+.btn-round.btn-icon:not(.btn-dim):not(:disabled):not(.disabled):hover, .btn-round.btn-icon:not(.btn-dim):not(:disabled):not(.disabled):hover {
+    color: #fff;
+    background: #014F97 !important;
+    border-color: #014F97 !important;
+}
+@media ( max-width:1024px) {
+	.accordion-icon {
+		right: 0.1rem;
+	}
+}
+</style>
+
+
+<body class="nk-body bg-lighter npc-default has-sidebar ">
+    <div class="nk-app-root">
+        <!-- main @s -->
+        <div class="nk-main ">
+            <!-- sidebar @s -->
+            <div class="nk-sidebar nk-sidebar-fixed is-light  is-compact" data-content="sidebarMenu">
+                <div class="nk-sidebar-element nk-sidebar-head">
+                    <div class="nk-sidebar-brand">
+                        <a href="KHBL/index.html" class="logo-link nk-sidebar-logo">
+                            <img class="logo-light logo-img" src="../images/favicon.png" srcset="../images/favicon.png 2x" alt="logo">
+                            <img class="logo-dark logo-img" src="../images/favicon.png" srcset="../images/favicon.png 2x" alt="logo-dark">
+                            <img class="logo-small logo-img logo-img-small" src="../images/favicon.png" srcset="../images/favicon.png 2x" alt="logo-small">
+                        </a>
+                    </div>
+                    <div class="nk-menu-trigger mr-n2">
+                        <a href="#" class="nk-nav-toggle nk-quick-nav-icon d-xl-none" data-target="sidebarMenu"><em class="icon ni ni-arrow-left"></em></a>
+                        <a href="#" class="nk-nav-compact nk-quick-nav-icon d-none d-xl-inline-flex" data-target="sidebarMenu"><em class="icon ni ni-menu"></em></a>
+                    </div>
+                </div><!-- .nk-sidebar-element -->
+                <div class="nk-sidebar-element">
+                    <div class="nk-sidebar-content">
+                        <div class="nk-sidebar-menu" data-simplebar>
+                            <ul class="nk-menu">
+                                <li class="nk-menu-heading">
+                                    <h6 class="overline-title text-primary-alt">Dashboards</h6>
+                                </li><!-- .nk-menu-item -->
+                                <li class="nk-menu-item">
+                                    <a href="KHBL/home-salesupport.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-home-fill"></em></span>
+                                        <span class="nk-menu-text text-headling-6">Trang chủ</span>
+                                    </a>
+                                </li><!-- .nk-menu-item -->
+                                <li class="nk-menu-item ">
+                                    <a href="KHBL/list-customer.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-user-fill"></em></span>
+                                        <span class="nk-menu-text text-headling-6">Khách hàng</span>
+                                    </a>
+                                </li><!-- .nk-menu-item -->
+								<li class="nk-menu-item ">
+                                    <a href="KHBL/nhacviec.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-bell"></em></span>
+                                        <span class="nk-menu-text text-headling-6">Nhắc Việc</span>
+                                    </a>
+                                </li><!-- .nk-menu-item -->		
+								<li class="nk-menu-item ">
+                                    <a href="KHBL/reportCustomer.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-reports"></em></span>
+                                        <span class="nk-menu-text text-headling-6">Báo cáo</span>
+                                    </a>
+                                </li><!-- .nk-menu-item -->	
+								<li class="nk-menu-item has-sub">
+                                    <a href="#" class="nk-menu-link nk-menu-toggle">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-users-fill"></em></span>
+                                        <span class="nk-menu-text text-headling-6">Chiến dịch</span>
+                                    </a>
+                                    <ul class="nk-menu-sub">
+                                        <li class="nk-menu-item">
+                                            <a href="KHBL/list-campaign.html" class="nk-menu-link"><span class="nk-menu-text text-headling-7">Tổng quan chiến dịch</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="KHBL/detailCampaign.html" class="nk-menu-link"><span class="nk-menu-text text-headling-7">Chi tiết chiến dịch</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="KHBL/reportCustomer.html" class="nk-menu-link"><span class="nk-menu-text text-headling-7">Báo cáo kết quả</span></a>
+                                        </li>
+                                    </ul><!-- .nk-menu-sub -->
+                                </li><!-- .nk-menu-item -->
+								
+														
+                            </ul><!-- .nk-menu -->
+                        </div><!-- .nk-sidebar-menu -->
+                    </div><!-- .nk-sidebar-content -->
+                </div><!-- .nk-sidebar-element -->
+            </div>
+            <!-- sidebar @e -->
+            <!-- wrap @s -->
+            <div class="nk-wrap ">
+                <!-- main header @s -->
+                <div class="nk-header nk-header-fixed is-light bg-gra-vt">
+                    <div class="container-fluid">
+                        <div class="nk-header-wrap classInfo">
+                            <div class="nk-header-search ml-3 ml-xl-0">
+                                <em class="icon ni ni-search color-white"></em>
+                                <input type="text" class="text-white form-control border-transparent form-focus-none" placeholder="Search anything">
+                            </div><!-- .nk-header-news -->
+                            <div class="nk-header-tools">
+                                <ul class="nk-quick-nav">
+                                    <li class="dropdown notification-dropdown">
+                                        <a href="#" class="dropdown-toggle nk-quick-nav-icon color-white" data-toggle="dropdown">
+                                            <div class="icon-status icon-status-info"><em class="icon ni ni-bell"></em></div>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-xl dropdown-menu-right">
+                                            <div class="dropdown-head">
+                                                <span class="sub-title nk-dropdown-title">Notifications</span>
+                                                <a href="#">Mark All as Read</a>
+                                            </div>
+                                            <div class="dropdown-body">
+                                                <div class="nk-notification">
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-warning-dim ni ni-curve-down-right"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">You have requested to <span>Widthdrawl</span></div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-success-dim ni ni-curve-down-left"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">Your <span>Deposit Order</span> is placed</div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-warning-dim ni ni-curve-down-right"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">You have requested to <span>Widthdrawl</span></div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-success-dim ni ni-curve-down-left"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">Your <span>Deposit Order</span> is placed</div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-warning-dim ni ni-curve-down-right"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">You have requested to <span>Widthdrawl</span></div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-success-dim ni ni-curve-down-left"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">Your <span>Deposit Order</span> is placed</div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                </div><!-- .nk-notification -->
+                                            </div><!-- .nk-dropdown-body -->
+                                            <div class="dropdown-foot center">
+                                                <a href="#">View All</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown user-dropdown">
+                                        <a href="#" class="dropdown-toggle mr-n1" data-toggle="dropdown">
+                                            <div class="user-toggle">
+                                                <div class="user-avatar sm">
+                                                    <em class="icon ni ni-user-alt"></em>
+                                                </div>
+                                                <div class="user-info d-none d-xl-block">
+                                                    <div class="user-status user-status-unverified color-white">LuyenDv</div>
+                                                    <div class="user-name dropdown-indicator color-white">Đoàn Văn Luyện</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-md dropdown-menu-right">
+                                            <div class="dropdown-inner user-card-wrap bg-lighter d-none d-md-block">
+                                                <div class="user-card">
+                                                    <div class="user-avatar">
+                                                        <span>AB</span>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <span class="lead-text">Đoàn Văn Luyện</span>
+                                                        <span class="sub-text">luyendv@dtsvn.net</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-inner">
+                                                <ul class="link-list">
+                                                    <li><a href="KHBL/user-profile-regular.html"><em class="icon ni ni-user-alt"></em><span>View Profile</span></a></li>
+                                                    <li><a href="KHBL/user-profile-setting.html"><em class="icon ni ni-setting-alt"></em><span>Account Setting</span></a></li>
+                                                    <li><a href="KHBL/user-profile-activity.html"><em class="icon ni ni-activity-alt"></em><span>Login Activity</span></a></li>
+                                                    <li><a class="dark-switch" href="#"><em class="icon ni ni-moon"></em><span>Dark Mode</span></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="dropdown-inner">
+                                                <ul class="link-list">
+                                                    <li><a href="#"><em class="icon ni ni-signout"></em><span>Sign out</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><!-- .nk-header-wrap -->
+                    </div><!-- .container-fliud -->
+                </div>
+                <!-- main header @e -->
+                <!-- content @s -->
+                <div class="nk-content ">
+                    <div class="container-fluid">
+                        <div class="nk-content-inner">
+                            <div class="nk-content-body">
+                                <div class="nk-block-head nk-block-head-sm">
+                                    <div class="nk-block-between g-3">
+                                        <div class="nk-block-head-content">
+											<ul class="btn-toolbar gx-1">
+												<li style="margin: auto;">
+													<a href="#"><em class="icon ni ni-back-ios"></em></a>
+												</li><!-- li -->
+												<li class="btn-toolbar-sep  mr-1 ml-1 "></li><!-- li -->
+												<li>
+													<h3 class="nk-block-title page-title text-headling-2 color-xanh-3">Chỉnh sửa chiến dịch</h3>
+												</li>
+											</ul>
+                                        </div>
+                                    </div>
+                                </div><!-- .nk-block-head -->
+								<div class="nk-block">
+									<div class="card-giaiphap col-8 col-12-1366 row pb-5 mt-3 pl-13rem pr-13rem pb-25rem">
+										<div class="col-12 pt-25rem">
+											<div class="nk-block-head nk-block-head-sm">
+												<div class="nk-block-between">
+													<div class="nk-block-head-content">
+														<h3 class="nk-block-title page-title text-headling-4 color-xanh-2">Thông tin chiến dịch</h3>
+													</div><!-- .nk-block-head-content -->
+												</div><!-- .nk-block-between -->
+											</div><!-- .nk-block-head -->
+										</div>
+										<div class=" col-12">
+											<h3 class="color-xanh-3 pb-3 pt-4 text-headling-6">Thông tin chung</h3>
+										</div>
+										<div class=" col-6 pr-8px">										
+											<div class="form-control-wrap">
+												<div class="form-icon form-icon-right h-100">
+													<em class="icon ni ni-user"></em>
+												</div>
+												<input type="text" class="form-control form-control-xl form-control-outlined" disabled id="outlined-right-icon1">
+												<label class="form-label-outlined color-xanh-5 font-weight-600" style="font-size: 14px!important;" for="outlined-right-icon1">Dinh Van Quan</label>
+											</div>
+										</div>
+										<div class=" col-6 pl-8px">			
+											<div class="form-control-wrap">
+												<div class="form-icon form-icon-right h-100">
+													<em class="icon ni ni-flag"></em>
+												</div>
+												<input type="text" class="form-control form-control-xl form-control-outlined" disabled id="outlined-right-icon1">
+												<label class="form-label-outlined color-xanh-5 font-weight-600" style="font-size: 14px!important;" for="outlined-right-icon1">
+													Chiến dịch A</label>
+											</div>
+										</div>
+										<div class=" col-6 pt-3 pr-8px">		
+											<div class="form-group">
+												<div class="form-control-wrap">
+													<div class="form-icon form-icon-right h-100">
+														<em class="icon ni ni-calendar-alt"></em>
+													</div>
+													<input type="text" class="form-control form-control-xl form-control-outlined" disabled id="outlined-right-icon1">
+													<label class="form-label-outlined color-xanh-5 font-weight-600" style="font-size: 14px!important;" for="outlined-right-icon1">
+														10/10/2021</label>
+												</div>
+											</div>
+										</div>
+										<div class=" col-6 pt-3 pl-8px">										
+											<div class="form-group">
+												<div class="form-control-wrap">
+													<div class="form-icon form-icon-right h-100">
+														<em class="icon ni ni-calendar-alt color-xanh-3"></em>
+													</div>
+													<input type="text" class="form-control form-control-xl form-control-outlined" disabled id="outlined-right-icon1">
+													<label class="form-label-outlined color-xanh-3 font-weight-600" style="font-size: 14px!important;" for="outlined-right-icon1">
+														10/10/2021</label>
+												</div>
+											</div>
+										</div>
+										<div class=" col-12 pt-3">										
+											<div class="form-control-wrap">
+											<textarea class="form-control form-control-sm text-body-1 color-xanh-5" disabled id="fv-message" name="fv-message" 
+												placeholder="Write your message" required="">Là sản phẩm cho phép Doanh nghiệp chi vượt số tiền có trên tài khoản tiền gửi thanh toán VND nhằm đáp ứng kịp thời phần vốn thiếu hụt tạm thời trong thanh toán.</textarea>
+											</div>
+										</div>
+										<div class=" col-12">
+											<h3 class="pt-4 pb-3 color-xanh-3 text-headling-6">Chọn sản phẩm bán</h3>
+										</div>
+										<div class="mr-2 col-12  row-ct pt-3 pb-1">
+											<div class="bg-xanh-7 col-12 row-ct pl-0 pr-0 mr-2">
+												<div class="col-3 pl-0 pr-0">
+													<div class=" col-12 row-ct pb-4">
+														<div id="accordion1" class="accordion w-100">
+															<div class="accordion-item">
+																<a class="row-ct pl-1 pr-1 accordion-head border-bottom  collapsed" >
+																		<div class="custom-control custom-control-sm custom-checkbox">
+																			<input type="checkbox" checked disabled class="custom-control-input" id="customCheck1">
+																		<label class="custom-control-label" for="customCheck1"></label></div>
+																	<h6 aria-expanded="true" data-toggle="collapse"   
+																	data-target="#accordion-item-1" class="title color-xanh-3 text-headling-6 collapsed" onclick="clickShow(this);" id="toggler">Tài khoản (2)</h6>
+																	<span class="accordion-icon"  ></span>
+																</a>
+																<div class="accordion-body collapse mt-2 show" id="accordion-item-1" data-parent="#accordion1">
+																	<div class="">
+																		<div class="pt-2 pl-1 pr-2 pb-0 br-1">
+																			<div class="custom-control custom-control-sm custom-checkbox">
+																				<input type="checkbox" checked disabled class="custom-control-input" id="customCheck11">
+																			<label class="custom-control-label color-cham-1 text-body-1" for="customCheck11">HĐV 1</label></div>
+																		</div>
+																		<div class="pt-1 pl-1 pr-2 pb-0 br-1">
+																			<div class="custom-control custom-control-sm custom-checkbox">
+																				<input type="checkbox" checked disabled class="custom-control-input" id="customCheck12">
+																			<label class="custom-control-label color-cham-1 text-body-1" for="customCheck12">HĐV 2</label></div>
+																		</div>
+																		<div class="pt-1 pl-1 pr-2 pb-0 br-1">
+																			<div class="custom-control custom-control-sm custom-checkbox">
+																				<input type="checkbox" checked disabled class="custom-control-input" id="customCheck13">
+																			<label class="custom-control-label color-cham-1 text-body-1" for="customCheck13">HĐV 3</label></div>
+																		</div>
+																	
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class=" col-12 row-ct pb-4">
+														<div id="accordion2" class="accordion w-100">
+															<div class="accordion-item">
+																<a class="row-ct pl-1 pr-1 accordion-head border-bottom" >
+																		<div class="custom-control custom-control-sm custom-checkbox">
+																			<input type="checkbox" disabled class="custom-control-input" id="customCheck2">
+																		<label class="custom-control-label" for="customCheck2"></label></div>
+																	<h6 aria-expanded="false" data-toggle="collapse"   
+																	data-target="#accordion-item-2" class="title color-cham-2
+																		text-headling-6 collapsed" onclick="clickShow(this);" id="toggler">Tín dụng (5)</h6>
+																	<span class="accordion-icon"  ></span>
+																</a>
+																<div class="accordion-body collapse mt-2" id="accordion-item-2" data-parent="#accordion2">
+																	tín dụng
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-3 pl-0 pr-0">
+													<div class=" col-12 row-ct pb-4">
+														<div id="accordion2" class="accordion w-100">
+															<div class="accordion-item">
+																<a class="row-ct pl-1 pr-1 accordion-head border-bottom" >
+																		<div class="custom-control custom-control-sm custom-checkbox">
+																			<input type="checkbox" disabled class="custom-control-input" id="customCheck2">
+																		<label class="custom-control-label" for="customCheck2"></label></div>
+																	<h6 aria-expanded="false" data-toggle="collapse"   
+																	data-target="#accordion-item-2" class="title color-cham-2 
+																		text-headling-6 collapsed" onclick="clickShow(this);" id="toggler">Thẻ (5)</h6>
+																	<span class="accordion-icon"  ></span>
+																</a>
+																<div class="accordion-body collapse mt-2" id="accordion-item-2" data-parent="#accordion2">
+																	tín dụng
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col-12 row-ct pb-4">
+														<div id="accordion2" class="accordion w-100">
+															<div class="accordion-item">
+																<a class="row-ct pl-1 pr-1 accordion-head border-bottom" >
+																		<div class="custom-control custom-control-sm custom-checkbox">
+																			<input type="checkbox" disabled class="custom-control-input" id="customCheck2">
+																		<label class="custom-control-label" for="customCheck2"></label></div>
+																	<h6 aria-expanded="false" data-toggle="collapse"   
+																	data-target="#accordion-item-2" class="title color-cham-2 
+																		text-headling-6 collapsed" onclick="clickShow(this);" id="toggler">NHĐT (1)</h6>
+																	<span class="accordion-icon"  ></span>
+																</a>
+																<div class="accordion-body collapse mt-2" id="accordion-item-2" data-parent="#accordion2">
+																	tín dụng
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-3 pl-0 pr-0">
+													<div class=" col-12 row-ct pb-4">
+														<div id="accordion2" class="accordion w-100">
+															<div class="accordion-item">
+																<a class="row-ct pl-1 pr-1 accordion-head border-bottom" >
+																		<div class="custom-control custom-control-sm custom-checkbox">
+																			<input type="checkbox" disabled class="custom-control-input" id="customCheck2">
+																		<label class="custom-control-label" for="customCheck2"></label></div>
+																	<h6 aria-expanded="false" data-toggle="collapse"   
+																	data-target="#accordion-item-2" class="title color-cham-2 
+																		text-headling-6 collapsed" onclick="clickShow(this);" id="toggler">Bảo hiểm NT (1)</h6>
+																	<span class="accordion-icon"  ></span>
+																</a>
+																<div class="accordion-body collapse mt-2" id="accordion-item-2" data-parent="#accordion2">
+																	tín dụng
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class=" col-12 row-ct pb-4">
+														<div id="accordion2" class="accordion w-100">
+															<div class="accordion-item">
+																<a class="row-ct pl-1 pr-1 accordion-head border-bottom" >
+																		<div class="custom-control custom-control-sm custom-checkbox">
+																			<input type="checkbox" disabled class="custom-control-input" id="customCheck2">
+																		<label class="custom-control-label" for="customCheck2"></label></div>
+																	<h6 aria-expanded="false" data-toggle="collapse"   
+																	data-target="#accordion-item-2" class="title color-cham-2 
+																		text-headling-6 collapsed" onclick="clickShow(this);" id="toggler">Bảo hiểm PNT (5)</h6>
+																	<span class="accordion-icon"  ></span>
+																</a>
+																<div class="accordion-body collapse mt-2" id="accordion-item-2" data-parent="#accordion2">
+																	tín dụng
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-3  pl-0 pr-0">
+													<div class=" col-12 row-ct pb-4">
+														<div id="accordion2" class="accordion w-100">
+															<div class="accordion-item">
+																<a class="row-ct pl-1 pr-1 accordion-head border-bottom" >
+																		<div class="custom-control custom-control-sm custom-checkbox">
+																			<input type="checkbox" disabled class="custom-control-input" id="customCheck2">
+																		<label class="custom-control-label" for="customCheck2"></label></div>
+																	<h6 aria-expanded="false" data-toggle="collapse"   
+																	data-target="#accordion-item-2" class="title color-cham-2
+																		text-headling-6 collapsed" onclick="clickShow(this);" id="toggler">Combo (5)</h6>
+																	<span class="accordion-icon"  ></span>
+																</a>
+																<div class="accordion-body collapse mt-2" id="accordion-item-2" data-parent="#accordion2">
+																	tín dụng
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class=" col-12 row-ct pb-4">
+														<div id="accordion2" class="accordion w-100">
+															<div class="accordion-item">
+																<a class="row-ct pl-1 pr-1 accordion-head border-bottom" >
+																		<div class="custom-control custom-control-sm custom-checkbox">
+																			<input type="checkbox" disabled class="custom-control-input" id="customCheck2">
+																		<label class="custom-control-label" for="customCheck2"></label></div>
+																	<h6 aria-expanded="false" data-toggle="collapse"   
+																	data-target="#accordion-item-2" class="title color-cham-2
+																		text-headling-6 collapsed" onclick="clickShow(this);" id="toggler">Khác</h6>
+																	<span class="accordion-icon"  ></span>
+																</a>
+																<div class="accordion-body collapse mt-2" id="accordion-item-2" data-parent="#accordion2">
+																	tín dụng
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class=" col-12 row-ct">
+											<div class="nk-block-head nk-block-head-sm w-100">
+												<div class="nk-block-between">
+													<div class="nk-block-head-content">
+														<h3 class="pt-4 pb-3 color-xanh-3 text-headling-6">Đính kèm file (có thể thêm nhiều file)</h3>
+													</div><!-- .nk-block-head-content -->
+													<div class="nk-block-head-content">
+														<a href="KHBL/thietkegiaiphap.html" class="pt-4 pb-3 d-none d-sm-inline-flex color-blu-52 align-center">
+															<span class="color-xanh-3 text-body-3 mr-1">Tải template</span><em class="icon ni ni-download color-xanh-3"></em></a>
+															
+													</div><!-- .nk-block-head-content -->
+												</div><!-- .nk-block-between -->
+											</div><!-- .nk-block-head -->
+										</div>
+										<div class="col-12 row-ct">
+											<div class="w-editCampaign100px pl-0 pr-05">
+												<div class="form-group">
+													<div class="form-control-wrap">
+														<div class="form-icon form-icon-right h-100"></div>
+														<input type="text" class="h-50px form-control color-xanh-3 text-body-1" id="default-1-03" 
+															value="Cong_van_..._16_24_07_2021.docx">
+													</div>
+												</div>
+											</div>
+											<div class="w-editCampaign100px pr-0 pl-05">
+												<div class="form-group">
+													<div class="form-control-wrap">
+														<div class="form-icon form-icon-right h-100"></div>
+														<input type="text" class="h-50px form-control color-xanh-3 text-body-1"
+															id="default-1-03" value="Công văn triển khai HĐV">
+													</div>
+												</div>
+											</div>
+											<div class="w-editCampaign100px pr-0 pl-05">
+												<div class="form-group">
+													<div class="form-control-wrap">
+														<div class="form-icon form-icon-right h-100"></div>
+														<input type="text" class="h-50px form-control color-xanh-3 text-body-1"
+															id="default-1-03" value="Công văn phê duyệt chiến dịch">
+													</div>
+												</div>
+											</div>
+											<div class=" pr-025 pl-025 text-right">
+												<a href="#" class="d-jus-center btn btn-icon bg-xanh-7 color-xanh-4 h-100 w-50px">
+													<em class="color-xanh-4 icon ni ni-edit"></em></a>
+											</div>
+											<div class="pr-0 pl-1 text-right">
+												<a href="#" class="d-jus-center btn btn-icon bg-red-5 h-100 w-50px">
+													<em class="icon ni ni-cross color-red-1"></em></a>
+											</div>
+										</div>
+										<div class="col-12 pt-1 ">
+											<div class="form-control-wrap ">
+												<div class="custom-file">
+													<input type="file" id="upload" hidden/>
+													<label for="upload" 
+														class="mt-3 labelImport border-dashed w-100 text-center p-4 color-gray-3 bg-gray-9 text-body-1" >
+															<span>Upload file</span><em class="icon ni ni-upload pl-1 text-body-1"></em></label>
+												</div>
+											</div>
+										</div>
+										<div class=" col-12 row-ct pt-5">
+											<div class="nk-block-head nk-block-head-sm w-100">
+												<div class="nk-block-between">
+													<div class="nk-block-head-content">
+														<h3 class="pt-2 pb-3 color-xanh-3 text-headling-6">Danh sách khách hàng vãng lai</h3>
+													</div><!-- .nk-block-head-content -->
+													<div class="nk-block-head-content">
+														<a href="KHBL/thietkegiaiphap.html" class="pt-4 pb-3 d-none d-sm-inline-flex color-blu-52 align-center">
+															<span class="color-xanh-3 text-body-3 mr-1">Tải template</span>
+																<em class="color-xanh-3 icon ni ni-download pr-3"></em></a>
+														<a href="KHBL/thietkegiaiphap.html" class="pt-4 pb-3 d-none d-sm-inline-flex color-blu-52 align-center">
+														<span class="color-xanh-3 text-body-3 mr-1">Tải danh sách KHVL</span>
+															<em class="icon ni ni-download color-xanh-3"></em></a>
+															
+													</div><!-- .nk-block-head-content -->
+													
+												</div><!-- .nk-block-between -->
+											</div><!-- .nk-block-head -->
+										</div>
+										<div class="col-12 row-ct">
+											<div class="w-editCampaign50px pl-0 pr-05">
+												<div class="form-group">
+													<div class="form-control-wrap">
+														<div class="form-icon form-icon-right h-100">
+															<em class="icon ni ni-upload"></em>
+														</div>
+														<input type="text" class="h-50px form-control color-xanh-3 text-body-1" id="default-1-03" 
+															value="Danh sach KHVL.xlsx">
+													</div>
+												</div>
+											</div>
+											<div class=" pr-0 pl-1 text-right">
+												<a href="#" class="d-jus-center btn btn-icon bg-red-5 h-100 w-50px">
+													<em class="icon ni ni-cross color-red-1"></em></a>
+											</div>
+										</div>
+									</div>
+									
+									<div class="m-auto col-8 col-12-1366 row pb-5 mt-3 pl-0 pr-0 mt-3-1366">
+										<div class="col-12 pt-15px text-center row-ct  pr-0 pl-0">
+											<div class="col-6 text-center pl-0">
+												<a href="#" class="col-12 btn btn-xl bg-cham-4 h-60px">
+													<span class="text-headling-6 color-xanh-3">Quay lại</span>
+												</a>
+											</div>
+											<div class="col-6 text-center pr-0 ">
+												<a href="KHBL/saveGiaiphap.html" class="col-12 btn btn-xl bg-gray-7 color-white	 h-60px">
+													<span class="text-headling-6 color-gray-4">Lưu chỉnh sửa</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+                             </div><!-- .nk-block -->
+                        </div>
+                    </div>
+                </div>
+				<div class="nk-footer">
+                    <div class="container-fluid">
+                        <div class="nk-footer-wrap">
+						<img class="logo-img"  src="../images/logo2_company.png" srcset="../images/logo2_company.png" alt="logo">
+                            <div class="nk-footer-copyright"> 
+                            </div>
+                            <div class="nk-footer-links text-al-right">
+                               <span class="d-block"> © 2021 - Bản quyền thuộc về Ngân hàng TMCP Công thương Việt Nam</span>
+							   <span class="color-gray-6 fs-10px">Developed by DTSVN</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!-- content @e -->
+                <!-- footer @s -->
+                
+                <!-- footer @e -->
+            </div>
+            <!-- wrap @e -->
+        </div>
+        <!-- main @e -->
+    </div>
+    <!-- app-root @e -->
+    <!-- JavaScript -->
+    <script src="../assets/js/bundle.js?ver=2.0.0"></script>
+    <script src="../assets/js/scripts.js?ver=2.0.0"></script>
+	<script src="../assets/js/charts/chart-ecommerce.js?ver=2.6.0"></script>
+	<script src="../assets/js/example-chart.js?ver=2.0.0"></script>
+	<script src="../assets/js/accessibility.js?ver=2.0.0"></script>
+	
+	
+	<script src="../assets/js/highcharts.js?ver=2.0.0"></script>
+	<script src="../assets/js/exporting.js?ver=2.0.0"></script>
+	<script src="../assets/js/export-data.js?ver=2.0.0"></script>
+	<script src="../assets/js/charts/chart-column.js?ver=2.0.0"></script>
+	<script>
+		$(".highcharts-no-tooltip")[0].setAttribute("transform","translate(150,400)");
+		function directChoose()
+			{
+				window.location.href = 'KHBL/thietlapbogiaiphap.html'; 
+			}
+		function clickShow(eventThis){
+			if($(eventThis).hasClass('collapsed')){
+				$(eventThis).parent().addClass('collapsed');
+			} else{
+				$(eventThis).parent().removeClass('collapsed');
+			}
+		}
+		
+		
+	</script>
+	
+	
+</body>
+
+</html>
