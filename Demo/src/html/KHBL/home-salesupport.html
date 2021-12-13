@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+
+<head>
+    <base href="../">
+    <meta charset="utf-8">
+    <meta name="author" content="Softnio">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A powerful and conceptual apps base dashboard template that especially build for developers and programmers.">
+    <!-- Fav Icon  -->
+    <link rel="shortcut icon" href="../images/favicon.png">
+    <!-- Page Title  -->
+    <title>Sales Support</title>
+    <!-- StyleSheets  -->
+    <link rel="stylesheet" href="../assets/css/dashlite.css?ver=2.0.0">
+	<link rel="stylesheet" href="../assets/css/custom.css?ver=2.0.0">
+    <link id="skin-default" rel="stylesheet" href="../assets/css/theme.css?ver=2.0.0">
+</head>
+<style>
+.progress { 
+	height: 0.75rem;
+    border-radius: 7px;
+}
+.progress-bar {
+    background-color: #014F97;
+}
+</style>
+<body class="nk-body bg-lighter npc-default has-sidebar ">
+    <div class="nk-app-root">
+        <!-- main @s -->
+        <div class="nk-main ">
+            <!-- sidebar @s -->
+            <div class="nk-sidebar nk-sidebar-fixed is-light" data-content="sidebarMenu" id="idMenu">
+                <div class="nk-sidebar-element nk-sidebar-head">
+                    <div class="nk-sidebar-brand">
+                        <a href="KHBL/index.html" class="logo-link nk-sidebar-logo">
+                            <img class="logo-light logo-img" src="../images/favicon.png" srcset="../images/favicon.png 2x" alt="logo">
+                            <img class="logo-dark logo-img" src="../images/favicon.png" srcset="../images/favicon.png 2x" alt="logo-dark">
+                            <img class="logo-small logo-img logo-img-small" src="../images/favicon.png" srcset="../images/favicon.png 2x" alt="logo-small">
+                        </a>
+                    </div>
+                    <div class="nk-menu-trigger mr-n2">
+                        <a href="#" class="nk-nav-compact nk-quick-nav-icon d-none d-xl-inline-flex" data-target="sidebarMenu"><em class="icon ni ni-menu"></em></a>
+                    </div>
+                </div><!-- .nk-sidebar-element -->
+                <div class="nk-sidebar-element">
+                    <div class="nk-sidebar-content">
+                        <div class="nk-sidebar-menu" data-simplebar>
+                            <ul class="nk-menu">
+                                <li class="nk-menu-heading">
+                                    <h6 class="overline-title text-primary-alt">Dashboards</h6>
+                                </li><!-- .nk-menu-item -->
+                                <li class="nk-menu-item">
+                                    <a href="KHBL/home-salesupport.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-home-fill"></em></span>
+                                        <span class="nk-menu-text text-headling-6">Trang chủ</span>
+                                    </a>
+                                </li><!-- .nk-menu-item -->
+                                <li class="nk-menu-item ">
+                                    <a href="KHBL/list-customer.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-user-fill"></em></span>
+                                        <span class="nk-menu-text text-headling-6">Khách hàng</span>
+                                    </a>
+                                </li><!-- .nk-menu-item -->
+								<li class="nk-menu-item ">
+                                    <a href="KHBL/nhacviec.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-bell"></em></span>
+                                        <span class="nk-menu-text text-headling-6">Nhắc Việc</span>
+                                    </a>
+                                </li><!-- .nk-menu-item -->		
+								<li class="nk-menu-item ">
+                                    <a href="KHBL/reportCustomer.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-reports"></em></span>
+                                        <span class="nk-menu-text text-headling-6">Báo cáo</span>
+                                    </a>
+                                </li><!-- .nk-menu-item -->	
+								<li class="nk-menu-item has-sub">
+                                    <a href="#" class="nk-menu-link nk-menu-toggle">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-users-fill"></em></span>
+                                        <span class="nk-menu-text text-headling-6">Chiến dịch</span>
+                                    </a>
+                                    <ul class="nk-menu-sub">
+                                        <li class="nk-menu-item">
+                                            <a href="KHBL/list-campaign.html" class="nk-menu-link"><span class="nk-menu-text text-headling-7">Tổng quan chiến dịch</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="KHBL/detailCampaign.html" class="nk-menu-link"><span class="nk-menu-text text-headling-7">Chi tiết chiến dịch</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="KHBL/reportCustomer.html" class="nk-menu-link"><span class="nk-menu-text text-headling-7">Báo cáo kết quả</span></a>
+                                        </li>
+                                    </ul><!-- .nk-menu-sub -->
+                                </li><!-- .nk-menu-item -->
+								
+														
+                            </ul><!-- .nk-menu -->
+                        </div><!-- .nk-sidebar-menu -->
+                    </div><!-- .nk-sidebar-content -->
+                </div><!-- .nk-sidebar-element -->
+            </div>
+            <!-- sidebar @e -->
+            <!-- wrap @s -->
+            <div class="nk-wrap ">
+                <!-- main header @s -->
+                <div class="nk-header nk-header-fixed is-light bg-gra-vt">
+                    <div class="container-fluid">
+                        <div class="nk-header-wrap classInfo">
+                            <div class="nk-header-search ml-3 ml-xl-0">
+                                <em class="icon ni ni-search color-white"></em>
+                                <input type="text" class="text-white form-control border-transparent form-focus-none text-body-1 bg-transparent" placeholder="Search anything">
+                            </div><!-- .nk-header-news -->
+                            <div class="nk-header-tools">
+                                <ul class="nk-quick-nav">
+                                    <li class="dropdown notification-dropdown">
+                                        <a href="#" class="dropdown-toggle nk-quick-nav-icon color-white" data-toggle="dropdown">
+                                            <div class="icon-status icon-status-info"><em class="icon ni ni-bell"></em></div>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-xl dropdown-menu-right">
+                                            <div class="dropdown-head">
+                                                <span class="sub-title nk-dropdown-title">Notifications</span>
+                                                <a href="#">Mark All as Read</a>
+                                            </div>
+                                            <div class="dropdown-body">
+                                                <div class="nk-notification">
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-warning-dim ni ni-curve-down-right"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">You have requested to <span>Widthdrawl</span></div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-success-dim ni ni-curve-down-left"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">Your <span>Deposit Order</span> is placed</div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-warning-dim ni ni-curve-down-right"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">You have requested to <span>Widthdrawl</span></div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-success-dim ni ni-curve-down-left"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">Your <span>Deposit Order</span> is placed</div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-warning-dim ni ni-curve-down-right"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">You have requested to <span>Widthdrawl</span></div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-success-dim ni ni-curve-down-left"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">Your <span>Deposit Order</span> is placed</div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                </div><!-- .nk-notification -->
+                                            </div><!-- .nk-dropdown-body -->
+                                            <div class="dropdown-foot center">
+                                                <a href="#">View All</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown user-dropdown">
+                                        <a href="#" class="dropdown-toggle mr-n1" data-toggle="dropdown">
+                                            <div class="user-toggle">
+                                                <div class="user-avatar sm">
+                                                    <em class="icon ni ni-user-alt"></em>
+                                                </div>
+                                                <div class="user-info d-none d-xl-block">
+                                                    <div class="user-status user-status-unverified color-white text-headling-7">LuyenDv</div>
+                                                    <div class="user-name dropdown-indicator color-white text-headling-6">Đoàn Văn Luyện</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-md dropdown-menu-right">
+                                            <div class="dropdown-inner user-card-wrap bg-lighter d-none d-md-block">
+                                                <div class="user-card">
+                                                    <div class="user-avatar">
+                                                        <span>AB</span>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <span class="lead-text">Đoàn Văn Luyện</span>
+                                                        <span class="sub-text">luyendv@dtsvn.net</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-inner">
+                                                <ul class="link-list">
+                                                    <li><a href="KHBL/user-profile-regular.html"><em class="icon ni ni-user-alt"></em><span>View Profile</span></a></li>
+                                                    <li><a href="KHBL/user-profile-setting.html"><em class="icon ni ni-setting-alt"></em><span>Account Setting</span></a></li>
+                                                    <li><a href="KHBL/user-profile-activity.html"><em class="icon ni ni-activity-alt"></em><span>Login Activity</span></a></li>
+                                                    <li><a class="dark-switch" href="#"><em class="icon ni ni-moon"></em><span>Dark Mode</span></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="dropdown-inner">
+                                                <ul class="link-list">
+                                                    <li><a href="#"><em class="icon ni ni-signout"></em><span>Sign out</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><!-- .nk-header-wrap -->
+                    </div><!-- .container-fliud -->
+                </div>
+                <!-- main header @e -->
+                <!-- content @s -->
+                <div class="nk-content ">
+                    <div class="container-fluid">
+                        <div class="nk-content-inner">
+                            <div class="nk-content-body">
+                                <div class="nk-block">
+                                    <div class="row g-gs">
+                                        
+										<div class="col-xxl-12 col-xl-12">
+											<div class="col-xxl-12 pl-0 pr-0 row-ct" onclick="directChoose()">
+												<div class="col-4-1366 col-4 pb-0 pl-0 pr-0 pt-0">
+													<div class="card-inner bg-white col-12 row-ct pt-2 pb-2">
+														<div class="col-6-1366">
+															<span class="text-black text-body-3">Tổng số task<br> trong ngày</span>
+														</div>
+														<div class="col-6-1366 mb-auto ml-auto mt-auto text-al-right">
+															<span class="text-headling-3 color-blu-light-textlink-vt" >07 </span>
+														</div>
+													</div>
+												</div>
+												<div class="col-4-1366 col-4 pb-0 pr-0 pt-0 ">
+													<div class="card-inner bg-white col-12 row-ct pt-2 pb-2">
+														<div class="col-6-1366">
+															<span class="fs-12px text-black text-black font-weight-600">Số lượng đã<br> làm hôm nay</span>
+														</div>
+														<div class="col-6-1366 mb-auto ml-auto mt-auto text-al-right">
+															<span class="text-headling-3 color-blu-light-textlink-vt" >5/30</span>
+														</div>
+													</div>
+												</div>
+												<div class="col-4-1366 col-4 pb-0 pr-0 pt-0">
+													<div class="card-inner bg-white col-12 row-ct pt-2 pb-2">
+														<div class="col-6-1366">
+															<span class="fs-12px text-black font-weight-600">Số lượng việc<br> 7 ngày tới</span>
+														</div>
+														<div class="col-6-1366 mb-auto ml-auto mt-auto text-al-right">
+															<span class="text-headling-3 color-blu-light-textlink-vt" >153</span>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-xxl-12 pl-0 pr-0 pt-2">
+												<div class="card card-full pb-4 ">
+													<div class="card-inner p-22-29">
+														<div class="card-title-group">
+															<div class="card-title">
+																<h5 class="title text-headling-4">Công việc cần thực hiện</h5>
+															</div>															
+														</div><!-- .card-title-group -->
+													</div><!-- .card-inner -->
+													<div class="nk-tb-list mt-n2 pl-4 pr-4">
+														<div class="nk-tb-item nk-tb-head">
+															<div class="nk-tb-col tb-col-sm text-center w-1-2rem pl-1"><span class="text-body-3 color-gray-5">STT</span></div>
+															<div class="nk-tb-col tb-col-md"><span class="text-body-3 color-gray-5">Công việc</span></div>
+															<div class="nk-tb-col tb-col-sm text-center"><span class="text-body-3 color-gray-5">Số lượng</span></div>
+															<div class="nk-tb-col tb-col-sm text-al-right"><span class="text-body-3 color-gray-5">Tác nghiệp</span></div>
+														</div>
+														<div class="nk-tb-item">
+															<div class="nk-tb-col tb-col-sm text-center pl-1">
+																<span class="tb-lead text-body-3">01</span>
+															</div>
+															<div class="nk-tb-col tb-col-md">
+																<a class="tb-lead text-body-3 color-blu-light-textlink-vt">Chiến dịch bán</a>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center">
+																<span class="tb-lead text-body-3">02</span>
+															</div>
+															<div class="nk-tb-col tb-col-sm text-al-right">
+																<div class="tb-odr-btns d-none d-sm-inline">
+																	<a href="KHBL/thietkegiaiphap.html" target="_blank" class="fs-14px btn btn-icon btn-white color-blu-light-textlink-vt btn-dim btn-sm btn-info">
+																		<em class="icon ni ni-forward-ios"></em></a>
+																	
+																</div>
+															</div>
+														</div>
+														<div class="nk-tb-item">
+															<div class="nk-tb-col tb-col-sm text-center pl-1">
+																<span class="tb-lead text-body-3">02</span>
+															</div>
+															<div class="nk-tb-col tb-col-md">
+																<a class="tb-lead text-body-3 color-blu-light-textlink-vt">KHCN cần chấm điểm đột xuất</a>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center">
+																<span class="tb-lead text-body-3">10</span>
+															</div>
+															<div class="nk-tb-col tb-col-sm text-al-right">
+																<div class="tb-odr-btns d-none d-sm-inline">
+																	<a href="KHBL/thietkegiaiphap.html" target="_blank" class="fs-14px btn btn-icon btn-white color-blu-light-textlink-vt btn-dim btn-sm btn-info">
+																		<em class="icon ni ni-forward-ios"></em></a>
+																	
+																</div>
+															</div>
+														</div>
+														<div class="nk-tb-item">
+															<div class="nk-tb-col tb-col-sm text-center pl-1">
+																<span class="tb-lead text-body-3">03</span>
+															</div>
+															<div class="nk-tb-col tb-col-md">
+																<a class="tb-lead text-body-3 color-blu-light-textlink-vt">Khoản tín dụng chưa hoàn thiện chứng từ giải ngân</a>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center">
+																<span class="tb-lead text-body-3">06</span>
+															</div>
+															<div class="nk-tb-col tb-col-sm text-al-right">
+																<div class="tb-odr-btns d-none d-sm-inline">
+																	<a href="KHBL/thietkegiaiphap.html" target="_blank" class="fs-14px btn btn-icon btn-white color-blu-light-textlink-vt btn-dim btn-sm btn-info">
+																		<em class="icon ni ni-forward-ios"></em></a>
+																	
+																</div>
+															</div>
+														</div>
+														<div class="nk-tb-item">
+															<div class="nk-tb-col tb-col-sm text-center pl-1">
+																<span class="tb-lead text-body-3">04</span>
+															</div>
+															<div class="nk-tb-col tb-col-md">
+																<a class="tb-lead text-body-3 color-blu-light-textlink-vt">Khoản tín dụng chưa bàn giao về HTTD lưu</a>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center">
+																<span class="tb-lead text-body-3">10</span>
+															</div>
+															<div class="nk-tb-col tb-col-sm text-al-right">
+																<div class="tb-odr-btns d-none d-sm-inline">
+																	<a href="KHBL/thietkegiaiphap.html" target="_blank" class="fs-14px btn btn-icon btn-white color-blu-light-textlink-vt btn-dim btn-sm btn-info">
+																		<em class="icon ni ni-forward-ios"></em></a>
+																	
+																</div>
+															</div>
+														</div>
+														<div class="nk-tb-item">
+															<div class="nk-tb-col tb-col-sm text-center pl-1">
+																<span class="tb-lead text-body-3">05</span>
+															</div>
+															<div class="nk-tb-col tb-col-md">
+																<a class="tb-lead text-body-3 color-blu-light-textlink-vt">Khách hàng chuyển nợ do CIC</a>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center">
+																<span class="tb-lead text-body-3">05</span>
+															</div>
+															<div class="nk-tb-col tb-col-sm text-al-right">
+																<div class="tb-odr-btns d-none d-sm-inline">
+																	<a href="KHBL/thietkegiaiphap.html" target="_blank" class="fs-14px btn btn-icon btn-white color-blu-light-textlink-vt btn-dim btn-sm btn-info">
+																		<em class="icon ni ni-forward-ios"></em></a>
+																	
+																</div>
+															</div>
+														</div>
+														<div class="nk-tb-item">
+															<div class="nk-tb-col tb-col-sm text-center pl-1">
+																<span class="tb-lead text-body-3">06</span>
+															</div>
+															<div class="nk-tb-col tb-col-md">
+																<a class="tb-lead text-body-3 color-blu-light-textlink-vt">Khoản tín dụng chưa bàn giao về HTTD lưu</a>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center">
+																<span class="tb-lead text-body-3">10</span>
+															</div>
+															<div class="nk-tb-col tb-col-sm text-al-right">
+																<div class="tb-odr-btns d-none d-sm-inline">
+																	<a href="KHBL/KHBL/thietkegiaiphap.html" target="_blank" class="fs-14px btn btn-icon btn-white color-blu-light-textlink-vt btn-dim btn-sm btn-info">
+																		<em class="icon ni ni-forward-ios"></em></a>
+																	
+																</div>
+															</div>
+														</div>
+														<div class="nk-tb-item">
+															<div class="nk-tb-col tb-col-sm text-center pl-1">
+																<span class="tb-lead text-body-3">07</span>
+															</div>
+															<div class="nk-tb-col tb-col-md">
+																<a class="tb-lead text-body-3 color-blu-light-textlink-vt">Khách hàng chuyển nợ do CIC</a>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center">
+																<span class="tb-lead text-body-3">05</span>
+															</div>
+															<div class="nk-tb-col tb-col-sm text-al-right">
+																<div class="tb-odr-btns d-none d-sm-inline">
+																	<a href="KHBL/KHBL/thietkegiaiphap.html" target="_blank" class="fs-14px btn btn-icon btn-white color-blu-light-textlink-vt btn-dim btn-sm btn-info">
+																		<em class="icon ni ni-forward-ios"></em></a>
+																	
+																</div>
+															</div>
+														</div>
+													
+													</div>
+													
+												</div><!-- .card -->
+											</div><!-- .card -->
+											<div class="col-xxl-12 pt-4 pl-0 pr-0">
+												<div class="card card-full pb-4">
+													<div class="card-inner p-22-29">
+														<div class="card-title-group">
+															<div class="card-title">
+																<h5 class="title text-headling-4">Chiến dịch bán</h5>
+															</div>
+														</div><!-- .card-title-group -->
+													</div><!-- .card-inner -->
+													<div class="nk-tb-list mt-n2 pl-4 pr-4">
+														<div class="nk-tb-item nk-tb-head">
+															<div class="nk-tb-col tb-col-sm text-center w-1-2rem pl-1"><span class="text-body-3 color-gray-5">STT</span></div>
+															<div class="nk-tb-col tb-col-md"><span class="text-body-3 color-gray-5">Tên chiến dịch</span></div>
+															<div class="nk-tb-col tb-col-md text-center"><span class="text-body-3 color-gray-5">Khởi tạo</span></div>
+															<div class="nk-tb-col tb-col-md text-center"><span class="text-body-3 color-gray-5">Tông số CNBH</span></div>
+															<div class="nk-tb-col tb-col-md text-center"><span class="text-body-3 color-gray-5">Chưa</span></div>
+															<div class="nk-tb-col tb-col-md text-center"><span class="text-body-3 color-gray-5">Đang</span></div>
+															<div class="nk-tb-col tb-col-md text-center"><span class="text-body-3 color-gray-5">Thành công</span></div>
+															<div class="nk-tb-col tb-col-md text-al-right"><span class="text-body-3 color-gray-5">Ngày còn lại</span></div>
+														</div>
+														<div class="nk-tb-item">
+															<div class="nk-tb-col tb-col-sm text-center pl-1">
+																<span class="tb-lead text-body-3">01</span>
+															</div>
+															<div class="nk-tb-col tb-col-md">
+																<div class="user-card" onclick="directChooseDetail()">
+																	<div class="user-info">
+																		<span class="text-body-3">iPay Chi lương</span>
+																		<span class="tb-lead text-body-3 color-blu-light-textlink-vt">
+																			KBL00000113072021</span>
+																	</div>
+																</div>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center pl-1">
+																<span class="tb-lead text-body-3">TSC</span>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center bg-gray-sum">
+																<span class="tb-lead text-body-3">100</span>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center bg-gray-light">
+																<span class="tb-lead text-body-3 color-red-vt">35</span>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center bg-gray-light">
+																<span class="tb-lead text-body-3 color-yellow-vt">60</span>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center bg-gray-light">
+																<span class="tb-lead text-body-3 color-green-vt">5</span>
+															</div>
+															<div class="nk-tb-col tb-col-md">
+																<span class="tb-lead text-body-3 text-al-right">20 ngày</span>
+															</div>
+														</div>
+														<div class="nk-tb-item">
+															<div class="nk-tb-col tb-col-sm text-center pl-1">
+																<span class="tb-lead text-body-3">02</span>
+															</div>
+															<div class="nk-tb-col tb-col-md">
+																<div class="user-card" onclick="directChooseDetail()">
+																	<div class="user-info">
+																		<span class="text-body-3">TK Ngu Dong</span>
+																		<span class="tb-lead color-blu-light-textlink-vt text-body-3">
+																			CN10600000110072021</span>
+																	</div>
+																</div>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center">
+																<span class="tb-lead text-body-3">CN</span>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center bg-gray-sum">
+																<span class="tb-lead text-body-3">200</span>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center bg-gray-light">
+																<span class="tb-lead text-body-3 color-red-vt">100</span>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center bg-gray-light">
+																<span class="tb-lead text-body-3 color-yellow-vt">80</span>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center bg-gray-light">
+																<span class="tb-lead text-body-3 color-green-vt">20</span>
+															</div>
+															<div class="nk-tb-col tb-col-md">
+																<span class="tb-lead text-body-3 text-al-right">25 ngày</span>
+															</div>
+														</div>
+														<div class="nk-tb-item">
+															<div class="nk-tb-col tb-col-sm text-center pl-1">
+																<span class="tb-lead text-body-3">03</span>
+															</div>
+															<div class="nk-tb-col tb-col-md">
+																<div class="user-card" onclick="directChooseDetail()">
+																	<div class="user-info">
+																		<span class="text-body-3">iPay inactive 6 tháng</span>
+																		<span class="tb-lead text-body-3 color-blu-light-textlink-vt text-body-3">
+																			PGD90200000115062021</span>
+																	</div>
+																</div>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center">
+																<span class="tb-lead text-body-3">PGD</span>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center bg-gray-sum">
+																<span class="tb-lead text-body-3">300</span>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center bg-gray-light">
+																<span class="tb-lead text-body-3 color-red-vt">200</span>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center bg-gray-light">
+																<span class="tb-lead text-body-3 color-yellow-vt">70</span>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center bg-gray-light">
+																<span class="tb-lead text-body-3 color-green-vt">30</span>
+															</div>
+															<div class="nk-tb-col tb-col-md">
+																<span class="tb-lead text-body-3 text-al-right">15 ngày</span>
+															</div>
+														</div>
+														<div class="nk-tb-item">
+															<div class="nk-tb-col tb-col-sm text-center pl-1">
+																<span class="tb-lead text-body-3">04</span>
+															</div>
+															<div class="nk-tb-col tb-col-md">
+																<div class="user-card" onclick="directChooseDetail()">
+																	<div class="user-info">
+																		<span class="text-body-3">HDV dưới 12 tháng</span>
+																		<span class="tb-lead text-body-3 color-blu-light-textlink-vt ">
+																			CB1063400000120052021</span>
+																	</div>
+																</div>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center">
+																<span class="tb-lead text-body-3">CB</span>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center bg-gray-sum">
+																<span class="tb-lead text-body-3">400</span>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center bg-gray-light">
+																<span class="tb-lead text-body-3 color-red-vt">350</span>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center bg-gray-light">
+																<span class="tb-lead text-body-3 color-yellow-vt">50</span>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center bg-gray-light">
+																<span class="tb-lead text-body-3 color-green-vt">0</span>
+															</div>
+															<div class="nk-tb-col tb-col-md">
+																<span class="tb-lead text-body-3 text-al-right">23 ngày</span>
+															</div>
+														</div>
+														<div class="nk-tb-item">
+															<div class="nk-tb-col tb-col-sm text-center pl-1">
+																<span class="tb-lead text-body-3">05</span>
+															</div>
+															<div class="nk-tb-col tb-col-md">
+																<div class="user-card" onclick="directChooseDetail()">
+																	<div class="user-info">
+																		<span class="text-body-3">BHPHNH Manulife</span>
+																		<span class="tb-lead color-blu-light-textlink-vt text-body-3">
+																			CN1063400000115072021</span>
+																	</div>
+																</div>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center">
+																<span class="tb-lead text-body-3">CN</span>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center bg-gray-sum">
+																<span class="tb-lead text-body-3">10</span>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center bg-gray-light">
+																<span class="tb-lead text-body-3 color-red-vt">8</span>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center bg-gray-light">
+																<span class="tb-lead text-body-3 color-yellow-vt">1</span>
+															</div>
+															<div class="nk-tb-col tb-col-md text-center bg-gray-light">
+																<span class="tb-lead text-body-3 color-green-vt">1</span>
+															</div>
+															<div class="nk-tb-col tb-col-md">
+																<span class="tb-lead text-body-3 text-al-right">5 ngày</span>
+															</div>
+														</div>
+													</div>
+												</div><!-- .card -->
+											</div><!-- .card -->											
+                                        </div>
+                                    </div><!-- .row -->
+                                </div><!-- .nk-block -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- content @e -->
+                <!-- footer @s -->
+                <div class="nk-footer">
+                    <div class="container-fluid">
+                        <div class="nk-footer-wrap">
+						<img class="logo-img"  src="../images/logo2_company.png" srcset="../images/logo2_company.png" alt="logo">
+                            <div class="nk-footer-copyright"> 
+                            </div>
+                            <div class="nk-footer-links text-al-right">
+                               <span class="d-block"> © 2021 - Bản quyền thuộc về Ngân hàng TMCP Công thương Việt Nam</span>
+							   <span class="color-gray-6 fs-10px">Developed by DTSVN</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer @e -->
+            </div>
+            <!-- wrap @e -->
+        </div>
+        <!-- main @e -->
+    </div>
+	<script>
+		function directChoose()
+			{
+				window.location.href = 'KHBL/home-salesupport1.html'; 
+			}
+		function directChooseDetail()
+			{
+				window.location.href = 'KHBL/detailCampaign.html'; 
+			}
+			var width;
+			window.onload = function()
+			{
+				width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+				if(width < 1025){
+					$("#idMenu").addClass("is-compact");
+				} else{
+				$("#idMenu").removeClass("is-compact");
+				}
+			};
+			window.addEventListener("orientationchange", function() {
+				width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+				if(width < 1025){
+				$("#idMenu").removeClass("is-compact");
+				} else{
+					$("#idMenu").addClass("is-compact");
+				}
+			}, false);
+	</script>
+    <!-- app-root @e -->
+    <!-- JavaScript -->
+    <script src="../assets/js/bundle.js?ver=2.0.0"></script>
+    <script src="../assets/js/scripts.js?ver=2.0.0"></script>
+    <script src="../assets/js/charts/chart-ecommerce.js?ver=2.0.0"></script>
+    <script src="../assets/js/example-chart.js?ver=2.0.0"></script>
+</body>
+
+</html>
