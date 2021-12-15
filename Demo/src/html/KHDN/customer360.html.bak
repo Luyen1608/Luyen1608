@@ -2233,7 +2233,7 @@ margin: -0.25rem -0.25rem;
 		
 	var options = {
           series: [{
-            name: "Doanh Thu(Triệu VND)",
+            name: "Doanh Thucccccc(Triệu VND)",
             data: [45, 52, 38]
           },
           {
