@@ -282,112 +282,117 @@ margin: -0.25rem -0.25rem;
 															<div class="tab-content">
 																<div class="tab-pane active" id="tabInfo1">
 																	<div class="nk-block">
-																		<div class="bg-white br-5 col-49per-1024 mt-3 pl-1 pt-1">
-																			<div class="col-12-1024">
-																				<div class="col-12 bg-white mt-1 pl-0 pr-0 row-ct">
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-left text-body-2 color-cham-1">Số CIF</span>
+																		<div class="bg-white br-5 col-12-1024 mt-3 pl-1 pt-1">
+																			<div class="col-12-1024 row-ct-1024">
+																				<div class="col-12 col-6-1024px toolbar-lef-cham-5 mb-0-1024 mt-0-1024">
+																					<div class="col-12 bg-white mt-1 pl-0 pr-0 row-ct">
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-left text-body-2 color-cham-1">Số CIF</span>
+																						</div>
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-right color-gray-1 text-body-1 float-right-1024">3000000122</span>
+																						</div>
 																					</div>
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-right color-gray-1 text-body-1 float-right-1024">3000000122</span>
+																					<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-left text-body-2 color-cham-1">ID khách hàng</span>
+																						</div>
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-right color-gray-1 text-body-1">180543294848</span>
+																						</div>
 																					</div>
-																				</div>
-																				<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-left text-body-2 color-cham-1">ID khách hàng</span>
+																					<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-left text-body-2 color-cham-1">Loại ID</span>
+																						</div>
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-right color-gray-1 text-body-1">Mã số thuế</span>
+																						</div>
 																					</div>
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-right color-gray-1 text-body-1">180543294848</span>
+																					<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-left text-body-2 color-cham-1">Ngày thành lập</span>
+																						</div>
+																						<div class="col-6 pl-0 pr-0" >
+																							<span class="float-right color-gray-1 text-body-1">22/08/2008</span>
+																						</div>
 																					</div>
-																				</div>
-																				<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-left text-body-2 color-cham-1">Loại ID</span>
+																					<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-left text-body-2 color-cham-1">Ngành nghề</span>
+																						</div>
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-right color-gray-1 text-body-1 txt-al-right">Xuất khẩu</span>
+																						</div>
 																					</div>
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-right color-gray-1 text-body-1">Mã số thuế</span>
+																					<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-left text-body-2 color-cham-1">Địa chỉ</span>
+																						</div>
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-right txt-al-right color-gray-1 text-body-1">
+																								37 Ngô Quyền, Hoàn Kiếm, Hà Nội</span>
+																						</div>
 																					</div>
-																				</div>
-																				<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-left text-body-2 color-cham-1">Ngày thành lập</span>
+																					<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-left text-body-2 color-cham-1">Số điện thoại</span>
+																						</div>
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-right color-gray-1 text-body-1">+034 555-5555</span>
+																						</div>
 																					</div>
-																					<div class="col-6 pl-0 pr-0" >
-																						<span class="float-right color-gray-1 text-body-1">22/08/2008</span>
-																					</div>
-																				</div>
-																				<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-left text-body-2 color-cham-1">Ngành nghề</span>
-																					</div>
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-right color-gray-1 text-body-1 txt-al-right">Xuất khẩu</span>
-																					</div>
-																				</div>
-																				<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-left text-body-2 color-cham-1">Địa chỉ</span>
-																					</div>
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-right txt-al-right color-gray-1 text-body-1">
-																							37 Ngô Quyền, Hoàn Kiếm, Hà Nội</span>
-																					</div>
-																				</div>
-																				<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-left text-body-2 color-cham-1">Số điện thoại</span>
-																					</div>
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-right color-gray-1 text-body-1">+034 555-5555</span>
-																					</div>
-																				</div>
-																				<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-left text-body-2 color-cham-1">Phân khúc KH</span>
-																					</div>
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-right color-gray-1 text-body-1">KHDN Lớn</span>
-																					</div>
-																				</div>
-																				<div class="toolbar-top"></div>
-																				<div class="col-12 bg-white pl-0 pr-0 row-ct">
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-left text-body-2 color-cham-1">Tên</span>
-																					</div>
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-right color-gray-1 text-body-1">Vũ Quốc Toản</span>
+																					<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-left text-body-2 color-cham-1">Phân khúc KH</span>
+																						</div>
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-right color-gray-1 text-body-1">KHDN Lớn</span>
+																						</div>
 																					</div>
 																				</div>
-																				<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-left text-body-2 color-cham-1">Chức vụ</span>
+																				
+																				<div class="toolbar-top display-none-1024"></div>
+																				<div class="col-12 col-6-1024px">
+																					<div class="col-12 bg-white pl-0 pr-0 row-ct mt-1-1024">
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-left text-body-2 color-cham-1">Tên</span>
+																						</div>
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-right color-gray-1 text-body-1">Vũ Quốc Toản</span>
+																						</div>
 																					</div>
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-right color-gray-1 text-body-1">Chủ tịch</span>
+																					<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-left text-body-2 color-cham-1">Chức vụ</span>
+																						</div>
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-right color-gray-1 text-body-1">Chủ tịch</span>
+																						</div>
 																					</div>
-																				</div>
-																				<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-left text-body-2 color-cham-1">Email</span>
+																					<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-left text-body-2 color-cham-1">Email</span>
+																						</div>
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-right color-gray-1 text-body-1">Congvq@xxxxxxx.vn</span>
+																						</div>
 																					</div>
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-right color-gray-1 text-body-1">Congvq@xxxxxxx.vn</span>
+																					<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-left text-body-2 color-cham-1">SĐT</span>
+																						</div>
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-right color-gray-1 text-body-1">0903725527</span>
+																						</div>
 																					</div>
-																				</div>
-																				<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-left text-body-2 color-cham-1">SĐT</span>
-																					</div>
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-right color-gray-1 text-body-1">0903725527</span>
-																					</div>
-																				</div>
-																				<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-left text-body-2 color-cham-1">Ngày sinh</span>
-																					</div>
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-right color-gray-1 text-body-1">02-10-1990</span>
+																					<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-left text-body-2 color-cham-1">Ngày sinh</span>
+																						</div>
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-right color-gray-1 text-body-1">02-10-1990</span>
+																						</div>
 																					</div>
 																				</div>
 																			</div>
@@ -396,63 +401,65 @@ margin: -0.25rem -0.25rem;
 																</div>
 																<div class="tab-pane" id="tabInfo2">
 																	<div class="nk-block">
-																		<div class="bg-white br-5 col-49per-1024 mt-3 pl-1 pt-1">
+																		<div class="bg-white br-5 col-12-1024 mt-3 pl-1 pt-1">
 																			<div class="col-12-1024">
-																				<div class="col-12 bg-white mt-1 pl-0 pr-0 row-ct">
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-left text-body-2 color-cham-1">Mã CN quản lý CIF</span>
+																				<div class="col-12 col-6-1024px">
+																					<div class="col-12 bg-white mt-1 pl-0 pr-0 row-ct">
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-left text-body-2 color-cham-1">Mã CN quản lý CIF</span>
+																						</div>
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-right color-gray-1 text-body-1 float-right-1024">106</span>
+																						</div>
 																					</div>
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-right color-gray-1 text-body-1 float-right-1024">106</span>
+																					<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-left text-body-2 color-cham-1">Vốn điều lệ</span>
+																						</div>
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-right color-gray-1 text-body-1">300,000 Triệu VNĐ</span>
+																						</div>
 																					</div>
-																				</div>
-																				<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-left text-body-2 color-cham-1">Vốn điều lệ</span>
+																					<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-left text-body-2 color-cham-1">Xếp hạng tín dụng</span>
+																						</div>
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-right color-gray-1 text-body-1">AA</span>
+																						</div>
 																					</div>
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-right color-gray-1 text-body-1">300,000 Triệu VNĐ</span>
+																					<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-left text-body-2 color-cham-1">Nhóm nợ</span>
+																						</div>
+																						<div class="col-6 pl-0 pr-0" >
+																							<span class="float-right color-gray-1 text-body-1">1</span>
+																						</div>
 																					</div>
-																				</div>
-																				<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-left text-body-2 color-cham-1">Xếp hạng tín dụng</span>
+																					<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-left text-body-2 color-cham-1">TGQH với NHCT</span>
+																						</div>
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-right color-gray-1 text-body-1 txt-al-right">3</span>
+																						</div>
 																					</div>
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-right color-gray-1 text-body-1">AA</span>
+																					<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-left text-body-2 color-cham-1">Phân hạn khách hàng</span>
+																						</div>
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-right color-gray-1 text-body-1">Hạng Bạc</span>
+																						</div>
 																					</div>
-																				</div>
-																				<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-left text-body-2 color-cham-1">Nhóm nợ</span>
-																					</div>
-																					<div class="col-6 pl-0 pr-0" >
-																						<span class="float-right color-gray-1 text-body-1">1</span>
-																					</div>
-																				</div>
-																				<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-left text-body-2 color-cham-1">TGQH với NHCT</span>
-																					</div>
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-right color-gray-1 text-body-1 txt-al-right">3</span>
-																					</div>
-																				</div>
-																				<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-left text-body-2 color-cham-1">Phân hạn khách hàng</span>
-																					</div>
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-right color-gray-1 text-body-1">Hạng Bạc</span>
-																					</div>
-																				</div>
-																				<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-left text-body-2 color-cham-1">Sự kiện quan trọng</span>
-																					</div>
-																					<div class="col-6 pl-0 pr-0">
-																						<span class="float-right txt-al-right color-gray-1 text-body-1">
-																							Thành lập DN <br>01/01/2021	</span>
+																					<div class="col-12 bg-white pt-10px pl-0 pr-0 row-ct">
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-left text-body-2 color-cham-1">Sự kiện quan trọng</span>
+																						</div>
+																						<div class="col-6 pl-0 pr-0">
+																							<span class="float-right txt-al-right color-gray-1 text-body-1">
+																								Thành lập DN <br>01/01/2021	</span>
+																						</div>
 																					</div>
 																				</div>
 																			</div>
@@ -2233,7 +2240,7 @@ margin: -0.25rem -0.25rem;
 		
 	var options = {
           series: [{
-            name: "Doanh Thucccccc(Triệu VND)",
+            name: "Doanh Thu(Triệu VND)",
             data: [45, 52, 38]
           },
           {
