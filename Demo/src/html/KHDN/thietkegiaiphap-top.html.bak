@@ -10,11 +10,12 @@
     <!-- Fav Icon  -->
     <link rel="shortcut icon" href="../images/favicon.png">
     <!-- Page Title  -->
-    <title>Sales Support</title>
+    <title>Thiết kế giải pháp</title>
     <!-- StyleSheets  -->
-    <link rel="stylesheet" href="../assets/css/dashlite.css?ver=2.0.0">
+    <link rel="stylesheet" href="../assets/css/dashlite1.css?ver=2.0.0">
 	<link rel="stylesheet" href="../assets/css/custom.css?ver=2.0.0">
-    <link id="skin-default" rel="stylesheet" href="../assets/css/theme.css?ver=2.0.0">
+	<link rel="stylesheet" href="../assets/css/columnChart.css?ver=2.0.0">
+    <link id="skin-default" rel="stylesheet" href="../assets/css/theme1.css?ver=2.0.0">
 </head>
 
 <body class="nk-body bg-lighter npc-default has-sidebar ">
@@ -26,7 +27,7 @@
                 <div class="nk-sidebar-element nk-sidebar-head">
                     <div class="nk-sidebar-brand">
                         <a href="KHDN/index.html" class="logo-link nk-sidebar-logo">
-                            <img class="logo-light logo-img" src="../images/bidv-logo-menu.png" srcset="../images/bidv-logo-menu.png 2x" alt="logo">
+                            <img class="logo-light logo-img" src="../images/DTS-LOGO.png" srcset="../images/DTS-LOGO.png 2x" alt="logo">
                             <img class="logo-dark logo-img" src="../images/DTS-LOGO.png" srcset="../images/DTS-LOGO.png 2x" alt="logo-dark">
                             <img class="logo-small logo-img logo-img-small" src="../images/DTS-LOGO.png" srcset="../images/DTS-LOGO.png 2x" alt="logo-small">
                         </a>
@@ -104,7 +105,7 @@
                         <div class="nk-header-wrap classInfo">
                             <div class="nk-header-search ml-3 ml-xl-0">
                                 <em class="icon ni ni-search color-white"></em>
-                                <input type="text" class="text-white form-control border-transparent form-focus-none" placeholder="Search anything">
+                                <input type="text" class="form-control border-transparent form-focus-none" placeholder="Search anything">
                             </div><!-- .nk-header-news -->
                             <div class="nk-header-tools">
                                 <ul class="nk-quick-nav">
@@ -231,345 +232,234 @@
                         <div class="nk-content-inner">
                             <div class="nk-content-body">
                                 <div class="nk-block-head nk-block-head-sm">
-                                    <div class="nk-block-between bg-search-db">
+                                    <div class="nk-block-between">
                                         <div class="nk-block-head-content">
-                                            <h3 class="color-xanh-2 text-headling-3 nk-block-title page-title ">Tìm kiếm Khách hàng</h3>
-											
-                                        </div><!-- .nk-block-head-content -->
-                                        <div class="nk-block-head-content">
-                                            <div class="toggle-wrap nk-block-tools-toggle">
-                                                <a href="#" class="btn btn-icon btn-trigger toggle-expand mr-n1" data-target="pageMenu"><em class="icon ni ni-menu-alt-r"></em></a>
-                                                <div class="toggle-expand-content" data-content="pageMenu">
-                                                    <ul class="nk-block-tools g-3">
-                                                        
-														<li><input type="text" placeholder="Số CIF" class="form-control"></li>
-														<li><input type="text" placeholder="Tên khách hàng"class="form-control"></li>
-														<li class="col-md-6-none"><input type="text" placeholder="ID khách hàng"class="form-control"></li>
-														<li><input type="text" placeholder="Mã số thuế"class="form-control"></li>
-														<li><a href="#" class=" btn bg-blu-vt text-headling-6 text-white">Tìm kiếm</a></li>
-														<li><a href="KHDN/addNew.html" class=" btn bg-blu-vt text-white"><em class="icon ni ni-user-add-fill"></em></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div><!-- .toggle-wrap -->
                                         </div><!-- .nk-block-head-content -->
                                     </div><!-- .nk-block-between -->
                                 </div><!-- .nk-block-head -->
-                                <div class="nk-block">
-                                    <div class="row g-gs">
-                                        
-										<div class="col-xxl-12 col-xl-12">
-											<div class="col-xxl-12 pl-0 pr-0">
-												<div class="card card-full pb-4">
-													<div class="card-inner">
-														<div class="card-title-group">
-															<div class="card-title">
-																<h5 class="title color-xanh-1 text-headling-4">Cơ hội được giao</h5>
-															</div>
-															<div class="card-tools mr-n1">
-																<a href="KHDN/list-customer.html" class="btn bg-xanh-7 color-cham-1 text-headling-6">Xem danh sách</a>
-															</div><!-- card-tools -->
-															
-														</div><!-- .card-title-group -->
-													</div><!-- .card-inner -->
-													<div class="nk-tb-list mt-n2">
-														<div class="nk-tb-item nk-tb-head">
-															<div class="nk-tb-col tb-col-sm"><span class="color-gray-5 text-body-1">Khách hàng</span></div>
-															<div class="nk-tb-col tb-col-md"><span class="color-gray-5 text-body-1">Phân khúc</span></div>
-															<div class="nk-tb-col tb-col-md"><span class="color-gray-5 text-body-1">Điện thoại</span></div>
-															<div class="nk-tb-col"><span class="d-none d-sm-inline color-gray-5 text-body-1">Trạng thái</span></div>
-															<div class="nk-tb-col"><span class="color-gray-5 text-body-1">Hành động</span></div>
-														</div>
-														<div class="nk-tb-item">
-															<div class="nk-tb-col tb-col-sm">
-																<div class="user-card" onclick="directChoose()">
-																	<div class="user-avatar bg-red-vt">
-																		<span>V</span>
-																	</div>
-																	<div class="user-info"><span class="tb-lead color-xanh-3 text-headling-6">Công ty CP đầu tư và phát triển thủ đô
-																		<span class="dot dot-success d-md-none ml-1"></span></span><span class="color-gray-3 text-body-5">CIF: 100000001</span>
-																	</div>
-																</div>
-															</div>
-															<div class="nk-tb-col tb-col-md">
-																<span class="tb-lead color-gray-1 text-body-1">KH SME</span>
-															</div>
-															<div class="nk-tb-col tb-col-md">
-																<span class="tb-lead color-gray-1 text-body-1">+034 555-5555</span>
-															</div>
-															<div class="nk-tb-col">
-																<span class="text-body-3 badge badge-dot badge-dot-xs badge-danger-red-vt">Survey</span>
-															</div>
-															<div class="nk-tb-col">
-																<div class="tb-odr-btns d-none d-sm-inline">
-																	<a href="KHDN/thietkegiaiphap.html" target="_blank" class="fs-14px btn btn-icon btn-white btn-dim btn-sm btn-info">
-																		<em class="icon ni ni-user-circle"></em></a>
-																	<a href="KHDN/thietkegiaiphap.html" target="_blank" class="fs-14px btn btn-icon btn-white btn-dim btn-sm btn-info">
-																		<em class="icon ni ni-react"></em></a>
-																</div>
-															</div>
-														</div>
-														<div class="nk-tb-item">
-															<div class="nk-tb-col tb-col-sm">
-																<div class="user-card">
-																	<div class="user-avatar bg-pink-dim-vt">
-																		<span>H</span>
-																	</div>
-																	<div class="user-info"><span class="tb-lead color-xanh-3 text-headling-6">Công ty THHH Bảo An
-																		<span class="dot dot-success d-md-none ml-1"></span></span><span class="color-gray-3 text-body-5">CIF: 100000001</span>
-																	</div>
-																</div>
-															</div>
-															<div class="nk-tb-col tb-col-md">
-																<span class="tb-lead color-gray-1 text-body-1">KH DN Lớn</span>
-															</div>
-															<div class="nk-tb-col tb-col-md">
-																<span class="tb-lead color-gray-1 text-body-1">+034 888-8888</span>
-															</div>
-															<div class="nk-tb-col">
-																<span class="text-body-3 badge badge-dot badge-dot-xs color-green-vt">Done</span>
-															</div>
-															<div class="nk-tb-col">
-																<div class="tb-odr-btns d-none d-sm-inline">
-																	<a href="#" target="_blank" class="fs-14px btn btn-icon btn-white btn-dim btn-sm btn-info">
-																		<em class="icon ni ni-user-circle"></em></a>
-																	<a href="KHDN/thietkegiaiphap.html" target="_blank" class="fs-14px btn btn-icon btn-white btn-dim btn-sm btn-info">
-																		<em class="icon ni ni-react"></em></a>
-																</div>
-															</div>
-														</div>
-														<div class="nk-tb-item">
-															<div class="nk-tb-col tb-col-sm">
-																<div class="user-card">
-																	<div class="user-avatar bg-pink-vt">
-																		<span>Y</span>
-																	</div>
-																	<div class="user-info"><span class="tb-lead color-xanh-3 text-headling-6">Công ty nội thất Dunk Viêt Nam 
-																		<span class="dot dot-success d-md-none ml-1"></span></span><span class="color-gray-3 text-body-5">CIF: 100000001</span>
-																	</div>
-																</div>
-															</div>
-															<div class="nk-tb-col tb-col-md">
-																<span class="tb-lead color-gray-1 text-body-1">KH SME</span>
-															</div>
-															<div class="nk-tb-col tb-col-md">
-																<span class="tb-lead color-gray-1 text-body-1">+034 111-2222</span>
-															</div>
-															<div class="nk-tb-col">
-															</div>
-															<div class="nk-tb-col">
-																<div class="tb-odr-btns d-none d-sm-inline">
-																	<a href="#" target="_blank" class="fs-14px btn btn-icon btn-white btn-dim btn-sm btn-info">
-																		<em class="icon ni ni-user-circle"></em></a>
-																	<a href="KHDN/thietkegiaiphap.html" target="_blank" class="fs-14px btn btn-icon btn-white btn-dim btn-sm btn-info">
-																		<em class="icon ni ni-react"></em></a>
-																</div>
-															</div>
-														</div>
-														<div class="nk-tb-item">
-															<div class="nk-tb-col tb-col-sm">
-																<div class="user-card">
-																	<div class="user-avatar bg-red-vt">
-																		<span>A</span>
-																	</div>
-																	<div class="user-info"><span class="tb-lead color-xanh-3 text-headling-6">Công ty TMCP Hòa Phát
-																		<span class="dot dot-success d-md-none ml-1"></span></span><span class="color-gray-3 text-body-5">CIF: 100000001</span>
-																	</div>
-																</div>
-															</div>
-															<div class="nk-tb-col tb-col-md">
-																<span class="tb-lead color-gray-1 text-body-1">KH Bán Lẻ</span>
-															</div>
-															<div class="nk-tb-col tb-col-md">
-																<span class="tb-lead color-gray-1 text-body-1">+034 666-6666</span>
-															</div>
-															<div class="nk-tb-col">
-																<span class="text-body-3 badge badge-dot badge-dot-xs badge-danger-yellow-vt">Pending</span>
-															</div>
-															<div class="nk-tb-col">
-																<div class="tb-odr-btns d-none d-sm-inline">
-																	<a href="#" target="_blank" class="fs-14px btn btn-icon btn-white btn-dim btn-sm btn-info">
-																		<em class="icon ni ni-user-circle"></em></a>
-																	<a href="KHDN/thietkegiaiphap.html" target="_blank" class="fs-14px btn btn-icon btn-white btn-dim btn-sm btn-info">
-																		<em class="icon ni ni-react"></em></a>
-																</div>
-															</div>
-														</div>
+								<div class="nk-block pb-2">
+									<h3 class="nk-block-title page-title text-center text-headling-0 color-xanh-1">
+										Hãy chọn nhóm khách hàng trọng điểm
+												<br>cần thiết kế giải pháp</h3>
+								</div>
+								<div class="nk-block">
+									<div class="row g-gs d-jus-center">
+										<div class="col-md-6 col-30-1366 col-xxl-25-per mr-27px mr-0-1024" onclick="directChoose(1)">
+											<div class="card card-bordered pricing bg-tkgt-corner-gardient-vt w-450px w-auto-1366 h-375px h-auto-1366">
+												<div class="pricing-head h-250px h-200px-1366 border-bt-none">
+													<div class="pricing-title text-al-end">
+														<h4 class="text-headling-1 color-xanh-3 card-title title txt-al-left" style="float: left;">
+															Nhóm khách hàng
+															<br>
+															Xuất nhập khẩu</h4>
+															<em class="icon ni ni-linux-server color-xanh-3" style="font-size: 50px;"></em>
 													</div>
 													
-												</div><!-- .card -->
-											</div><!-- .card -->
-											<div class="col-xxl-12 pt-4 pl-0 pr-0">
-												<div class="card card-full pb-4">
-													<div class="card-inner">
-														<div class="card-title-group">
-															<div class="card-title">
-																<h5 class="title color-xanh-1 text-headling-4">Khách hàng mới</h5>
-															</div>
-															<div class="card-tools mr-n1">
-																<a href="KHDN/thietkegiaiphap.html" class="btn bg-xanh-7 color-cham-1 text-headling-6">Thiết kế giải pháp</a>
-															</div><!-- card-tools -->
-															
-														</div><!-- .card-title-group -->
-													</div><!-- .card-inner -->
-													<div class="nk-tb-list mt-n2">
-														<div class="nk-tb-item nk-tb-head">
-															<div class="nk-tb-col tb-col-sm"><span class="color-gray-5 text-body-1">Khách hàng</span></div>
-															<div class="nk-tb-col tb-col-md"><span class="color-gray-5 text-body-1">Mã số thuế</span></div>
-															<div class="nk-tb-col tb-col-md"><span class="color-gray-5 text-body-1">Phân khúc</span></div>
-															<div class="nk-tb-col tb-col-md"><span class="color-gray-5 text-body-1">Điện thoại</span></div>
-															<div class="nk-tb-col text-center"><span class="color-gray-5 text-body-1">Hành động</span></div>
-														</div>
-														<div class="nk-tb-item">
-															<div class="nk-tb-col tb-col-sm">
-																<div class="user-card" onclick="directChoose()">
-																	<div class="user-avatar bg-red-vt">
-																		<span>V</span>
-																	</div>
-																	<div class="user-info"><span class="tb-lead color-xanh-3 text-headling-6">Công ty CP đầu tư và phát triển thủ đô
-																		<span class="dot dot-success d-md-none ml-1"></span></span><span class="color-gray-3 text-body-5">CIF: 100000001</span>
-																	</div>
-																</div>
-															</div>
-															<div class="nk-tb-col tb-col-md">
-																<span class="tb-lead color-gray-1 text-body-5">1884962648</span>
-															</div>
-															<div class="nk-tb-col tb-col-md">
-																<span class="tb-lead color-gray-1 text-body-5">KH SME</span>
-															</div>
-															<div class="nk-tb-col tb-col-md">
-																<span class="tb-lead color-gray-1 text-body-5">+034 555-5555</span>
-															</div>
-															<div class="nk-tb-col" style=" text-align: center;">
-																<div class="tb-odr-btns d-none d-sm-inline">
-																	<a href="#" target="_blank" class="fs-14px btn btn-icon btn-white btn-dim btn-sm btn-info">
-																		<em class="icon ni ni-react"></em></a>
-																</div>
-															</div>
-														</div>
-														<div class="nk-tb-item">
-															<div class="nk-tb-col tb-col-sm">
-																<div class="user-card">
-																	<div class="user-avatar bg-pink-dim-vt">
-																		<span>H</span>
-																	</div>
-																	<div class="user-info"><span class="tb-lead color-xanh-3 text-headling-6">Công ty THHH Bảo An
-																		<span class="dot dot-success d-md-none ml-1"></span></span><span class="color-gray-3 text-body-5">CIF: 100000001</span>
-																	</div>
-																</div>
-															</div>
-															<div class="nk-tb-col tb-col-md">
-																<span class="tb-lead color-gray-1 text-body-5">2461987261</span>
-															</div>
-															<div class="nk-tb-col tb-col-md">
-																<span class="tb-lead color-gray-1 text-body-5">KH DN Lớn</span>
-															</div>
-															<div class="nk-tb-col tb-col-md">
-																<span class="tb-lead color-gray-1 text-body-5">+034 888-8888</span>
-															</div>
-															<div class="nk-tb-col" style=" text-align: center;">
-																<div class="tb-odr-btns d-none d-sm-inline">
-																	<a href="#" target="_blank" class="fs-14px btn btn-icon btn-white btn-dim btn-sm btn-info">
-																		<em class="icon ni ni-react"></em></a>
-																</div>
-															</div>
-														</div>
-														<div class="nk-tb-item">
-															<div class="nk-tb-col tb-col-sm">
-																<div class="user-card">
-																	<div class="user-avatar bg-pink-vt">
-																		<span>Y</span>
-																	</div>
-																	<div class="user-info"><span class="tb-lead color-xanh-3 text-headling-6">Công ty nội thất Dunk Viêt Nam 
-																		<span class="dot dot-success d-md-none ml-1"></span></span><span class="color-gray-3 text-body-5">CIF: 100000001</span>
-																	</div>
-																</div>
-															</div>
-															<div class="nk-tb-col tb-col-md">
-																<span class="tb-lead color-gray-1 text-body-5">2164975134</span>
-															</div>
-															<div class="nk-tb-col tb-col-md">
-																<span class="tb-lead color-gray-1 text-body-5">KH SME</span>
-															</div>
-															<div class="nk-tb-col tb-col-md">
-																<span class="tb-lead color-gray-1 text-body-5">+034 111-2222</span>
-															</div>
-															<div class="nk-tb-col" style=" text-align: center;">
-																<div class="tb-odr-btns d-none d-sm-inline">
-																	<a href="#" target="_blank" class="fs-14px btn btn-icon btn-white btn-dim btn-sm btn-info">
-																		<em class="icon ni ni-react"></em></a>
-																</div>
-															</div>
-														</div>
-														<div class="nk-tb-item">
-															<div class="nk-tb-col tb-col-sm">
-																<div class="user-card">
-																	<div class="user-avatar bg-red-vt">
-																		<span>A</span>
-																	</div>
-																	<div class="user-info"><span class="tb-lead color-xanh-3 text-headling-6">Công ty TMCP Hòa Phát
-																		<span class="dot dot-success d-md-none ml-1"></span></span><span class="color-gray-3 text-body-5">CIF: 100000001</span>
-																	</div>
-																</div>
-															</div>
-															<div class="nk-tb-col tb-col-md">
-																<span class="tb-lead color-gray-1 text-body-5">9184672437</span>
-															</div>
-															<div class="nk-tb-col tb-col-md">
-																<span class="tb-lead color-gray-1 text-body-5">KH Bán Lẻ</span>
-															</div>
-															<div class="nk-tb-col tb-col-md">
-																<span class="tb-lead color-gray-1 text-body-5">+034 666-6666</span>
-															</div>
-															<div class="nk-tb-col" style=" text-align: center;">
-																<div class="tb-odr-btns d-none d-sm-inline">
-																	<a href="#" target="_blank" class="fs-14px btn btn-icon btn-white btn-dim btn-sm btn-info">
-																		<em class="icon ni ni-react"></em></a>
-																</div>
-															</div>
-														</div>
+												</div>
+												<div class="pricing-head" style="border-bottom: none;padding: 0.5rem 1.5rem 1.25rem 1.5rem;">
+													<div class="pricing-title">
+														<h5 class="card-title title color-cham-2 text-body-1" style="float: left;">Bao gồm</h5>
 													</div>
-												</div><!-- .card -->
-											</div><!-- .card -->											
-                                        </div>
-                                    </div><!-- .row -->
-                                </div><!-- .nk-block -->
-                            </div>
+												</div>
+												<div class="toolbar-sep-vt">
+												</div>
+												<div class="pricing-body pb-5" style="padding: 1.25rem 1.75rem 4rem;">
+													<ul class="pricing-features">
+														<li>
+															<span class="w-auto-1366 w-50 color-cham-1 text-body-0">FMCG</span>
+														</li>
+														<li>
+															<span class="w-auto-1366 w-50 color-cham-1 text-body-0">Bán lẻ</span>
+														</li>	
+													</ul>
+													
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6 col-30-1366 col-xxl-25-per mr-27px mr-0-1024" onclick="directChoose(2)">
+											<div class="card card-bordered pricing bg-tkgt-corner-gardient-br-vt w-450px w-auto-1366 h-375px h-auto-1366">
+												<div class="pricing-head h-250px h-200px-1366" style="border-bottom: none;">
+													<div class="pricing-title text-al-end">
+														<h4 class="text-headling-1 card-title title color-blu-light-textlink-vt fs-28px color-white txt-al-left" style="float: left;">
+															Nhóm khách hàng
+															<br>Thương mại phân phối</h4>
+														<em class="icon ni ni-linux-server text-white" style="font-size: 50px;"></em>
+													</div>
+												</div>
+												<div class="pricing-head" style="border-bottom: none;padding: 0.5rem 1.5rem 1.25rem 1.5rem;">
+													<div class="pricing-title">
+														<h5 class="card-title title text-white text-body-1" style="float: left;">Bao gồm</h5>
+													</div>
+												</div>
+												<div class="toolbar-sep-vt">
+												</div>
+												<div class="pricing-body pb-5" style="padding: 1.25rem 1.75rem 4rem;">
+													<ul class="pricing-features">
+														<li>
+															<span class="w-auto-1366 w-50 color-cham-3 text-body-0">FMCG</span>
+														</li>
+														<li>
+															<span class="w-auto-1366 w-50 color-cham-3 text-body-0">Bán lẻ</span>
+														</li>	
+													</ul>
+													
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6 col-30-1366 col-xxl-25-per" onclick="directChoose()">
+											<div class="card card-bordered pricing bg-tkgt-corner-gardient-l-vt w-450px w-auto-1366 h-375px h-auto-1366">
+												<div class="pricing-head h-250px h-200px-1366" style="border-bottom: none;">
+													<div class="pricing-title text-al-end">
+														<h4 class="text-headling-1 color-xanh-3 card-title title txt-al-left" style="float: left;">
+															Nhóm khách hàng<br>
+																	Sử dụng DVCNTT<br>
+																	(Merchant)</h4>
+														<em class="icon ni ni-linux-server color-xanh-3" style="font-size: 50px;"></em>
+													</div>
+												</div>
+												<div class="pricing-head" style="border-bottom: none;padding: 0.5rem 1.5rem 1.25rem 1.5rem;">
+													<div class="pricing-title">
+														<h5 class="card-title title color-cham-2 text-body-1" style="float: left;">Bao gồm</h5>
+													</div>
+												</div>
+												<div class="toolbar-sep-vt">
+												</div>
+												<div class="pricing-body pb-5" style="padding: 1.25rem 1.75rem 4rem;">
+													<ul class="pricing-features">
+														<li>
+															<span class="w-auto-1366 w-50 color-cham-1 text-body-0">FMCG</span>
+														</li>
+														<li>
+															<span class="w-auto-1366 w-50 color-cham-1 text-body-0">Bán lẻ</span>
+														</li>	
+													</ul>
+													
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row g-gs d-jus-center mt-27px">
+										<div class="col-md-6 col-30-1366 col-xxl-25-per" style="padding-top: 0px!important;" onclick="directChoose(1)">
+											<div class="card card-bordered pricing bg-tkgt-corner-gardient-vt w-450px w-auto-1366 h-375px h-auto-1366">
+												<div class="pricing-head h-250px h-200px-1366 border-bt-none">
+													<div class="pricing-title text-al-end">
+														<h4 class="text-headling-1 color-xanh-3 card-title title txt-al-left" style="float: left;">
+															Nhóm khách hàng<br>
+															Xây lắp
+															</h4>
+														<em class="icon ni ni-linux-server color-xanh-3" style="font-size: 50px;"></em>
+													</div>
+												</div>
+												<div class="pricing-head" style="border-bottom: none;padding: 0.5rem 1.5rem 1.25rem 1.5rem;">
+													<div class="pricing-title">
+														<h5 class="card-title title color-cham-2 text-body-1" style="float: left;">Bao gồm</h5>
+													</div>
+												</div>
+												<div class="toolbar-sep-vt">
+												</div>
+												<div class="pricing-body pb-5" style="padding: 1.25rem 1.75rem 4rem;">
+													<ul class="pricing-features">
+														<li>
+															<span class="w-auto-1366 w-50 color-cham-1 text-body-0">FMCG</span>
+														</li>
+														<li>
+															<span class="w-auto-1366 w-50 color-cham-1 text-body-0">Bán lẻ</span>
+														</li>	
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6 col-30-1366 col-xxl-25-per ml-27px" style="padding-top: 0px!important;" onclick="directChoose(2)">
+											<div class="card card-bordered pricing bg-tkgt-corner-gardient-br-vt w-450px w-auto-1366 h-375px h-auto-1366">
+												<div class="pricing-head h-250px h-200px-1366" style="border-bottom: none;">
+													<div class="pricing-title text-al-end">
+														<h4 class="text-headling-1 card-title title color-blu-light-textlink-vt fs-28px color-white txt-al-left" style="float: left;">
+															Nhóm khách hàng<br>
+																Mass</h4>
+														<em class="icon ni ni-linux-server text-white" style="font-size: 50px;"></em>
+													</div>
+												</div>
+												<div class="pricing-head" style="border-bottom: none;padding: 0.5rem 1.5rem 1.25rem 1.5rem;">
+													<div class="pricing-title">
+														<h5 class="card-title title text-white text-body-1" style="float: left;">Bao gồm</h5>
+													</div>
+												</div>
+												<div class="toolbar-sep-vt">
+												</div>
+												<div class="pricing-body pb-5" style="padding: 1.25rem 1.75rem 4rem;">
+													<ul class="pricing-features">
+														<li>
+															<span class="w-auto-1366 w-50 color-cham-3 text-body-0">FMCG</span>
+														</li>
+														<li>
+															<span class="w-auto-1366 w-50 color-cham-3 text-body-0">Bán lẻ</span>
+														</li>	
+													</ul>
+													
+												</div>
+											</div>
+										</div>
+										
+									</div>
+									<div class="row mt-4">
+										<div class="col-12 pt-xxl-5 mt-5 text-center">
+											<a href="html\home-salesupport.html" 
+												class="btn btn-xl color-xanh-3 bg-cham-4 h-60px w-250px">
+												<span class="text-headling-6">Quay lại</span></a>
+										</div>
+									</div>
+								</div>
+                             </div><!-- .nk-block -->
                         </div>
                     </div>
                 </div>
-                <!-- content @e -->
-                <!-- footer @s -->
-                <div class="nk-footer">
+				<div class="nk-footer">
                     <div class="container-fluid">
                         <div class="nk-footer-wrap">
 						<img class="logo-img"  src="../images/logo2_company.png" srcset="../images/logo2_company.png" alt="logo">
                             <div class="nk-footer-copyright"> 
                             </div>
-                            <div class="nk-footer-links text-al-right">
-                               <span class="d-block"> © 2021 - Bản quyền thuộc về Ngân hàng TMCP Công thương Việt Nam</span>
-							   <span class="color-gray-6 fs-10px">Developed by DTSVN</span>
+                            <div class="nk-footer-links">
+                                Copyright © 2019 by DTSVN CO., LTD.
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+                <!-- content @e -->
+                <!-- footer @s -->
+                
                 <!-- footer @e -->
             </div>
             <!-- wrap @e -->
         </div>
         <!-- main @e -->
     </div>
-	<script>
-		function directChoose()
-			{
-				window.location.href = 'KHDN/customer360.html'; 
-			}
-	</script>
     <!-- app-root @e -->
     <!-- JavaScript -->
     <script src="../assets/js/bundle.js?ver=2.0.0"></script>
     <script src="../assets/js/scripts.js?ver=2.0.0"></script>
-    <script src="../assets/js/charts/chart-ecommerce.js?ver=2.0.0"></script>
-    <script src="../assets/js/example-chart.js?ver=2.0.0"></script>
+	<script src="../assets/js/charts/chart-ecommerce.js?ver=2.6.0"></script>
+	<script src="../assets/js/example-chart.js?ver=2.0.0"></script>
+	<script src="../assets/js/accessibility.js?ver=2.0.0"></script>
+	
+	
+	<script src="../assets/js/highcharts.js?ver=2.0.0"></script>
+	<script src="../assets/js/exporting.js?ver=2.0.0"></script>
+	<script src="../assets/js/export-data.js?ver=2.0.0"></script>
+	<script src="../assets/js/charts/chart-column.js?ver=2.0.0"></script>
+	<script>
+		$(".highcharts-no-tooltip")[0].setAttribute("transform","translate(150,400)");
+		function directChoose(a)
+			{
+				if(a==1)
+					window.location.href = 'KHDN/chooseGiaiphap.html?var=a'; 
+				if(a==2)
+					window.location.href = 'KHDN/chooseGiaiphap.html?var=b'; 
+			}
+	</script>
+	
+	
 </body>
 
 </html>

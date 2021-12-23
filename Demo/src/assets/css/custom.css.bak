@@ -225,6 +225,9 @@
 .text-white{
 	color: #f9f1f1;
 }
+.mr-27px{
+	margin-right: 27px!important;
+}
 #campaign{
   height: 400px;
   margin: 0 auto;
@@ -1228,6 +1231,18 @@
 	}
 }
 @media (max-width: 1024px){
+	.mr-0-1024{
+		margin-right: 0px!important;
+	}
+	.mt-27px-1024{
+		margin-top: 27px!important;
+	}
+	.mb-27px-1024{
+		margin-bottom: 27px!important;
+	}
+	.toolbar-lef-cham-1024{
+		border-right: 1px solid #DBDFEA;
+	}
 	.justify-content-between-1024 {
 		justify-content: space-between !important;
 	}
@@ -1895,9 +1910,11 @@ input, button, select, optgroup, textarea {
 body {
     font-family: 'Mulish-SemiB' !important;
 }
-
 .select2-container--default.select2-xl .select2-selection--single {
     height: calc(2.75rem + 2px);
+}
+.date-picker {
+    height: calc(2.455rem + 2px);
 }
 .select2-container--default.select2-xl .select2-selection--single .select2-selection__rendered {
     line-height: 1.85rem;
@@ -2751,3 +2768,81 @@ body {
 	visibility: visible;
 }
 
+
+
+
+.
+.top-button:link,
+.top-button:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.top-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.top-button:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.top-button-white {
+    background-color: #D6124C;
+    color: #D6124C;
+}
+
+.top-button::after {
+        content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    z-index: -1;
+    transition: all .4s;
+}
+.top-button-white:hover {
+     animation: none;
+}
+
+.top-button-white::after {
+	animation: moveInBottom 1.4s ease-out infinite;
+    background-color: #D6124C;
+}
+@keyframes moveInBottom {
+    0% {
+        opacity: 1;
+		 transform: scaleX(1) scaleY(1);
+    }
+    100% {
+        opacity: 0;
+		 transform: scaleX(1.1) scaleY(1.5);
+    }
+}
+.p-27px{
+	padding: 27px !important;
+}
+.m-27px{
+	margin: 27px !important;
+}
+.ml-27px{
+	margin-left: 27px !important;
+}
+.mt-27px{
+	margin-top: 27px !important;
+}
+.pt-27px{
+	padding-top: 27px !important;
+}
+.text-al-end{
+	text-align: end!important;
+}

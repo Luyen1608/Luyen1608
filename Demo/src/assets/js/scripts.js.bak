@@ -916,26 +916,7 @@ $(document).ready(function() {
 		addFooter();
 	});
   
-  /*function addFooter(){
-	  $(".nk-footer").html("");
-	  $(".classInfo .user-status").removeClass("color-white");
-	  $(".classInfo .user-status").removeClass("user-status-unverified");
-	  $(".classInfo .user-name").removeClass("color-white");
-	  $(".classInfo .nk-quick-nav-icon").removeClass("color-white");
-	  
-	  $(".classInfo .user-status").addClass("color-bidv");
-	  $(".classInfo .user-avatar").addClass("bg-bidv");
-	  $(".classInfo .ni-search").removeClass("color-white");
-	 
-	  $(".nk-header").removeClass("bg-gra-vt");
-	  $(".nk-footer").addClass("bg-bidv pt-3 pb-3");
-	  $(".nk-footer").append( "<div class='container-fluid'><div class='nk-footer-wrap'>" +
-	  "<img class='logo-img'  src='../images/bidv-logo-footer.png' srcset='../images/bidv-logo-footer.png' alt='logo'>" +
-	  "<div class='nk-footer-copyright text-white ml-4'>© 2018 Ngân hàng TMCP Đầu tư và Phát triển Việt Nam </div><div class='nk-footer-links text-al-right ml-auto'><span class='d-block text-white'>"+
-      " Developed by DTSVN</span>"+
-       "<span class='color-gray-6 fs-10px'></span></div></div></div>"
-	  );
-  }*/
+ 
   NioApp.init = function () {
     NioApp.coms.docReady.push(NioApp.OtherInit);
     NioApp.coms.docReady.push(NioApp.Prettify);
