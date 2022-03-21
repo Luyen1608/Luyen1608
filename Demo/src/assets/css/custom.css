@@ -2419,7 +2419,7 @@ body {
 }
 
 
-@media (-webkit-min-device-pixel-ratio: 1) { 
+@media (-webkit-min-device-pixel-ratio: 1,25) { 
 	.nk-content {
 		padding: 32px 15px;
 	}
@@ -2846,4 +2846,8 @@ body {
 }
 .text-al-end{
 	text-align: end!important;
+}
+.block-312{
+	width: 312px;
+	height: 312px;
 }
