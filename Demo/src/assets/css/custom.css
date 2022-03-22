@@ -2851,3 +2851,17 @@ body {
 	width: 312px;
 	height: 312px;
 }
+@media(max-width:1024px) {
+	.max-w-brand{
+		max-width: 220px;
+	}
+	.nav-tabs .nav-item {
+		padding-right: 1rem;
+	}
+}
+.p-20-25{
+	padding: 20px 25px;
+}
+.border-top-gray-8{
+	border-top: 1px solid #F5F6FA;
+}
