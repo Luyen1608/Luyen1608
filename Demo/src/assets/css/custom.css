@@ -2865,3 +2865,12 @@ body {
 .border-top-gray-8{
 	border-top: 1px solid #F5F6FA;
 }
+@media ( max-width:1366px) {
+	.plr-15-1366{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.pb-12-1366{
+		padding-bottom: 12px;
+	}
+}
