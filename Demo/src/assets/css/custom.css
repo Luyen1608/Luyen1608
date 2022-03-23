@@ -2884,3 +2884,10 @@ body {
 .nav-tabs .nav-item-s {
     padding-right: 2.25rem;
 }}
+.table-scroll-x{
+	overflow-x: auto;
+	width: 100%;
+}
+.w-150per{
+	width: 150%;
+}
