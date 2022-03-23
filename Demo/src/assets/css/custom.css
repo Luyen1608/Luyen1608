@@ -2768,10 +2768,6 @@ body {
 .vis_show{
 	visibility: visible;
 }
-
-
-
-
 .
 .top-button:link,
 .top-button:visited {
@@ -2844,6 +2840,7 @@ body {
 .pt-27px{
 	padding-top: 27px !important;
 }
+/* Phase 2 */
 .text-al-end{
 	text-align: end!important;
 }
@@ -2874,3 +2871,16 @@ body {
 		padding-bottom: 12px;
 	}
 }
+@media (min-width: 1024px){
+.nav-tabs .nav-item-s {
+    padding-right: 1.25rem;
+}
+}
+@media (min-width: 1366px){
+.nav-tabs .nav-item-s {
+    padding-right: 1.75rem;
+}}
+@media (min-width: 1920px){
+.nav-tabs .nav-item-s {
+    padding-right: 2.25rem;
+}}
