@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+
+<head>
+    <base href="../">
+    <meta charset="utf-8">
+    <meta name="author" content="Softnio">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A powerful and conceptual apps base dashboard template that especially build for developers and programmers.">
+    <!-- Fav Icon  -->
+    <link rel="shortcut icon" href="../images/favicon.png">
+    <!-- Page Title  -->
+    <title>Detail Customer</title>
+    <!-- StyleSheets  -->
+    <link rel="stylesheet" href="../assets/css/dashlite.css?ver=2.0.0">
+	<link rel="stylesheet" href="../assets/css/dashlite1.css?ver=2.0.0">
+	<link rel="stylesheet" href="../assets/css/custom.css?ver=2.0.0">
+    <link id="skin-default" rel="stylesheet" href="../assets/css/theme.css?ver=2.0.0">
+</head>
+<style>
+</style>
+
+<body class="nk-body bg-lighter npc-default has-sidebar ">
+    <div class="nk-app-root">
+        <!-- main @s -->
+        <div class="nk-main ">
+            <!-- sidebar @s -->
+            <div class="nk-sidebar nk-sidebar-fixed is-light  is-compact" data-content="sidebarMenu">
+                <div class="nk-sidebar-element nk-sidebar-head">
+                    <div class="nk-sidebar-brand">
+                        <a href="KHBL/index.html" class="logo-link nk-sidebar-logo">
+                            <img class="logo-light logo-img" src="../images/favicon.png" srcset="../images/favicon.png 2x" alt="logo">
+                            <img class="logo-dark logo-img" src="../images/favicon.png" srcset="../images/favicon.png 2x" alt="logo-dark">
+                            <img class="logo-small logo-img logo-img-small" src="../images/favicon.png" srcset="../images/favicon.png 2x" alt="logo-small">
+                        </a>
+                    </div>
+                    <div class="nk-menu-trigger mr-n2">
+                        <a href="#" class="nk-nav-toggle nk-quick-nav-icon d-xl-none" data-target="sidebarMenu"><em class="icon ni ni-arrow-left"></em></a>
+                        <a href="#" class="nk-nav-compact nk-quick-nav-icon d-none d-xl-inline-flex" data-target="sidebarMenu"><em class="icon ni ni-menu"></em></a>
+                    </div>
+                </div><!-- .nk-sidebar-element -->
+                <div class="nk-sidebar-element">
+                    <div class="nk-sidebar-content">
+                        <div class="nk-sidebar-menu" data-simplebar>
+                            <ul class="nk-menu">
+                                <li class="nk-menu-heading">
+                                    <h6 class="overline-title text-primary-alt">Dashboards</h6>
+                                </li><!-- .nk-menu-item -->
+                                <li class="nk-menu-item">
+                                    <a href="KHBL/home-salesupport.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-home-fill"></em></span>
+                                        <span class="nk-menu-text text-headling-6">Trang chủ</span>
+                                    </a>
+                                </li><!-- .nk-menu-item -->
+                                <li class="nk-menu-item ">
+                                    <a href="KHBL/list-customer.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-user-fill"></em></span>
+                                        <span class="nk-menu-text text-headling-6">Khách hàng</span>
+                                    </a>
+                                </li><!-- .nk-menu-item -->
+								<li class="nk-menu-item ">
+                                    <a href="KHBL/nhacviec.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-bell"></em></span>
+                                        <span class="nk-menu-text text-headling-6">Nhắc Việc</span>
+                                    </a>
+                                </li><!-- .nk-menu-item -->		
+								<li class="nk-menu-item ">
+                                    <a href="KHBL/reportCustomer.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-reports"></em></span>
+                                        <span class="nk-menu-text text-headling-6">Báo cáo</span>
+                                    </a>
+                                </li><!-- .nk-menu-item -->	
+								<li class="nk-menu-item has-sub">
+                                    <a href="#" class="nk-menu-link nk-menu-toggle">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-users-fill"></em></span>
+                                        <span class="nk-menu-text text-headling-6">Chiến dịch</span>
+                                    </a>
+                                    <ul class="nk-menu-sub">
+                                        <li class="nk-menu-item">
+                                            <a href="KHBL/list-campaign.html" class="nk-menu-link"><span class="nk-menu-text text-headling-7">Tổng quan chiến dịch</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="KHBL/detailCampaign.html" class="nk-menu-link"><span class="nk-menu-text text-headling-7">Chi tiết chiến dịch</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="KHBL/reportCustomer.html" class="nk-menu-link"><span class="nk-menu-text text-headling-7">Báo cáo kết quả</span></a>
+                                        </li>
+                                    </ul><!-- .nk-menu-sub -->
+                                </li><!-- .nk-menu-item -->
+								
+														
+                            </ul><!-- .nk-menu -->
+                        </div><!-- .nk-sidebar-menu -->
+                    </div><!-- .nk-sidebar-content -->
+                </div><!-- .nk-sidebar-element -->
+            </div>
+            <!-- sidebar @e -->
+            <!-- wrap @s -->
+            <div class="nk-wrap ">
+                <!-- main header @s -->
+                <div class="nk-header nk-header-fixed is-light bg-gra-vt">
+                    <div class="container-fluid">
+                        <div class="nk-header-wrap classInfo">
+                            <div class="nk-header-search ml-3 ml-xl-0">
+                                <em class="icon ni ni-search color-white"></em>
+                                <input type="text" class="text-white form-control border-transparent form-focus-none" placeholder="Search anything">
+                            </div><!-- .nk-header-news -->
+                            <div class="nk-header-tools">
+                                <ul class="nk-quick-nav">
+                                    <li class="dropdown notification-dropdown">
+                                        <a href="#" class="dropdown-toggle nk-quick-nav-icon color-white" data-toggle="dropdown">
+                                            <div class="icon-status icon-status-info"><em class="icon ni ni-bell"></em></div>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-xl dropdown-menu-right">
+                                            <div class="dropdown-head">
+                                                <span class="sub-title nk-dropdown-title">Notifications</span>
+                                                <a href="#">Mark All as Read</a>
+                                            </div>
+                                            <div class="dropdown-body">
+                                                <div class="nk-notification">
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-warning-dim ni ni-curve-down-right"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">You have requested to <span>Widthdrawl</span></div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-success-dim ni ni-curve-down-left"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">Your <span>Deposit Order</span> is placed</div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-warning-dim ni ni-curve-down-right"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">You have requested to <span>Widthdrawl</span></div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-success-dim ni ni-curve-down-left"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">Your <span>Deposit Order</span> is placed</div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-warning-dim ni ni-curve-down-right"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">You have requested to <span>Widthdrawl</span></div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-success-dim ni ni-curve-down-left"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">Your <span>Deposit Order</span> is placed</div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                </div><!-- .nk-notification -->
+                                            </div><!-- .nk-dropdown-body -->
+                                            <div class="dropdown-foot center">
+                                                <a href="#">View All</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown user-dropdown">
+                                        <a href="#" class="dropdown-toggle mr-n1" data-toggle="dropdown">
+                                            <div class="user-toggle">
+                                                <div class="user-avatar sm">
+                                                    <em class="icon ni ni-user-alt"></em>
+                                                </div>
+                                                <div class="user-info d-none d-xl-block">
+                                                    <div class="user-status user-status-unverified color-white">LuyenDv</div>
+                                                    <div class="user-name dropdown-indicator color-white">Đoàn Văn Luyện</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-md dropdown-menu-right">
+                                            <div class="dropdown-inner user-card-wrap bg-lighter d-none d-md-block">
+                                                <div class="user-card">
+                                                    <div class="user-avatar">
+                                                        <span>AB</span>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <span class="lead-text">Đoàn Văn Luyện</span>
+                                                        <span class="sub-text">luyendv@dtsvn.net</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-inner">
+                                                <ul class="link-list">
+                                                    <li><a href="KHBL/user-profile-regular.html"><em class="icon ni ni-user-alt"></em><span>View Profile</span></a></li>
+                                                    <li><a href="KHBL/user-profile-setting.html"><em class="icon ni ni-setting-alt"></em><span>Account Setting</span></a></li>
+                                                    <li><a href="KHBL/user-profile-activity.html"><em class="icon ni ni-activity-alt"></em><span>Login Activity</span></a></li>
+                                                    <li><a class="dark-switch" href="#"><em class="icon ni ni-moon"></em><span>Dark Mode</span></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="dropdown-inner">
+                                                <ul class="link-list">
+                                                    <li><a href="#"><em class="icon ni ni-signout"></em><span>Sign out</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><!-- .nk-header-wrap -->
+                    </div><!-- .container-fliud -->
+                </div>
+                <!-- main header @e -->
+                <!-- content @s -->
+                <div class="nk-content pl-4-1366 pr-4-1366">
+                    <div class="container-fluid pl-0-1024 pr-0-1024">
+                        <div class="nk-content-inner">
+                            <div class="nk-content-body">
+                                <div class="nk-block-head nk-block-head-sm">
+                                    <div class="nk-block-between g-3">
+                                        <div class="nk-block-head-content">
+											<ul class="btn-toolbar gx-1">
+												<li>
+													<h3 class="nk-block-title page-title color-xanh-1 text-headling-2">Dịch vụ tư vấn Tài chính</h3>
+												</li>
+											</ul>
+                                        </div>
+                                    </div>
+                                </div><!-- .nk-block-head -->
+                                <div class="nk-block row-ct">
+									<div class="w-100">
+										<div class="row-ct w-100 card">
+											<div class="nk-tb-list is-loose traffic-channel-table">
+												<div class="nk-tb-item nk-tb-head">
+													<div class="nk-tb-col nk-tb-channel text-headling-6"><span>Khu vực</span></div>
+													<div class="nk-tb-col nk-tb-channel text-headling-6"><span>Mã - Tên Chi nhánh</span></div>
+													<div class="nk-tb-col nk-tb-channel text-headling-6"><span>Mã - Tên ĐVKD</span></div>
+													<div class="nk-tb-col nk-tb-changel text-headling-6"><span>UserAD</span></div>
+													<div class="nk-tb-col nk-tb-changel text-headling-6"><span>Họ Tên Cán bộ tư vấn</span></div>
+													<div class="nk-tb-col nk-tb-changel text-headling-6"><span>GTTT Cán bộ tư vấn</span></div>
+													<div class="nk-tb-col nk-tb-channel text-headling-6"><span>STK Cán bộ tư vấn</span></div>
+												</div><!-- .nk-tb-head -->
+												<div class="nk-tb-item">
+													<div class="nk-tb-col nk-tb-channel">
+														<span class="tb-lead text-body-6">KV-3</span>
+													</div>
+													<div class="nk-tb-col nk-tb-channel">
+														<span class="tb-lead text-body-6"><span>106 - CN TP HA NOI</span></span>
+													</div>
+													<div class="nk-tb-col nk-tb-channel">
+														<span class="tb-lead text-body-6"><span>10636 - PGD LE THANH TON</span></span>
+													</div>
+													<div class="nk-tb-col nk-tb-channel">
+														<span class="tb-lead text-body-6">SonTH</span>
+													</div>
+													<div class="nk-tb-col nk-tb-channel">
+														<span class="tb-lead text-body-6">Tran Hung Son</span>
+													</div>
+													<div class="nk-tb-col nk-tb-channel">
+														<span class="tb-lead text-body-6">001079001311</span>
+													</div>
+													<div class="nk-tb-col nk-tb-channel">
+														<span class="tb-lead text-body-6">1003261268</span>
+													</div>
+												</div><!-- .nk-tb-item -->
+											</div>
+										</div>
+									</div>									
+                                </div><!-- .nk-block -->
+								<div class="nk-block row-ct">
+									<div class="w-100 row-ct">
+										<div class="col-5 mb-2 pl-0">
+											<div class="col-12 bg-white">
+												<div class="nk-block-head nk-block-head-sm">
+													<div class="nk-block-between">
+														<div class="nk-block-head-content">
+															<h3 class="nk-block-title page-title color-xanh-1 text-headling-5 pt-2">Sản phẩm dịch vụ tư vấn</h3>
+														</div>
+													</div>
+												</div><!-- .nk-block-head -->
+											</div>
+											<div class="col-12 row-ct pt-2 bg-white pr-0 pb-2">
+												<div class="w-100 row-ct">
+													<div class="form-group w-50">
+														<div class="form-control-wrap pl-0">
+															<select class="form-select">
+																<option value="default_option">Default Option</option>
+																<option value="option_select_name">Option select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select name</option>
+																<option value="option_select_name">Option select name</option>
+															</select>
+														</div>
+													</div>
+													<div class="form-group w-50 pl-1 pr-2">
+														<div class="form-control-wrap">
+															<select class="form-select" data-search="on">
+																<option value="default_option">Default Option</option>
+																<option value="option_select_name">Option select name</option>
+																<option value="option_select_name">Option select name</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-7 pl-0 pb-2">
+											<div class="col-12 bg-white">
+												<div class="nk-block-head nk-block-head-sm">
+													<div class="nk-block-between">
+														<div class="nk-block-head-content">
+															<h3 class="nk-block-title page-title color-xanh-1 text-headling-5 pt-2">Sản phẩm dịch vụ tư vấn</h3>
+														</div>
+													</div>
+												</div><!-- .nk-block-head -->
+											</div>
+											<div class="col-12 row-ct pt-2 bg-white  pb-2">
+												<div class="w-100 row-ct">
+													<div class="form-group">
+														<div class="form-control-wrap pl-0">
+															<select class="form-select">
+																<option value="default_option">Default Option</option>
+																<option value="option_select_name">Option select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select name</option>
+																<option value="option_select_name">Option select name</option>
+															</select>
+														</div>
+													</div>
+													<div class="form-group">
+														<div class="form-control-wrap pl-0">
+															<select class="form-select">
+																<option value="default_option">Default Option</option>
+																<option value="option_select_name">Option select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select name</option>
+																<option value="option_select_name">Option select name</option>
+															</select>
+														</div>
+													</div>
+													<div class="form-group">
+														<div class="form-control-wrap pl-0">
+															<select class="form-select">
+																<option value="default_option">Default Option</option>
+																<option value="option_select_name">Option select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select nameOption select name</option>
+																<option value="option_select_name">Option select name</option>
+															</select>
+														</div>
+													</div>
+													<div class="form-group pl-1 pr-2">
+														<div class="form-control-wrap">
+															<select class="form-select" data-search="on">
+																<option value="default_option">Default Option</option>
+																<option value="option_select_name">Option select name</option>
+																<option value="option_select_name">Option select name</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- content @e -->
+                <!-- footer @s -->
+                <div class="nk-footer">
+                    <div class="container-fluid">
+                        <div class="nk-footer-wrap">
+						<img class="logo-img"  src="../images/logo2_company.png" srcset="../images/logo2_company.png" alt="logo">
+                            <div class="nk-footer-copyright"> 
+                            </div>
+                            <div class="nk-footer-links text-al-right">
+                               <span class="d-block"> © 2021 - Bản quyền thuộc về Ngân hàng TMCP Công thương Việt Nam</span>
+							   <span class="color-gray-6 fs-10px">Developed by DTSVN</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<div class="modal fade " tabindex="-1" id="modalAddUpdate">
+					<div class="modal-dialog max-w600px" role="document">
+						<div class="col-12 pl-0 pr-0">
+							<div class="modal-content col-12 pt-4 pb-0">
+								<div class="modal-header border-bottom-0 m-auto pb-1">
+									<h5 class="modal-title color-xanh-2 text-headling-5 d-block">Cập nhật lịch sử tiếp cận</h5>
+								</div>
+								<div class="modal-header border-bottom-0 m-auto pt-0">
+									<h5 class="modal-title color-cham-2 text-headling-6">Mã chiến dịch: KBL00000113072021</h5>
+								</div>
+								<div class="modal-body pt-1 pb-3 mb-3 pl-2 pr-2">
+									<form action="#" class="form-validate is-alter">
+									
+										<div class="col-12 m-auto">
+											<div class="form-group">
+												<div class="form-control-wrap">
+												<ul class="preview-btn-list">
+													<li class="preview-btn-item pr-1">
+														<a href="#" class="btn btn-info w-100 bg-xanh-7 border-otp color-cham-3 text-headling-7 p-btn-35 d-jus-center">Gọi</a>
+													</li>
+													<li class="preview-btn-item pl-0 pr-05">
+														<a href="#" class="btn btn-info w-100 border-xanh bg-white color-xanh-3 text-headling-7 p-btn-35 d-jus-center">Gặp và tư vấn</a>
+													</li>
+													<li class="preview-btn-item pl-05 pr-0">
+														<a href="#" class="btn btn-info w-100 color-cham-3 border-otp bg-white text-headling-7 p-btn-35 d-jus-center">Hoàn thiện HS</a>
+													</li>
+													<li class="preview-btn-item pl-1">
+														<a href="#" class="btn btn-info w-100 bg-xanh-7 border-otp color-cham-3 text-headling-7 p-btn-35 d-jus-center">Chốt</a>
+													</li>
+												</ul>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 m-auto pt-1 row-ct">
+											<div class="col-12 m-auto pr-05 pl-0">
+												<div class="form-group">
+													<div class="form-control-wrap">
+														<select class="form-control form-select text-body-1 h-50px" onchange="showText(this)"
+															id="fv-topics2" name="fv-topics2" data-placeholder="Phản hồi" required>
+															<option label="empty" value=""></option>
+															<option value="fv-gq  text-body-1">Đồng ý</option>
+															<option value="fv-tq  text-body-1">Khác</option>
+														</select>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 m-auto pt-1" style="display:none;" id="des">
+											<div class="form-group">
+												<div class="form-control-wrap">
+													<textarea class="form-control form-control-sm" id="fv-message" name="fv-message" placeholder="Nội dung ghi chú" required></textarea>
+												</div>
+											</div>
+										</div>
+										<div class="col-7 m-auto pt-3 text-center row-ct">
+											<div class="col-6 pl-0">
+												<a href="#" data-dismiss="modal" aria-label="Close" 
+													class="d-jus-center col-12 btn btn-xl color-xanh-3 text-headling-6 bg-cham-4">Hủy bỏ</a>
+											</div>
+											<div class="col-6 pl-0 pr-0">
+												<a class="d-jus-center col-12 btn btn-xl bg-xanh-3 text-headling-6  color-white">Cập nhật</a>
+											</div>
+										  
+											
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade " tabindex="-1" id="modalAddComment">
+					<div class="modal-dialog max-w600px" role="document">
+						<div class="col-12">
+							<div class="modal-content col-12">
+								<div class="modal-header border-bottom-0 m-auto">
+									<h5 class="modal-title color-xanh-2 text-headling-5">Thêm ghi chú</h5>
+								</div>
+								<div class="modal-body pt-1 pb-3 mb-3 pl-2 pr-2">
+									<form action="#" class="form-validate is-alter">
+										<div class="col-10 m-auto">
+											<div class="form-group">
+												<div class="form-control-wrap">
+													<select class="form-control form-select"
+															id="fv-topics2" name="fv-topics2" data-placeholder="Chọn nhóm ghi chú" required>
+															<option label="empty" value=""></option>
+															<option value="fv-gq  text-body-1">Đặc điểm khách hàng</option>
+															<option value="fv-tq  text-body-1">Tình hình tài chính</option>
+														</select>
+												</div>
+											</div>
+										</div>
+										<div class="col-10 m-auto pt-1">
+											<div class="form-group">
+												<div class="form-control-wrap">
+													<textarea class="form-control form-control-sm" id="fv-message" name="fv-message" placeholder="Nội dung ghi chú" required></textarea>
+												</div>
+											</div>
+										</div>
+										<div class="col-7 m-auto pt-3 text-center row-ct">
+											<div class="col-6 pl-0">
+												<a href="#" data-dismiss="modal" aria-label="Close" 
+													class="d-jus-center col-12 btn btn-xl color-xanh-3 text-headling-6 bg-cham-4">Hủy bỏ</a>
+											</div>
+											<div class="col-6 pl-0 pr-0">
+												<a class="d-jus-center col-12 btn btn-xl bg-xanh-3 text-headling-6  color-white">Xác nhận</a>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade " tabindex="-1" id="modalAddMeet">
+					<div class="modal-dialog max-w600px" role="document">
+						<div class="col-12">
+							<div class="modal-content col-12 pt-2 pb-2">
+								<div class="modal-header border-bottom-0 m-auto">
+									<h5 class="modal-title color-xanh-2 text-headling-5">Đặt lịch hẹn</h5>
+								</div>
+								<div class="modal-body pt-1 pb-3 mb-3 pl-2 pr-2">
+									<form action="#" class="form-validate is-alter">
+										<div class="col-10 m-auto">
+											<div class="form-group">
+												<div class="form-control-wrap">
+													<select class="form-control form-select" 
+														id="fv-topics" name="fv-topics" data-placeholder="Chọn chiến dịch" required>
+														<option label="empty" value=""></option>
+														<option value="fv-gq">Chiến dịch 1</option>
+														<option value="fv-tq">Chiến dịch 2</option>
+														<option value="fv-ab">Chiến dịch 3</option>
+													</select>
+												</div>
+											</div>
+										</div>
+										<div class="col-10 m-auto pt-1 row-ct">
+											<div class="col-6 m-auto pr-05 pl-0">
+												<div class="form-group">
+													<div class="form-control-wrap">
+														<div class="form-icon form-icon-right h-100">
+															<em class="icon ni ni-calendar-alt"></em>
+														</div>
+														<input type="text" class="form-control date-picker" placeholder="Thời gian">
+													</div>
+												</div>
+											</div>
+											<div class="col-6 m-auto pl-05 pr-0">
+												<div class="form-group">
+													<div class="form-control-wrap">
+														<input type="text" class="form-control"  placeholder="Địa điểm">
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-10 m-auto pt-1">
+											<div class="form-group">
+												<div class="form-control-wrap">
+													<textarea class="form-control form-control-sm" id="fv-message1" name="fv-message1" placeholder="Nội dung ghi chú" required></textarea>
+												</div>
+											</div>
+										</div>
+										<div class="col-7 m-auto pt-3 text-center row-ct">
+											<div class="col-6 pl-0">
+												<a href="#" data-dismiss="modal" aria-label="Close" 
+													class="d-jus-center col-12 btn btn-xl color-xanh-3 text-headling-6 bg-cham-4">Hủy bỏ</a>
+											</div>
+											<div class="col-6 pl-0 pr-0">
+												<a class="d-jus-center col-12 btn btn-xl bg-xanh-3 text-headling-6  color-white">Đặt lịch</a>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+                <!-- footer @e -->
+                <!-- footer @e -->
+            </div>
+            <!-- wrap @e -->
+        </div>
+        <!-- main @e -->
+		
+    </div>
+    <!-- app-root @e -->
+    <!-- JavaScript -->
+	<script>
+      window.Promise ||
+        document.write(
+          '<script src="../assets/js/dist/polyfill.min.js"><\/script>'
+        )
+      window.Promise ||
+        document.write(
+          '<script src="../assets/js/dist/classList.min.js"><\/script>'
+        )
+      window.Promise ||
+        document.write(
+          '<script src="../assets/js/dist/findindex_polyfill_mdn.js"><\/script>'
+        )
+    </script>
+	<script src="../assets/js/bundle.js?ver=2.8.0"></script>
+    <script src="../assets/js/scripts.js?ver=2.0.0"></script>
+</body>
+
+</html>
