@@ -2937,3 +2937,11 @@ body {
 .p-12-15{
 	padding: 12px 15px;
 }
+.hover-none:hover{
+	background: none !important;
+	box-shadow: none !important;
+}
+.hover-div:hover{
+	background: #f8f9fc;
+    box-shadow: 0 2px 15px -4px rgb(133 79 255 / 40%);
+}
