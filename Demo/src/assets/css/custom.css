@@ -2945,3 +2945,7 @@ body {
 	background: #f8f9fc;
     box-shadow: 0 2px 15px -4px rgb(133 79 255 / 40%);
 }
+.p-child{
+	padding-top: 0.175rem !important;
+	padding-bottom: 0.175rem !important;
+}
