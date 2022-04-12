@@ -2955,3 +2955,39 @@ body {
 .w-fil-2{
 	width: calc((100% - 4px)/2 - 2px);
 }
+.bg-white-blue-2 {
+  background-color: #c2e9ff;
+  background: radial-gradient( circle at top, #ffffff, #c2e9ff 40% )
+}
+.bg-white-blue-1 {
+  background-color: #c2e9ff;
+  background: radial-gradient( circle at top left, #ffffff, #c2e9ff 70% )
+}
+.bg-white-blue-3 {
+  background-color: #c2e9ff;
+  background: radial-gradient( circle at top right, #ffffff, #c2e9ff 70% )
+}
+.bg-white-blue-4 {
+  background-color: #c2e9ff;
+  background: radial-gradient( circle at right, #ffffff, #c2e9ff 70% )
+}
+.bg-white-blue-5 {
+  background-color: #c2e9ff;
+  background: radial-gradient( circle at bottom right, #ffffff, #c2e9ff 70% )
+}
+.bg-white-blue-6 {
+  background-color: #c2e9ff;
+  background: radial-gradient( circle at bottom, #ffffff, #c2e9ff 70% )
+}
+.bg-white-blue-7 {
+  background-color: #c2e9ff;
+  background: radial-gradient( circle at bottom left, #ffffff, #c2e9ff 70% )
+}
+.bg-white-blue-8 {
+  background-color: #c2e9ff;
+  background: radial-gradient( circle at left, #ffffff, #c2e9ff 70% )
+}
+.bg-white-darkblue-3 {
+  background-color: #014F97;
+  background: radial-gradient( circle at top right, #ffffff, #014F97 70% )
+}
