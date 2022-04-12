@@ -30,6 +30,20 @@
 .btn-icon-outline .icon, .dt-buttons .btn-secondary .icon {
     width: 2.75rem;
 }
+.custom-control-pro.no-control .custom-control-input:checked ~ .custom-control-label {
+    background-color: #D6124C !important;
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #D6124C;
+    background-color: #D6124C;
+}
+.custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
+    border-color: #D6124C;
+}
+.custom-control-pro.no-control .custom-control-input:not(:disabled):active ~ .custom-control-label {
+    border-color: #D6124C;
+}
 </style>
 
 <body class="nk-body bg-lighter npc-default has-sidebar ">
@@ -183,9 +197,6 @@
 												</li>
 											</ul>
                                         </div><!-- .nk-block-head-content -->
-										<div class="nk-block-head-content">
-												<a href="KHBL/addcamnang.html" class="btn bg-xanh-7 text-headling-6 color-xanh-3">Thêm mới cẩm nang</a>
-										</div><!-- .nk-block-head-content -->
                                     </div><!-- .nk-block-between -->
                                 </div><!-- .nk-block-head -->
                                 <div class="nk-block row-ct">
@@ -197,49 +208,131 @@
 															<div class="card card-stretch">
 																<div class="card-inner-group">
 																	<div class="card-inner position-relative card-tools-toggle p-20-25">
-																		<div class="card-title-group">
-																			<div class="card-tools">
-																				<ul class="btn-toolbar gx-1 ">
-																					<li>
-																						<div class="form-group">
-																							<div class="form-control-wrap">
-																								<select class="form-select" data-ui="xl" id="outlined-select1">
-																									<option value="default_option">Chọn nhóm sản phẩm</option>
-																									<option value="option_select_name">Option select name</option>
-																									<option value="option_select_name">Option select name</option>
-																								</select>
+																		<div class="col-12 row-ct pl-0 pr-0 border-bottom">
+																			<div class="col-4 pl-0  pb-3 pr-5">
+																				<div class="form-group">
+																					<label class="form-label text-headling-7 color-gray-3" for="fv-phone">GIỚI TÍNH</label>
+																					<div class="form-control-wrap">
+																						<ul class="custom-control-group">
+																							<li>
+																								<div class="custom-control custom-radio custom-control-pro no-control">
+																									<input type="radio" class="custom-control-input" name="fv-sex" id="sex-male" required>
+																									<label class="custom-control-label" for="sex-male">Nam</label>
+																								</div>
+																							</li>
+																							<li>
+																								<div class="custom-control custom-radio custom-control-pro no-control">
+																									<input type="radio" class="custom-control-input" name="fv-sex" id="sex-female" required>
+																									<label class="custom-control-label" for="sex-female">Nữ</label>
+																								</div>
+																							</li>
+																						</ul>
+																					</div>
+																				</div>
+																				<div class="form-group">
+																					<label class="form-label text-headling-7 color-gray-3" for="fv-topics">SẢN PHẨM QUAN TÂM</label>
+																					<div class="form-control-wrap ">
+																						<select class="form-control form-select" id="fv-topics1" name="fv-topics1" data-placeholder="Select a option" required>
+																							<option label="empty" value=""></option>
+																							<option value="fv-gq">General Question</option>
+																							<option value="fv-tq">Tachnical Question</option>
+																							<option value="fv-ab">Account &amp; Billing</option>
+																						</select>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="border-left col-4 mb-2 pl-5 pr-5 border-right">
+																				<div class="form-group">
+																					<label class="form-label text-headling-7 color-gray-3" for="fv-topics">ĐỘ TUỔI</label>
+																					<div class="form-control-wrap ">
+																						<select class="form-control form-select" id="fv-topics2" name="fv-topics2" data-placeholder="Select a option" required>
+																							<option label="empty" value=""></option>
+																							<option value="fv-gq">General Question</option>
+																							<option value="fv-tq">Tachnical Question</option>
+																							<option value="fv-ab">Account &amp; Billing</option>
+																						</select>
+																					</div>
+																				</div>
+																				<div class="form-group">
+																					<label class="form-label text-headling-7 color-gray-3" for="fv-topics">THU NHẬP ( TRIỆU VND)</label>
+																					<div class="form-control-wrap ">
+																						<select class="form-control form-select" id="fv-topics" name="fv-topics" data-placeholder="Select a option" required>
+																							<option label="empty" value=""></option>
+																							<option value="fv-gq">General Question</option>
+																							<option value="fv-tq">Tachnical Question</option>
+																							<option value="fv-ab">Account &amp; Billing</option>
+																						</select>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="col-4 pr-0 pb-3 pl-5">
+																				<div class="form-group">
+																					<label class="form-label text-headling-7 color-gray-3">SỞ THÍCH</label>
+																					<ul class="custom-control-group g-3 align-center">
+																						<li>
+																							<div class="custom-control custom-checkbox">
+																								<input type="checkbox" class="custom-control-input" name="fv-com" id="fv-com-email" required>
+																								<label class="custom-control-label" for="fv-com-email">Email</label>
 																							</div>
-																						</div>
-																					</li><!-- li -->
-																					<li>
-																						<div class="form-group">
-																							<div class="form-control-wrap">
-																								<select class="form-select" data-ui="xl" id="outlined-select">
-																									<option value="default_option">Chọn loại sản phẩm</option>
-																									<option value="option_select_name">Option select name</option>
-																									<option value="option_select_name">Option select name</option>
-																								</select>
+																						</li>
+																						<li>
+																							<div class="custom-control custom-checkbox">
+																								<input type="checkbox" class="custom-control-input" name="fv-com" id="fv-com-email" required>
+																								<label class="custom-control-label" for="fv-com-email">Email</label>
 																							</div>
-																						</div>
-																					</li><!-- li -->
-																					<li>
-																						<div class="form-group max-w-brand">
-																							<div class="form-control-wrap">
-																								<input type="text" class="form-control form-control-xl form-control-outlined" id="default-03" placeholder="Tìm kiếm theo từ khóa">
+																						</li>
+																						<li>
+																							<div class="custom-control custom-checkbox">
+																								<input type="checkbox" class="custom-control-input" name="fv-com" id="fv-com-email" required>
+																								<label class="custom-control-label" for="fv-com-email">Email</label>
 																							</div>
-																						</div>
-																					</li><!-- li -->
-																					<li>
-																						<a href="KHDN/list-customer.html" class="btn  btn-select-outline  btn-round btn-icon btn-icon-outline bg-blu-light-3-vt"><em class="icon ni ni-undo"></em></a>
-																					</li><!-- li -->
-																					<li>
-																						<a href="#" class="btn-select-outline btn bg-xanh-3 text-headling-6 text-white">Tìm kiếm sản phẩm</a>
-																					</li><!-- li -->
-																					
-																					
-																				</ul><!-- .btn-toolbar -->
-																			</div><!-- .card-tools -->
-																		</div><!-- .card-title-group -->
+																						</li>
+																						<li>
+																							<div class="custom-control custom-checkbox">
+																								<input type="checkbox" class="custom-control-input" name="fv-com" id="fv-com-email" required>
+																								<label class="custom-control-label" for="fv-com-email">Email</label>
+																							</div>
+																						</li>
+																						<li>
+																							<div class="custom-control custom-checkbox">
+																								<input type="checkbox" class="custom-control-input" name="fv-com" id="fv-com-email" required>
+																								<label class="custom-control-label" for="fv-com-email">Email</label>
+																							</div>
+																						</li>
+																						<li>
+																							<div class="custom-control custom-checkbox">
+																								<input type="checkbox" class="custom-control-input" name="fv-com" id="fv-com-email" required>
+																								<label class="custom-control-label" for="fv-com-email">Email</label>
+																							</div>
+																						</li>
+																						<li>
+																							<div class="custom-control custom-checkbox">
+																								<input type="checkbox" class="custom-control-input" name="fv-com" id="fv-com-sms" required>
+																								<label class="custom-control-label" for="fv-com-sms">SMS</label>
+																							</div>
+																						</li>
+																						<li>
+																							<div class="custom-control custom-checkbox">
+																								<input type="checkbox" class="custom-control-input" name="fv-com" id="fv-com-phone" required>
+																								<label class="custom-control-label" for="fv-com-phone">Phone</label>
+																							</div>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="col-12 pr-0 text-center row-ct mt-2 d-jus-end">
+																			<div class="text-center pl-0 pr-025">
+																				<a href="#" class="col-12 btn btn-xl bg-xanh-3">
+																					<span class="text-headling-6 color-white">TÌm sản phẩm phù hợp</span>
+																				</a>
+																			</div>
+																			<div class="text-center pr-0 pl-025">
+																				<a href="#" class="btn bg-xanh-7 text-headling-6 color-xanh-3">
+																					<em class="icon ni ni-undo"></em><span>Reset bộ lọc</span> </a>
+																				
+																			</div>
+																		</div>
 																	</div>
 																</div>
 															</div>
@@ -260,8 +353,7 @@
 																				<h3 class="nk-block-title page-title color-xanh-2 text-headling-3 ">Thẻ tín dụng quốc tế JCB Ultimate</h3>
 																			</div><!-- .nk-block-head-content -->
 																			<div class="nk-block-head-content">
-																					<a href="KHBL/camnangbanhang-detail.html" class="btn btn-icon color-xanh-3 text-headling-6">Chi tiết sản phẩm<em class="icon ni ni-arrow-right color-xanh-3"></em></a>
-																					
+																				 <a href="KHBL/camnangbanhang-detail.html" class="btn btn-icon color-xanh-3 text-headling-6">Chi tiết sản phẩm<em class="icon ni ni-arrow-right color-xanh-3"></em></a>
 																			</div><!-- .nk-block-head-content -->
 																		</div><!-- .nk-block-between -->
 																	</div><!-- .nk-block-head -->
