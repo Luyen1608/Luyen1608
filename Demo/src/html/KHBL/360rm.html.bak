@@ -534,12 +534,12 @@
 																							</div>																						
 																						</div>
 																						<div class="nk-tb-item">
-																							<div class="border-bottom-0 nk-tb-col pl-1 row-ct tb-col-md">
+																							<div class="nk-tb-col tb-col-md row-ct border-bottom-0">
 																								<a href="KHBL/customer360.html">
 																									<div class="user-card">
 																										<div class="user-info">
 																											<span class="tb-lead text-headling-6 color-xanh-3">
-																												<em class="icon ni ni-downward-ios pr-1 pt-2"></em>Khách hàng ưu tiên
+																												<em class="icon ni ni-downward-ios"></em>Khách hàng ưu tiên
 																											</span>
 																										</div>
 																									</div>

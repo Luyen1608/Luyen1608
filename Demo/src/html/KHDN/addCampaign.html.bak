@@ -591,7 +591,7 @@
 													<div class="form-control-wrap">
 														<div class="form-icon form-icon-right h-100"></div>
 														<input type="text" class="h-50px form-control color-xanh-3 text-body-1"
-															id="default-1-03" placeholder="Loại tài liệu" value="Công văn triển khai HĐV">
+															id="default-1-03" placeholder="Loại tài liệu" >
 													</div>
 												</div>
 											</div>
@@ -600,7 +600,7 @@
 													<div class="form-control-wrap">
 														<div class="form-icon form-icon-right h-100"></div>
 														<input type="text" class="h-50px form-control color-xanh-3 text-body-1"
-															id="default-1-03"  placeholder="Mô tả"  value="Công văn phê duyệt chiến dịch">
+															id="default-1-03"  placeholder="Mô tả">
 													</div>
 												</div>
 											</div>

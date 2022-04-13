@@ -570,7 +570,7 @@
 																	<div class="nk-tb-col tb-col-md"><span class="sub-text text-body-1 color-gray-3">Mã Giao Dịch</span></div>
 																	<div class="nk-tb-col tb-col-mb"><span class="sub-text text-body-1 color-gray-3 ">Họ và Tên</span></div>
 																	<div class="nk-tb-col tb-col-mb "><span class="sub-text text-body-1 color-gray-3">CMND | CCCD | HC</span></div>
-																	<div class="nk-tb-col tb-col-mb"><span class="sub-text text-body-1 color-gray-3">SĐT</span></div>
+																	<div class="nk-tb-col tb-col-lg"><span class="sub-text text-body-1 color-gray-3">SĐT</span></div>
 																	<div class="nk-tb-col tb-col-md"><span class="sub-text text-body-1 color-gray-3">Trạng thái</span></div>
 																	<div class="nk-tb-col tb-col-md"><span class="sub-text text-body-1 color-gray-3">Giá trị</div>
 																	<div class="nk-tb-col tb-col-md"><span class="sub-text text-body-1 color-gray-3">Ngày tư vấn</span></div>
