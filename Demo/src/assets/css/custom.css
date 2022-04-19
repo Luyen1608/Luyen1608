@@ -861,9 +861,9 @@
 	}
 }
 @media ( min-width:1366px) {
-	.scroll-h {
+	/*.scroll-h {
 		overflow-x: hidden !important;
-	}
+	} */
 	.min-w225-1366{
 		min-width: 225px!important;
 	}
@@ -2991,3 +2991,6 @@ body {
   background-color: #014F97;
   background: radial-gradient( circle at top right, #ffffff, #014F97 70% )
 }
+.width-acp{
+		max-width: calc(100vw - 480px) !important;
+	}
