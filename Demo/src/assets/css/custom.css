@@ -2994,3 +2994,66 @@ body {
 .width-acp{
 		max-width: calc(100vw - 480px) !important;
 	}
+/* Table Fix header and scroll
+*/	
+.grid-container {
+  display: grid; /* This is a (hacky) way to make the .grid element size to fit its content */
+  overflow: auto;
+}
+.grid {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.grid-col {
+  width: 150px;
+  min-width: 150px;
+}
+.col-scroll {
+  width: 105px;
+  min-width: 105px;
+  height: 50px !important;
+  vertical-align: middle !important;
+  
+}
+
+
+.grid-item--header {
+  height: 100px;
+  min-height: 100px;
+  position: sticky;
+  position: -webkit-sticky;
+  background: white;
+  top: 0;
+}
+.fix-item-left{
+ position: sticky;
+  position: -webkit-sticky;
+  background: white;
+  top: 0;
+}
+.grid-col--fixed-left {
+  position: sticky;
+  left: 0;
+  z-index: 9998;
+  background: white;
+}
+.grid-item {
+  height: 50px;
+  border: 1px solid gray;
+}
+.bg-gray-8{
+	background-color: #F5F6FA;
+}
+.d-none-scroll{
+	width: 1px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    height: 50px;
+	border-top: none !important;
+	border-bottom: none !important;
+}
+.h-item-scroll{
+	height: 50px;
+}
+	
+	
