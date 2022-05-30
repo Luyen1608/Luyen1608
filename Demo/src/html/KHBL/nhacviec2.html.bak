@@ -52,6 +52,11 @@
     top: 3px !important;
     
 }
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #D6124C;
+    background-color: #D6124C;
+}
 </style>
 
 <body class="nk-body bg-lighter npc-default has-sidebar ">
@@ -318,7 +323,7 @@
 																					<div class="form-group max-w-brand">
 																						<div class="form-control-wrap">
 																							<select class="form-select" data-search="on">
-																								<option value="default_option">10631 - CN TP HANOI - PGD LÊ THANH TONG</option>
+																								<option value="default_option">CN TP Hà Nội-PGD Tống Duy Tân</option>
 																								<option value="option_select_name">CN TP Hà Nội-PGD Đống Đa</option>
 																								<option value="option_select_name">CN TP Hà Nội-PGD Tống Duy Tân</option>
 																								<option value="option_select_name">CN TP Hà Nội-PGD Tăng Bạt Hổ</option>
@@ -465,11 +470,27 @@
 																		<div class="card-inner">
 																			<div class="tab-content">
 																				<div class="tab-pane active" id="tabItem1">
-																					<div class="nk-block-head pt-2 pb-5">
-																						<h5 class="title text-headling-4 color-xanh-2">Task 13: Bàn giao hồ sơ khoản giải ngân</h5>
-																					</div><!-- .nk-block-head -->
+																					<div class="nk-block-between pt-1 pb-5">
+																						<div class="nk-block-head-content">
+																							<h5 class="title text-headling-4 color-xanh-2">Task 13: Bàn giao hồ sơ khoản giải ngân</h5>
+																						</div><!-- .nk-block-head -->
+																						<div class="nk-block-head-content">
+																							<div class="toggle-wrap nk-block-tools-toggle">
+																								<a href="#" class="btn btn-icon btn-trigger toggle-expand mr-n1" data-target="pageMenu"><em class="icon ni ni-menu-alt-r"></em></a>
+																								<div class="toggle-expand-content" data-content="pageMenu">
+																									<a href="KHBL/addCampaign.html" class="bg-red-1 btn color-white">Bỏ theo dõi</a>
+																								</div>
+																							</div><!-- .toggle-wrap -->
+																						</div><!-- .nk-block-head-content -->
+																					</div>
 																					<div class="nk-tb-list mt-n2">
 																						<div class="nk-tb-item nk-tb-head">
+																							<div class="nk-tb-col nk-tb-col-check">
+																								<div class="custom-control custom-control-sm custom-checkbox notext">
+																									<input type="checkbox" class="custom-control-input" id="uid7">
+																									<label class="custom-control-label" for="uid7"></label>
+																								</div>
+																							</div>
 																							<div class="nk-tb-col tb-col-sm text-al-left  pl-1 w-100px">
 																								<span class="text-body-1 color-gray-5">Mã - tên CN</span>
 																							</div>
@@ -483,6 +504,12 @@
 																							<div class="nk-tb-col tb-col-sm text-center pr-2 "><span class="text-body-1 color-gray-5">Trạng thái</span></div>
 																						</div>
 																						<div class="nk-tb-item">
+																							<div class="nk-tb-col nk-tb-col-check">
+																								<div class="custom-control custom-control-sm custom-checkbox notext">
+																									<input type="checkbox" class="custom-control-input" id="uid16">
+																									<label class="custom-control-label" for="uid16"></label>
+																								</div>
+																							</div>
 																							<div class="nk-tb-col tb-col-sm text-al-left pl-1 ">
 																								<div>
 																									<span class="tb-lead color-red-1 text-body-5">106 - CN TP HA NOI</span>
@@ -514,6 +541,12 @@
 																							</div>
 																						</div>
 																						<div class="nk-tb-item">
+																							<div class="nk-tb-col nk-tb-col-check">
+																								<div class="custom-control custom-control-sm custom-checkbox notext">
+																									<input type="checkbox" class="custom-control-input" id="uid15">
+																									<label class="custom-control-label" for="uid15"></label>
+																								</div>
+																							</div>
 																							<div class="nk-tb-col tb-col-sm text-al-left pl-1 ">
 																								<div>
 																									<span class="tb-lead color-red-1 text-body-5">106 - CN TP HA NOI</span>
@@ -558,11 +591,28 @@
 																		<div class="card-inner">
 																			<div class="tab-content">
 																				<div class="tab-pane active" id="tabItem1">
-																					<div class="nk-block-head pt-2 pb-5">
-																						<h5 class="title text-headling-4 color-xanh-2">CIF - 20143568 -  Darrell Steward</h5>
-																					</div><!-- .nk-block-head -->
+																					<div class="nk-block-between pt-1 pb-5">
+																						<div class="nk-block-head-content">
+																							<h5 class="title text-headling-4 color-xanh-2">CIF - 20143568 -  Darrell Steward</h5>
+																						</div><!-- .nk-block-head -->
+																						<div class="nk-block-head-content">
+																							<div class="toggle-wrap nk-block-tools-toggle">
+																								<a href="#" class="btn btn-icon btn-trigger toggle-expand mr-n1" data-target="pageMenu"><em class="icon ni ni-menu-alt-r"></em></a>
+																								<div class="toggle-expand-content" data-content="pageMenu">
+																									<a href="KHBL/addCampaign.html" class="bg-red-1 btn color-white">Bỏ theo dõi</a>
+																								</div>
+																							</div><!-- .toggle-wrap -->
+																						</div><!-- .nk-block-head-content -->
+																					</div>
+																					
 																					<div class="nk-tb-list mt-n2">
 																						<div class="nk-tb-item nk-tb-head">
+																							<div class="nk-tb-col nk-tb-col-check">
+																								<div class="custom-control custom-control-sm custom-checkbox notext">
+																									<input type="checkbox" class="custom-control-input" id="uid3">
+																									<label class="custom-control-label" for="uid3"></label>
+																								</div>
+																							</div>
 																							<div class="nk-tb-col tb-col-sm text-al-left  pl-1 w-100px">
 																								<span class="text-body-1 color-gray-5">Mã công việc</span>
 																							</div>
@@ -574,6 +624,12 @@
 																							<div class="nk-tb-col tb-col-sm text-center pr-2 "><span class="text-body-1 color-gray-5">Hệ thống tác nghiệp</span></div>
 																						</div>
 																						<div class="nk-tb-item">
+																							<div class="nk-tb-col nk-tb-col-check">
+																								<div class="custom-control custom-control-sm custom-checkbox notext">
+																									<input type="checkbox" class="custom-control-input" id="uid12">
+																									<label class="custom-control-label" for="uid12"></label>
+																								</div>
+																							</div>
 																							<div class="nk-tb-col tb-col-sm text-al-left pl-1 ">
 																								<div>
 																									<span class="tb-lead text-body-5">Task 01</span>
@@ -601,6 +657,12 @@
 																							</div>
 																						</div>
 																						<div class="nk-tb-item">
+																							<div class="nk-tb-col nk-tb-col-check">
+																								<div class="custom-control custom-control-sm custom-checkbox notext">
+																									<input type="checkbox" class="custom-control-input" id="uid14">
+																									<label class="custom-control-label" for="uid14"></label>
+																								</div>
+																							</div>
 																							<div class="nk-tb-col tb-col-sm text-al-left pl-1 ">
 																								<div>
 																									<span class="tb-lead text-body-5">Task 01</span>
