@@ -381,7 +381,7 @@
 													</div>
 													
 													<div class="tab-content pt-4">
-														<div class="tab-pane active" id="tabItemx2">
+														<div class="tab-pane active" id="tabItemx1">
 															<div class="nk-block">
 																<div class="card card-stretch">
 																	<div class="card card-preview">
@@ -510,11 +510,9 @@
 														
 													
 														</div>
-														<div class="tab-pane " id="tabItemx1">
+														<div class="tab-pane " id="tabItemx2">
 														</div>
 														<div class="tab-pane " id="tabItemx3">
-														</div>
-														<div class="tab-pane " id="tabItemx4">
 														</div>
 														</div>
 													</div>

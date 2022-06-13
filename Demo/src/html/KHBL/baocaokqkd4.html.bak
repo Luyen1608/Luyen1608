@@ -361,226 +361,272 @@
                                     <div class="w-100">
 											<div class="card-preview">
 												<div class="pb-0">
+													<div class="row-ct boder-bottom-1 ">
+														<ul class="nav nav-tabs mt-n3 pt-2">
+															<li class="nav-item">
+																<a class="nav-link" data-toggle="tab" href="#tabItemx1"><span>Kết quả kinh doanh</span></a>
+															</li>
+															<li class="nav-item">
+																<a class="nav-link " data-toggle="tab" href="#tabItemx2"><span>Lương Incentive</span></a>
+															</li>
+															<li class="nav-item">
+																<a class="nav-link active" data-toggle="tab" href="#tabItemx3"><span>Năng suất lao động</span></a>
+															</li>
+														</ul>
+														<!--<div class="ml-auto">
+															<div class="pt-1">
+																	<a href="#" class="btn bg-xanh-3 text-headling-6 text-white"><em class="icon ni ni-upload pr-1"></em>Import chi tiêu</a>
+															</div>
+														</div>-->
+													</div>
+													
 													<div class="tab-content pt-4">
-														<div class="tab-pane active" id="tabItemx1">
-															<div class="nk-block pt-2">
-																			<div class="nk-block-head nk-block-head-sm pt-1 pb-2">
-																				<div class="nk-block-between">
-																					<div class="nk-block-head-content">
-																						<ul class="btn-toolbar gx-1">
-																							<li style="margin: auto;">
-																								<a href="KHBL/list-customer.html"><em class="icon ni ni-back-ios"></em></a>
-																							</li><!-- li -->
-																							<li class="btn-toolbar-sep  mr-1 ml-1 "></li><!-- li -->
-																							<li>
-																								<h3 class="nk-block-title page-title color-xanh-1 text-headling-4">Diễn biến huy động vốn</h3>
-																							</li>
-																						</ul>
-																						<div class="nk-block-des text-soft pt-1 pl-5">
-																							<p class="color-cham-2 text-body-2">Tổng số 50 cán bộ được quản lý</p>
-																						</div>
-																					</div><!-- .nk-block-head-content -->
-																				</div><!-- .nk-block-between -->
-																			</div><!-- .nk-block-head -->
-																			<div class="card card-stretch mt-4">
-																				<div class="card-inner-group">
-																					<div class="border-bottom-0">
-																						<div class="table-scroll-x">
-																							<div class="card card-preview">
-																								<div class="card-inner row-ct">
-																									<div class="col-4 pr-0">
-																										<table class="table  text-center">
-																											<thead>
-																												<tr>
-																													<td scope="col" rowspan="4" class="ver-align brb-cham-5 text-left">UserAD - Tên cán bộ</td>
-																													<td scope="col" rowspan="4" class="ver-align brb-cham-5 text-left">Mã - Tên DVKD</td>
-																												</tr>
-																												<tr>
-																													<th  class="d-none-scroll h-item-scroll border-top-0"></th>
-																												</tr>
-																												<tr>
-																													<th  class="d-none-scroll h-item-scroll border-top-0"></th>
-																												</tr>
-																												<tr>
-																													<th  class="d-none-scroll h-item-scroll border-top-0"></th>
-																												</tr>
-																											</thead>
-																											<tbody>
-																												<tr>
-																													<td scope="col" class="col-scroll ver-align color-xanh-3 text-headling-6 text-left">Anhqd - Quach Dong Duy Anh</td>
-																													<td scope="col" class="row-ct ver-align color-gray-1 text-body-1 text-left" >
-																													<span>1037 - PCD Giang Voul </span>
-																													<ul class="nk-tb-actions gx-1 my-n1">
-																														<li class="mr-n1">
-																															<div class="dropdown">
-																																<a href="#" class="dropdown-toggle btn btn-icon btn-trigger pt-0 pb-0" data-toggle="dropdown">
-																																	<em class="icon ni ni-alert-circle w-1-2rem"></em></a>
-																																<div class="dropdown-menu dropdown-menu-right">
-																																	<ul class="link-list-opt no-bdr">
-																																		<li class="w-220px">
-																																			<div class="user-info p-tooltip"><span class="tb-lead color-xanh-3 text-headling-6">
-																																					Chi nhánh :
-																																				<span class="dot dot-success d-md-none ml-1"></span></span>
-																																					<span class="color-gray-1 text-body-5">106 - Hà nội</span>
-																																			</div>
-																																		</li>
-																																		<li class="w-220px">
-																																			<div class="user-info p-tooltip"><span class="tb-lead color-xanh-3 text-headling-6">
-																																					Mã ĐVKD:
-																																				<span class="dot dot-success d-md-none ml-1"></span></span>
-																																					<span class="color-gray-1 text-body-5">Phòng số 8</span>
-																																			</div>
-																																		</li>	
-																																	</ul>
-																																</div>
-																															</div>
-																														</li>
-																												</ul></td>
-																													<td scope="col" class="d-none-scroll h-item-scroll"></td>
-																												</tr>
-																												<tr>
-																													<td scope="col" class="col-scroll ver-align color-xanh-3 text-headling-6 text-left">LongPH - Pham Hoang Long</td>
-																													<td scope="col" class="col-scroll ver-align color-gray-1 text-body-1 text-left" >1039 - PCD Vinh Phuc</td>
-																													<td scope="col" class="d-none-scroll h-item-scroll" ></td>
-																												</tr>
-																												<tr>
-																													<td scope="col" class="col-scroll ver-align color-xanh-3 text-headling-6 text-left">LongPH - Pham Hoang Long</td>
-																													<td scope="col" class="col-scroll ver-align color-gray-1 text-body-1 text-left" >1039 - PCD Vinh Phuc</td>
-																													<td scope="col" class="d-none-scroll h-item-scroll" ></td>
-																												</tr>
-																												
-																											</tbody>
-																										</table>
+														<div class="tab-content">
+																<div class="tab-pane active" id="tabItemx1">
+																	<div class="nk-block">
+																		<div class="card card-stretch">
+																			<div class="card card-preview">
+																				<div class="card-inner">
+																				<div class="row-ct boder-bottom-1">
+																					<ul class="nav nav-tabs mt-n3 pt-2">
+																						<li class="nav-item">
+																							<a class="nav-link active" data-toggle="tab" href="#tabItemx1111"><span>Chi nhánh</span></a>
+																						</li>
+																						<li class="nav-item">
+																							<a class="nav-link " data-toggle="tab" href="#tabItemx2222"><span>Cán bộ QHKH</span></a>
+																						</li>
+																					</ul>
+																				</div>
+																					<div class="tab-content">
+																						<div class="tab-pane active " id="tabItemx1111">
+																							<div class="table-scroll-x">
+																								<div class="nk-tb-list mt-3 w-150per">
+																									<div class="nk-tb-item nk-tb-head">
+																										<div class="nk-tb-col tb-col-sm text-al-left  pl-1">
+																											<span class="text-body-1 color-gray-5">Mã - Tên CN</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-sm"><span class="text-body-1 color-gray-5">Mã - Tên ĐVKD</span></div>
+																										<div class="nk-tb-col tb-col-sm "><span class="text-body-1 color-gray-5 text-left">UserAD</span></div>
+																										<div class="nk-tb-col tb-col-sm text-right "><span class="text-body-1 color-gray-5">Bình quân <br>tín dụng (tỷ)</span></div>
+																										<div class="nk-tb-col tb-col-sm text-right "><span class="text-body-1 color-gray-5">Bình quân <br>tiển gửi (tỷ)</span></div>
+																										<div class="nk-tb-col tb-col-sm text-right pr-2 "><span class="text-body-1 color-gray-5">Hiệu quả <br>mang lại (tr)</span></div>
+																										<div class="nk-tb-col tb-col-sm text-right pr-2 "><span class="text-body-1 color-gray-5">NII <br>Tín dụng (tr)</span></div>
+																										<div class="nk-tb-col tb-col-sm text-right pr-2 "><span class="text-body-1 color-gray-5">NII <br>tiền gửi (tr)</span></div>
+																										<div class="nk-tb-col tb-col-sm text-right "><span class="text-body-1 color-gray-5">Bình quân <br>tín dụng (tỷ)</span></div>
+																										<div class="nk-tb-col tb-col-sm text-right "><span class="text-body-1 color-gray-5">Bình quân <br>tiển gửi (tỷ)</span></div>
+																										<div class="nk-tb-col tb-col-sm text-right pr-2 "><span class="text-body-1 color-gray-5">Hiệu quả <br>mang lại (tr)</span></div>
+																										<div class="nk-tb-col tb-col-sm text-right pr-2 "><span class="text-body-1 color-gray-5">NII <br>Tín dụng (tr)</span></div>
+																										<div class="nk-tb-col tb-col-sm text-right pr-2 "><span class="text-body-1 color-gray-5">NII <br>tiền gửi (tr)</span></div>
 																									</div>
-																									<div class="col-8 pl-0">
-																										<table class="table  table-responsive text-center ">
-																											<thead>
-																												<tr>
-																													<th scope="col" colspan="10" class="border-right border-bottom-0 h-item-scroll ver-align">Kết quả thực hiện thời điểm</th>
-																													<th scope="col " colspan="8" class="border-bottom-0 h-item-scroll ver-align">Chỉ tiêu kế hoạch được giao theo SLKH</th>
-																												</tr>
-																												<tr>
-																													<td scope="col" rowspan="2"  class="col-scroll ver-align brb-cham-5" >SLKH</td>
-																													<td scope="col" rowspan="2"  class="col-scroll ver-align brb-cham-5" >KHTV</td>
-																													<td scope="col" rowspan="2"  class="col-scroll ver-align brb-cham-5" >KHTG</td>
-																													<th scope="col" colspan="4" class="bg-gray-8 border-bottom-0 h-item-scroll ver-align">SLKH</th>
-																													<th scope="col" colspan="3" class="border-right border-bottom-0 h-item-scroll ver-align">Khách hàng sử dụng 3-5 SPDV</th>
-																													<th scope="col" colspan="4" class="bg-gray-8 border-bottom-0 h-item-scroll ver-align">Tháng</th>
-																													<th scope="col" colspan="4" class="border-bottom-0 h-item-scroll ver-align" >Năm</th>
-																												</tr>
-																												<tr>
-																													<th scope="col" class="col-scroll bg-gray-8 " >Bạc</th>
-																													<th scope="col" class="col-scroll bg-gray-8" >Vàng</th>
-																													<th scope="col" class="col-scroll bg-gray-8" >Kim cương</th>
-																													<th scope="col" class="col-scroll bg-gray-8" >Bạch kim</th>
-																													<th scope="col" class="col-scroll">3 SP</th>
-																													<th scope="col" class="col-scroll" >4 SP</th>
-																													<th scope="col" class="col-scroll border-right">5 SP</th>
-																													<th scope="col" class="col-scroll bg-gray-8" >SLKH</th>
-																													<th scope="col" class="col-scroll bg-gray-8" >GAP</th>
-																													<th scope="col" class="col-scroll bg-gray-8" >SLKHUT</th>
-																													<th scope="col" class="col-scroll bg-gray-8" >GAP</th>
-																													<th scope="col" class="col-scroll" >SLKH</th>
-																													<th scope="col" class="col-scroll" >GRAP</th>
-																													<th scope="col" class="col-scroll" >SLKHUT</th>
-																													<th scope="col" class="col-scroll" >GAP</th>
-																												</tr>
-																											</thead>
-																											<tbody>
-																												<tr>
-																													<td scope="col" class="col-scroll ver-align text-body-1 color-green">132</td>
-																													<td scope="col" class="col-scroll ver-align text-body-1 color-green" >321</td>
-																													<td scope="col" class="col-scroll ver-align text-body-1 color-green">451</td>
-																													<td scope="col" class="col-scroll bg-gray-8 ver-align text-body-1 color-green" >100</td>
-																													<td scope="col" class="col-scroll bg-gray-8 ver-align text-body-1 color-green" >200</td>
-																													<td scope="col" class="col-scroll bg-gray-8 ver-align text-body-1 color-red-1" >123</td>
-																													<td scope="col" class="col-scroll bg-gray-8 ver-align text-body-1 color-red-1" >100</td>
-																													<td scope="col" class="col-scroll ver-align text-body-1 color-red-1">132</td>
-																													<td scope="col" class="col-scroll ver-align text-body-1 color-red-1" >321</td>
-																													<td scope="col" class="col-scroll border-right ver-align text-body-1 color-green">451</td>
-																													<td scope="col" class="col-scroll bg-gray-8 ver-align text-body-1 color-green" >1233</td>
-																													<td scope="col" class="col-scroll bg-gray-8 ver-align text-body-1 color-green" >412</td>
-																													<td scope="col" class="col-scroll bg-gray-8 ver-align text-body-1 color-green" >453</td>
-																													<td scope="col" class="col-scroll bg-gray-8 ver-align text-body-1 color-green" >231</td>
-																													<td scope="col" class="col-scroll ver-align text-body-1 color-red-1" >235</td>
-																													<td scope="col" class="col-scroll ver-align text-body-1 color-green" >1234</td>
-																													<td scope="col" class="col-scroll ver-align text-body-1 color-red-1" >123</td>
-																													<td scope="col" class="col-scroll ver-align text-body-1 color-green" >232</td>
-																												</tr>
-																												<tr>
-																													<td scope="col" class="col-scroll ver-align text-body-1 color-green">132</td>
-																													<td scope="col" class="col-scroll ver-align text-body-1 color-green" >321</td>
-																													<td scope="col" class="col-scroll ver-align text-body-1 color-green">451</td>
-																													<td scope="col" class="col-scroll bg-gray-8 ver-align text-body-1 color-green" >100</td>
-																													<td scope="col" class="col-scroll bg-gray-8 ver-align text-body-1 color-green" >200</td>
-																													<td scope="col" class="col-scroll bg-gray-8 ver-align text-body-1 color-red-1" >123</td>
-																													<td scope="col" class="col-scroll bg-gray-8 ver-align text-body-1 color-red-1" >100</td>
-																													<td scope="col" class="col-scroll ver-align text-body-1 color-red-1">132</td>
-																													<td scope="col" class="col-scroll ver-align text-body-1 color-red-1" >321</td>
-																													<td scope="col" class="col-scroll border-right ver-align text-body-1 color-green">451</td>
-																													<td scope="col" class="col-scroll bg-gray-8 ver-align text-body-1 color-green" >1233</td>
-																													<td scope="col" class="col-scroll bg-gray-8 ver-align text-body-1 color-green" >412</td>
-																													<td scope="col" class="col-scroll bg-gray-8 ver-align text-body-1 color-green" >453</td>
-																													<td scope="col" class="col-scroll bg-gray-8 ver-align text-body-1 color-green" >231</td>
-																													<td scope="col" class="col-scroll ver-align text-body-1 color-red-1" >235</td>
-																													<td scope="col" class="col-scroll ver-align text-body-1 color-green" >1234</td>
-																													<td scope="col" class="col-scroll ver-align text-body-1 color-red-1" >123</td>
-																													<td scope="col" class="col-scroll ver-align text-body-1 color-green" >232</td>
-																												</tr>
-																												<tr>
-																													<td scope="col" class="col-scroll ver-align text-body-1 color-green">132</td>
-																													<td scope="col" class="col-scroll ver-align text-body-1 color-green" >321</td>
-																													<td scope="col" class="col-scroll ver-align text-body-1 color-green">451</td>
-																													<td scope="col" class="col-scroll bg-gray-8 ver-align text-body-1 color-green" >100</td>
-																													<td scope="col" class="col-scroll bg-gray-8 ver-align text-body-1 color-green" >200</td>
-																													<td scope="col" class="col-scroll bg-gray-8 ver-align text-body-1 color-red-1" >123</td>
-																													<td scope="col" class="col-scroll bg-gray-8 ver-align text-body-1 color-red-1" >100</td>
-																													<td scope="col" class="col-scroll ver-align text-body-1 color-red-1">132</td>
-																													<td scope="col" class="col-scroll ver-align text-body-1 color-red-1" >321</td>
-																													<td scope="col" class="col-scroll border-right ver-align text-body-1 color-green">451</td>
-																													<td scope="col" class="col-scroll bg-gray-8 ver-align text-body-1 color-green" >1233</td>
-																													<td scope="col" class="col-scroll bg-gray-8 ver-align text-body-1 color-green" >412</td>
-																													<td scope="col" class="col-scroll bg-gray-8 ver-align text-body-1 color-green" >453</td>
-																													<td scope="col" class="col-scroll bg-gray-8 ver-align text-body-1 color-green" >231</td>
-																													<td scope="col" class="col-scroll ver-align text-body-1 color-red-1" >235</td>
-																													<td scope="col" class="col-scroll ver-align text-body-1 color-green" >1234</td>
-																													<td scope="col" class="col-scroll ver-align text-body-1 color-red-1" >123</td>
-																													<td scope="col" class="col-scroll ver-align text-body-1 color-green" >232</td>
-																												</tr>
-																												
-																											</tbody>
-																										</table>
+																									<div class="nk-tb-item">
+																										<div class="nk-tb-col tb-col-sm text-al-left pl-1">
+																											<div>
+																												<span class="tb-lead text-headling-6 color-xanh-3">106 - CN TP HN</span>
+																											</div>
+																										</div>
+																										<div class="nk-tb-col tb-col-md">
+																											<a onclick="changeInfo(1)" id="name1"  class="tb-lead text-headling-6 color-xanh-3">10631 - CN TP HN - PGD LÊ THANH TONG</a>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-center">
+																											<span class="tb-lead text-left text-headling-6 color-xanh-3 ">Sonth</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-left">
+																											<span class="tb-lead text-headling-6 color-xanh-3 text-right">71</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-right">
+																											<span class="tb-lead text-body-1 color-gray-1">71</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-right">
+																											<span class="tb-lead text-body-1 color-gray-1">71</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-right">
+																											<span class="tb-lead text-headling-6 color-red-1 ">71</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-right">
+																											<span class="tb-lead text-headling-6 color-xanh-3 ">0.000</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-left">
+																											<span class="tb-lead text-headling-6 color-xanh-3 text-right">71</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-right">
+																											<span class="tb-lead text-body-1 color-gray-1">71</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-right">
+																											<span class="tb-lead text-body-1 color-gray-1">71</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-right">
+																											<span class="tb-lead text-headling-6 color-red-1 ">71</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-right">
+																											<span class="tb-lead text-headling-6 color-xanh-3 ">0.000</span>
+																										</div>
+																									</div>
+																									<div class="nk-tb-item">
+																										<div class="nk-tb-col tb-col-sm text-al-left pl-1">
+																											<div>
+																												<span class="tb-lead text-headling-6 color-xanh-3">106 - CN TP HN</span>
+																											</div>
+																										</div>
+																										<div class="nk-tb-col tb-col-md">
+																											<a onclick="changeInfo(1)" id="name1"  class="tb-lead text-headling-6 color-xanh-3">10631 - CN TP HN - PGD LÊ THANH TONG</a>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-center">
+																											<span class="tb-lead text-left text-headling-6 color-xanh-3 ">Sonth</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-left">
+																											<span class="tb-lead text-headling-6 color-xanh-3 text-right">71</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-right">
+																											<span class="tb-lead text-body-1 color-gray-1">71</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-right">
+																											<span class="tb-lead text-body-1 color-gray-1">71</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-right">
+																											<span class="tb-lead text-headling-6 color-red-1 ">71</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-right">
+																											<span class="tb-lead text-headling-6 color-xanh-3 ">0.000</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-left">
+																											<span class="tb-lead text-headling-6 color-xanh-3 text-right">71</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-right">
+																											<span class="tb-lead text-body-1 color-gray-1">71</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-right">
+																											<span class="tb-lead text-body-1 color-gray-1">71</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-right">
+																											<span class="tb-lead text-headling-6 color-red-1 ">71</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-right">
+																											<span class="tb-lead text-headling-6 color-xanh-3 ">0.000</span>
+																										</div>
+																									</div>
+																									<div class="nk-tb-item">
+																										<div class="nk-tb-col tb-col-sm text-al-left pl-1">
+																											<div>
+																												<span class="tb-lead text-headling-6 color-xanh-3">106 - CN TP HN</span>
+																											</div>
+																										</div>
+																										<div class="nk-tb-col tb-col-md">
+																											<a onclick="changeInfo(1)" id="name1"  class="tb-lead text-headling-6 color-xanh-3">10631 - CN TP HN - PGD LÊ THANH TONG</a>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-center">
+																											<span class="tb-lead text-left text-headling-6 color-xanh-3 ">Sonth</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-left">
+																											<span class="tb-lead text-headling-6 color-xanh-3 text-right">71</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-right">
+																											<span class="tb-lead text-body-1 color-gray-1">71</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-right">
+																											<span class="tb-lead text-body-1 color-gray-1">71</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-right">
+																											<span class="tb-lead text-headling-6 color-red-1 ">71</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-right">
+																											<span class="tb-lead text-headling-6 color-xanh-3 ">0.000</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-left">
+																											<span class="tb-lead text-headling-6 color-xanh-3 text-right">71</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-right">
+																											<span class="tb-lead text-body-1 color-gray-1">71</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-right">
+																											<span class="tb-lead text-body-1 color-gray-1">71</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-right">
+																											<span class="tb-lead text-headling-6 color-red-1 ">71</span>
+																										</div>
+																										<div class="nk-tb-col tb-col-md text-right">
+																											<span class="tb-lead text-headling-6 color-xanh-3 ">0.000</span>
+																										</div>
 																									</div>
 																								</div>
-																							</div><!-- .card-preview -->
-																						</div>
-																					</div><!-- .card-inner -->
-																					<div class="card-inner">
-																						<div class="nk-block-between-md g-3 center">
-																							<div class="g">
-																								<ul class="pagination justify-content-center justify-content-md-start">
-																									<li class="page-item"><a class="page-link text-headling-6" href="#">Prev</a></li>
-																									<li class="page-item active"><a class="page-link text-headling-6" href="#">1</a></li>
-																									<li class="page-item"><a class="page-link text-headling-6" href="#">2</a></li>
-																									<li class="page-item"><span class="page-link"><em class="icon ni ni-more-h  text-headling-6"></em></span></li>
-																									<li class="page-item"><a class="page-link text-headling-6" href="#">6</a></li>
-																									<li class="page-item"><a class="page-link text-headling-6" href="#">7</a></li>
-																									<li class="page-item"><a class="page-link text-headling-6" href="#">Next</a></li>
-																								</ul><!-- .pagination -->
 																							</div>
-																						</div><!-- .nk-block-between -->
-																					</div><!-- .card-inner -->
-																				</div><!-- .card-inner-group -->
-																			</div><!-- .card -->
-																		</div><!-- .nk-block -->
-														
-													
+																							
+																						</div>
+																						
+																					</div>
+																				</div>
+																				
+																			</div><!-- .card-preview -->
+																		</div><!-- .card -->
+																	</div><!-- .nk-block -->
+																	<div class="nk-block">
+																		<div class="card card-stretch">
+																			<div class="card card-preview">
+																				<div class="card-inner">
+																					<div class="nk-block-head nk-block-head-sm pb-20px pt-22px">
+																						<div class="nk-block-between">
+																							<div class="nk-block-head-content">
+																								<h3 class="nk-block-title page-title text-headling-6 color-xanh-2">Hiệu quả bán hàng RM</h3>
+																							</div><!-- .nk-block-head-content -->
+																						</div>
+																					</div>
+																					<div class="col-12 pl-0 pr-0">
+																						<div class="chart-wrap">
+																						  <div id="chart"></div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="w-100 row-ct mr-0 pt-4">
+																		<div class="col-6 pl-0">
+																			<div class="card card-stretch">
+																				<div class="card card-preview">
+																					<div class="card-inner">
+																						<div class="nk-block-head nk-block-head-sm pb-20px pt-22px">
+																							<div class="nk-block-between">
+																								<div class="nk-block-head-content">
+																									<h3 class="nk-block-title page-title text-headling-6 color-xanh-2">Hiệu quả bán hàng RM</h3>
+																								</div><!-- .nk-block-head-content -->
+																							</div>
+																						</div>
+																						<div class="col-12 pl-0 pr-0">
+																							<div class="chart-wrap">
+																							  <div id="chartchovay"></div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class=" col-6 pr-0">
+																			<div class="card card-stretch">
+																				<div class="card card-preview">
+																					<div class="card-inner">
+																						<div class="nk-block-head nk-block-head-sm pb-20px pt-22px">
+																							<div class="nk-block-between">
+																								<div class="nk-block-head-content">
+																									<h3 class="nk-block-title page-title text-headling-6 color-xanh-2">Hiệu quả bán hàng RM</h3>
+																								</div><!-- .nk-block-head-content -->
+																							</div>
+																						</div>
+																						<div class="col-12 pl-0 pr-0">
+																							<div class="chart-wrap">
+																							  <div id="chartkh"></div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														<div class="tab-pane " id="tabItemx1">
 														</div>
 														<div class="tab-pane " id="tabItemx2">
 														</div>
-														<div class="tab-pane " id="tabItemx3">
-														</div>
-														</div>
+													</div>
 													</div>
 												</div>
 											</div><!-- .card-preview -->
@@ -640,9 +686,6 @@
           series: [{
           name: 'Tổng số lượng khách hàng hiện hữu',
           data: [44, 55, 57, 56, 61, 58, 63, 60, 66, 57, 56, 61,]
-        }, {
-          name: 'Khách hàng ưu tiên',
-          data: [76, 85, 101, 98, 87, 105, 91, 114, 94, 87, 105, 91]
         }],
           chart: {
 			  toolbar: {
