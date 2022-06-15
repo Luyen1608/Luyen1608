@@ -3055,5 +3055,10 @@ body {
 .h-item-scroll{
 	height: 50px;
 }
-	
-	
+.bg-bckqkd {
+    padding: 25px 15px;
+    background: rgb(235,245,255);
+    background: linear-gradient(86deg, rgba(235,245,255,1) 0%, rgba(194,233,255,1) 14%, rgba(194,233,255,1) 100%);
+    border-color: #c0f5fb;
+    border-radius: 5px;
+}
