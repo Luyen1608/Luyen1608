@@ -379,7 +379,7 @@
 																					</div><!-- .nk-block-head-content -->
 																				</div><!-- .nk-block-between -->
 																			</div><!-- .nk-block-head -->
-																			<div class="nk-block">
+																			<div class="nk-block pt-5">
 																				<div class="card card-stretch">
 																					<div class="card card-preview">
 																						<div class="card-inner bg-bckqkd">
@@ -402,7 +402,7 @@
 																											<span class="text-headling-7 color-gray-3 d-block">Tên cán bộ</span>
 																											<span class="tb-lead color-xanh-3 text-headling-6">TRAN HUNG SON</span>
 																										</div>
-																									</div>
+																							 		</div>
 																									<div class="user-card pl-3 border-left pr-5">
 																										<div class="user-info">
 																											<span class="text-headling-7 color-gray-3 d-block">UserAD</span>
