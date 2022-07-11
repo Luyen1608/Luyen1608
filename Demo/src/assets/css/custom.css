@@ -3062,3 +3062,45 @@ body {
     border-color: #c0f5fb;
     border-radius: 5px;
 }
+.m--fig {
+    background-color: transparent;
+}
+.alert-vtb{
+	color: #014F97;
+	background-color: #DFEBF6;
+	border-color: none;
+}
+.w-300px{
+	width: 300px;
+}
+
+#style-11::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgba(0,0,0,0.1);
+  border: 1px solid #ccc;
+}
+
+#style-11::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: linear-gradient(left, #fff, #e4e4e4);
+  border: 1px solid #aaa;
+}
+
+#style-11::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+#style-11::-webkit-scrollbar-thumb:active {
+  background: linear-gradient(left, #22ADD4, #1E98BA);
+}
+#style-11::-webkit-scrollbar {
+	width: 5px !important;
+	background-color: #F5F5F5;
+}
+.bd-rad{
+	border-radius: 5px;
+}
+.bg-quahan {
+    background-color: #F4C3D3;
+    background: radial-gradient( circle at right, #F4C3D3, #D6124C 66% );
+}

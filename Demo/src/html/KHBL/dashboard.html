@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+
+<head>
+    <base href="../">
+    <meta charset="utf-8">
+    <meta name="author" content="Softnio">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A powerful and conceptual apps base dashboard template that especially build for developers and programmers.">
+    <!-- Fav Icon  -->
+    <link rel="shortcut icon" href="../images/favicon.png">
+    <!-- Page Title  -->
+    <title>Detail Customer</title>
+    <!-- StyleSheets  -->
+    <link rel="stylesheet" href="../assets/css/dashlite.css?ver=2.0.0">
+	<link rel="stylesheet" href="../assets/css/dashlite1.css?ver=2.0.0">
+	<link rel="stylesheet" href="../assets/css/custom.css?ver=2.0.0">
+    <link id="skin-default" rel="stylesheet" href="../assets/css/theme.css?ver=2.0.0">
+</head>
+<style>
+</style>
+
+<body class="nk-body bg-lighter npc-default has-sidebar ">
+    <div class="nk-app-root">
+        <!-- main @s -->
+        <div class="nk-main ">
+            <!-- sidebar @s -->
+            <div class="nk-sidebar nk-sidebar-fixed is-light  is-compact" data-content="sidebarMenu">
+                <div class="nk-sidebar-element nk-sidebar-head">
+                    <div class="nk-sidebar-brand">
+                        <a href="KHBL/index.html" class="logo-link nk-sidebar-logo">
+                            <img class="logo-light logo-img" src="../images/favicon.png" srcset="../images/favicon.png 2x" alt="logo">
+                            <img class="logo-dark logo-img" src="../images/favicon.png" srcset="../images/favicon.png 2x" alt="logo-dark">
+                            <img class="logo-small logo-img logo-img-small" src="../images/favicon.png" srcset="../images/favicon.png 2x" alt="logo-small">
+                        </a>
+                    </div>
+                    <div class="nk-menu-trigger mr-n2">
+                        <a href="#" class="nk-nav-toggle nk-quick-nav-icon d-xl-none" data-target="sidebarMenu"><em class="icon ni ni-arrow-left"></em></a>
+                        <a href="#" class="nk-nav-compact nk-quick-nav-icon d-none d-xl-inline-flex" data-target="sidebarMenu"><em class="icon ni ni-menu"></em></a>
+                    </div>
+                </div><!-- .nk-sidebar-element -->
+                <div class="nk-sidebar-element">
+                    <div class="nk-sidebar-content">
+                        <div class="nk-sidebar-menu" data-simplebar>
+                            <ul class="nk-menu">
+                                <li class="nk-menu-heading">
+                                    <h6 class="overline-title text-primary-alt">Dashboards</h6>
+                                </li><!-- .nk-menu-item -->
+                                <li class="nk-menu-item">
+                                    <a href="KHBL/home-salesupport.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-home-fill"></em></span>
+                                        <span class="nk-menu-text text-headling-6">Trang chủ</span>
+                                    </a>
+                                </li><!-- .nk-menu-item -->
+                                <li class="nk-menu-item ">
+                                    <a href="KHBL/list-customer.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-user-fill"></em></span>
+                                        <span class="nk-menu-text text-headling-6">Khách hàng</span>
+                                    </a>
+                                </li><!-- .nk-menu-item -->
+								<li class="nk-menu-item ">
+                                    <a href="KHBL/nhacviec.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-bell"></em></span>
+                                        <span class="nk-menu-text text-headling-6">Nhắc Việc</span>
+                                    </a>
+                                </li><!-- .nk-menu-item -->		
+								<li class="nk-menu-item ">
+                                    <a href="KHBL/reportCustomer.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-reports"></em></span>
+                                        <span class="nk-menu-text text-headling-6">Báo cáo</span>
+                                    </a>
+                                </li><!-- .nk-menu-item -->	
+								<li class="nk-menu-item has-sub">
+                                    <a href="#" class="nk-menu-link nk-menu-toggle">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-users-fill"></em></span>
+                                        <span class="nk-menu-text text-headling-6">Chiến dịch</span>
+                                    </a>
+                                    <ul class="nk-menu-sub">
+                                        <li class="nk-menu-item">
+                                            <a href="KHBL/list-campaign.html" class="nk-menu-link"><span class="nk-menu-text text-headling-7">Tổng quan chiến dịch</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="KHBL/detailCampaign.html" class="nk-menu-link"><span class="nk-menu-text text-headling-7">Chi tiết chiến dịch</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="KHBL/reportCustomer.html" class="nk-menu-link"><span class="nk-menu-text text-headling-7">Báo cáo kết quả</span></a>
+                                        </li>
+                                    </ul><!-- .nk-menu-sub -->
+                                </li><!-- .nk-menu-item -->
+								
+														
+                            </ul><!-- .nk-menu -->
+                        </div><!-- .nk-sidebar-menu -->
+                    </div><!-- .nk-sidebar-content -->
+                </div><!-- .nk-sidebar-element -->
+            </div>
+            <!-- sidebar @e -->
+            <!-- wrap @s -->
+            <div class="nk-wrap ">
+                <!-- main header @s -->
+                <div class="nk-header nk-header-fixed is-light bg-gra-vt">
+                    <div class="container-fluid">
+                        <div class="nk-header-wrap classInfo">
+                            <div class="nk-header-search ml-3 ml-xl-0">
+                                <em class="icon ni ni-search color-white"></em>
+                                <input type="text" class="text-white form-control border-transparent form-focus-none" placeholder="Search anything">
+                            </div><!-- .nk-header-news -->
+                            <div class="nk-header-tools">
+                                <ul class="nk-quick-nav">
+                                    <li class="dropdown notification-dropdown">
+                                        <a href="#" class="dropdown-toggle nk-quick-nav-icon color-white" data-toggle="dropdown">
+                                            <div class="icon-status icon-status-info"><em class="icon ni ni-bell"></em></div>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-xl dropdown-menu-right">
+                                            <div class="dropdown-head">
+                                                <span class="sub-title nk-dropdown-title">Notifications</span>
+                                                <a href="#">Mark All as Read</a>
+                                            </div>
+                                            <div class="dropdown-body">
+                                                <div class="nk-notification">
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-warning-dim ni ni-curve-down-right"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">You have requested to <span>Widthdrawl</span></div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-success-dim ni ni-curve-down-left"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">Your <span>Deposit Order</span> is placed</div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-warning-dim ni ni-curve-down-right"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">You have requested to <span>Widthdrawl</span></div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-success-dim ni ni-curve-down-left"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">Your <span>Deposit Order</span> is placed</div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-warning-dim ni ni-curve-down-right"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">You have requested to <span>Widthdrawl</span></div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-success-dim ni ni-curve-down-left"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">Your <span>Deposit Order</span> is placed</div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                </div><!-- .nk-notification -->
+                                            </div><!-- .nk-dropdown-body -->
+                                            <div class="dropdown-foot center">
+                                                <a href="#">View All</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown user-dropdown">
+                                        <a href="#" class="dropdown-toggle mr-n1" data-toggle="dropdown">
+                                            <div class="user-toggle">
+                                                <div class="user-avatar sm">
+                                                    <em class="icon ni ni-user-alt"></em>
+                                                </div>
+                                                <div class="user-info d-none d-xl-block">
+                                                    <div class="user-status user-status-unverified color-white">LuyenDv</div>
+                                                    <div class="user-name dropdown-indicator color-white">Đoàn Văn Luyện</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-md dropdown-menu-right">
+                                            <div class="dropdown-inner user-card-wrap bg-lighter d-none d-md-block">
+                                                <div class="user-card">
+                                                    <div class="user-avatar">
+                                                        <span>AB</span>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <span class="lead-text">Đoàn Văn Luyện</span>
+                                                        <span class="sub-text">luyendv@dtsvn.net</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-inner">
+                                                <ul class="link-list">
+                                                    <li><a href="KHBL/user-profile-regular.html"><em class="icon ni ni-user-alt"></em><span>View Profile</span></a></li>
+                                                    <li><a href="KHBL/user-profile-setting.html"><em class="icon ni ni-setting-alt"></em><span>Account Setting</span></a></li>
+                                                    <li><a href="KHBL/user-profile-activity.html"><em class="icon ni ni-activity-alt"></em><span>Login Activity</span></a></li>
+                                                    <li><a class="dark-switch" href="#"><em class="icon ni ni-moon"></em><span>Dark Mode</span></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="dropdown-inner">
+                                                <ul class="link-list">
+                                                    <li><a href="#"><em class="icon ni ni-signout"></em><span>Sign out</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><!-- .nk-header-wrap -->
+                    </div><!-- .container-fliud -->
+                </div>
+                <!-- main header @e -->
+                <!-- content @s -->
+                <div class="nk-content">
+					<div class="example-alert">
+						<div class="alert alert-vtb alert-icon">
+							<em class="icon ni ni-bell ni-alert-circle"></em> 
+							<strong>Chiến dịch iPay inactive 6 tháng mã CN1063400000115072021 sẽ đến hạn vào ngày 16/07/1998</strong>
+							<span class="float-right">Chi tiết chiến dịch <em class="icon ni ni-forward-ios" style="font-size:11px!important"></em></span>
+							
+						</div>
+					</div>
+					<div class="nk-block pt-2 pb-4">
+						<div class="card card-stretch">
+							<div class="card-inner-group">
+								<div class="card-inner position-relative card-tools-toggle  pt-19px pb-19px">
+									<div class="card-title-group">
+										<div class="card-tools w-100">
+											<ul class="btn-toolbar gx-1 w-100">
+												<li class="w-fil-adv">
+													<div class="form-group text-body-3">
+														<div class="form-control-wrap text-body-3">
+															<select class="form-select text-body-3" multiple="multiple" data-placeholder="Khu vực">
+																<option value="default_option">Chi nhánh A</option>
+																<option value="option_select_name">Chi nhánh B</option>
+															</select>
+														</div>
+													</div>
+												</li><!-- li -->
+												<li class="w-fil-adv">
+													<div class="form-group">
+														<div class="form-control-wra">
+															 <select class="form-select text-body-3" multiple="multiple" data-placeholder="Mã - Tên chi nhánh">
+																<option value="default_option">Mã - Tên chi nhánh</option>
+																<option value="option_select_name">Đơn vị 2</option>
+															</select>
+														</div>
+													</div>
+												</li><!-- li -->
+												<li class="w-fil-adv">
+													<div class="form-group">
+														<div class="form-control-wrap ">
+															 <select class="form-select text-body-3" multiple="multiple" data-placeholder="Mã - Tên ĐVKD">
+																<option value="default_option">Nhóm 1</option>
+																<option value="option_select_name">Nhóm 2</option>
+															</select>
+														</div>
+													</div>
+												</li><!-- li -->
+												<li class="w-fil-adv">
+													<div class="form-group">
+														<div class="form-control-wrap ">
+															 <select class="form-select text-body-3" multiple="multiple" data-placeholder="UserAD - Tên cán bộ">
+																<option value="default_option">Chiến dịch 1</option>
+																<option value="option_select_name">Chiến dịch 2</option>
+															</select>
+														</div>
+													</div>
+												</li>
+												<li><!-- li -->
+													<a href="KHBL/list-campaign-adv.html" class="btn btn-icon bg-xanh-7"><em class="icon ni ni-undo color-xanh-3"></em></a>
+												</li><!-- li -->
+												<li>
+													<a href="#" class="btn bg-xanh-3 text-headling-6 text-white">Tìm kiếm</a>
+												</li><!-- li -->
+											</ul><!-- .btn-toolbar -->
+										</div><!-- .card-tools -->
+									</div><!-- .card-title-group -->
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="nk-block pt-2 pb-4">
+						<div class="card card-stretch">
+							<div class="card-inner-group">
+								<div class="nk-block-head nk-block-head-sm pl-4 pt-4">
+									<div class="nk-block-between">
+										<div class="nk-block-head-content">
+											<h3 class="nk-block-title page-title text-headling-4 color-xanh-1">Chỉ tiêu hoạt động</h3>
+										</div><!-- .nk-block-head-content -->
+									</div><!-- .nk-block-between -->
+								</div><!-- .nk-block-head -->
+								<div class="pl-4 pr-4">
+									<div id="style-11" class="scroll-custom pb-4 " style="overflow-x: auto;display: -webkit-box;width: 98%; ">
+										<div class="w-300px pr-3">
+											<div class="card">
+												<div class="card-inner bg-tkgt-corner-gardient-pink-vt pl-3 pr-3 pt-2">
+													<div class="card-title-group align-start mb-4">
+														<div class="card-title">
+															<h6 class="title text-headling-6 color-xanh-3">Cho vay</h6>
+														</div>
+														<div class="card-tools mt-auto">
+															<span class="text-headling-7 color-xanh-3">GAP 65%</span>
+														</div>
+													</div>
+													<div class="align-end gy-3 gx-5 flex-wrap flex-md-nowrap flex-lg-wrap flex-xxl-nowrap">
+														<div class="nk-sale-data-group flex-md-nowrap g-4">
+															<div class="nk-sale-data">
+																<span class="amount text-headling-0 color-xanh-3">14
+																<span class="change down text-danger text-headling-6 color-xanh-3"><em class="icon ni ni-arrow-long-down"></em>16.93%</span></span>
+															</div>
+														</div>
+														<div class="w-100">
+															<div class="">
+																<span class="text-body-5 color-xanh-3">Chỉ tiêu tháng</span>
+																<span class="text-headling-6 color-xanh-3 float-right">65%</span>
+															</div>
+															<div class="progress"> 
+																<div class="bg-red-vt progress-bar progress-bar-striped progress-bar-animated" data-progress="75"></div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div><!-- .col -->
+										<div class="w-300px pr-3">
+											<div class="card">
+												<div class="card-inner bg-tkgt-corner-gardient-choose-vt pl-3 pr-3 pt-2">
+													<div class="card-title-group align-start mb-4">
+														<div class="card-title">
+															<h6 class="title text-headling-6 color-xanh-3">Huy động vay</h6>
+														</div>
+														<div class="card-tools mt-auto">
+															<span class="text-headling-7 color-xanh-3">GAP 65%</span>
+														</div>
+													</div>
+													<div class="align-end gy-3 gx-5 flex-wrap flex-md-nowrap flex-lg-wrap flex-xxl-nowrap">
+														<div class="nk-sale-data-group flex-md-nowrap g-4">
+															<div class="nk-sale-data">
+																<span class="amount text-headling-0 color-xanh-3">300
+																<span class="change up text-success text-headling-6 color-xanh-3"><em class="icon ni ni-arrow-long-up"></em>4.26%</span>
+															</div>
+														</div>
+														<div class="w-100">
+															<div class="">
+																<span class="text-body-5 color-xanh-3">Chỉ tiêu tháng</span>
+																<span class="text-headling-6 color-xanh-3 float-right">65%</span>
+															</div>
+															<div class="progress"> 
+																<div class="progress-bar progress-bar-striped progress-bar-animated" data-progress="75"></div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div><!-- .col -->
+										<div class="w-300px pr-3">
+											<div class="card">
+												<div class="card-inner bg-tkgt-corner-gardient-choose-vt pl-3 pr-3 pt-2">
+													<div class="card-title-group align-start mb-4">
+														<div class="card-title">
+															<h6 class="title text-headling-6 color-xanh-3">Thẻ tín dụng</h6>
+														</div>
+														<div class="card-tools mt-auto">
+															<span class="text-headling-7 color-xanh-3">GAP 65%</span>
+														</div>
+													</div>
+													<div class="align-end gy-3 gx-5 flex-wrap flex-md-nowrap flex-lg-wrap flex-xxl-nowrap">
+														<div class="nk-sale-data-group flex-md-nowrap g-4">
+															<div class="nk-sale-data">
+																<span class="amount text-headling-0 color-xanh-3">14
+																<span class="change up text-success text-headling-6 color-xanh-3"><em class="icon ni ni-arrow-long-up"></em>4.26%</span>
+															</div>
+														</div>
+														<div class="w-100">
+															<div class="">
+																<span class="text-body-5 color-xanh-3">Chỉ tiêu tháng</span>
+																<span class="text-headling-6 color-xanh-3 float-right">65%</span>
+															</div>
+															<div class="progress"> 
+																<div class="progress-bar progress-bar-striped progress-bar-animated" data-progress="75"></div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div><!-- .col -->
+										<div class="w-300px pr-3">
+											<div class="card">
+												<div class="card-inner bg-tkgt-corner-gardient-pink-vt pl-3 pr-3 pt-2">
+													<div class="card-title-group align-start mb-4">
+														<div class="card-title">
+															<h6 class="title text-headling-6 color-xanh-3">Ngân hàng điện tử</h6>
+														</div>
+														<div class="card-tools mt-auto">
+															<span class="text-headling-7 color-xanh-3">GAP 65%</span>
+														</div>
+													</div>
+													<div class="align-end gy-3 gx-5 flex-wrap flex-md-nowrap flex-lg-wrap flex-xxl-nowrap">
+														<div class="nk-sale-data-group flex-md-nowrap g-4">
+															<div class="nk-sale-data">
+																<span class="amount text-headling-0 color-xanh-3">140
+																<span class="change down text-danger text-headling-6 color-xanh-3"><em class="icon ni ni-arrow-long-down"></em>16.93%</span></span>
+															</div>
+														</div>
+														<div class="w-100">
+															<div class="">
+																<span class="text-body-5 color-xanh-3">Chỉ tiêu tháng</span>
+																<span class="text-headling-6 color-xanh-3 float-right">65%</span>
+															</div>
+															<div class="progress"> 
+																<div class="bg-red-vt progress-bar progress-bar-striped progress-bar-animated" data-progress="75"></div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div><!-- .col -->
+										<div class="w-300px pr-3">
+											<div class="card">
+												<div class="card-inner bg-tkgt-corner-gardient-choose-vt pl-3 pr-3 pt-2">
+													<div class="card-title-group align-start mb-4">
+														<div class="card-title">
+															<h6 class="title text-headling-6 color-xanh-3">Khách hàng ưu tiên</h6>
+														</div>
+														<div class="card-tools mt-auto">
+															<span class="text-headling-7 color-xanh-3">GAP 65%</span>
+														</div>
+													</div>
+													<div class="align-end gy-3 gx-5 flex-wrap flex-md-nowrap flex-lg-wrap flex-xxl-nowrap">
+														<div class="nk-sale-data-group flex-md-nowrap g-4">
+															<div class="nk-sale-data">
+																<span class="amount text-headling-0 color-xanh-3">140
+																<span class="change up text-success text-headling-6 color-xanh-3"><em class="icon ni ni-arrow-long-up"></em>4.26%</span>
+															</div>
+														</div>
+														<div class="w-100">
+															<div class="">
+																<span class="text-body-5 color-xanh-3">Chỉ tiêu tháng</span>
+																<span class="text-headling-6 color-xanh-3 float-right">65%</span>
+															</div>
+															<div class="progress"> 
+																<div class="progress-bar progress-bar-striped progress-bar-animated" data-progress="75"></div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div><!-- .col -->
+										<div class="w-300px pr-3">
+											<div class="card">
+												<div class="card-inner bg-tkgt-corner-gardient-choose-vt pl-3 pr-3 pt-2">
+													<div class="card-title-group align-start mb-4">
+														<div class="card-title">
+															<h6 class="title text-headling-6 color-xanh-3">Khách hàng ưu tiên</h6>
+														</div>
+														<div class="card-tools mt-auto">
+															<span class="text-headling-7 color-xanh-3">GAP 65%</span>
+														</div>
+													</div>
+													<div class="align-end gy-3 gx-5 flex-wrap flex-md-nowrap flex-lg-wrap flex-xxl-nowrap">
+														<div class="nk-sale-data-group flex-md-nowrap g-4">
+															<div class="nk-sale-data">
+																<span class="amount text-headling-0 color-xanh-3">140
+																<span class="change up text-success text-headling-6 color-xanh-3"><em class="icon ni ni-arrow-long-up"></em>4.26%</span>
+															</div>
+														</div>
+														<div class="w-100">
+															<div class="">
+																<span class="text-body-5 color-xanh-3">Chỉ tiêu tháng</span>
+																<span class="text-headling-6 color-xanh-3 float-right">65%</span>
+															</div>
+															<div class="progress"> 
+																<div class="progress-bar progress-bar-striped progress-bar-animated" data-progress="75"></div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div><!-- .col -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="nk-block col-4 pl-0 pt-2 pb-4">
+							<div class="card card-stretch">
+								<div class="card-inner-group">
+									<div class="nk-block-head nk-block-head-sm pl-4 pt-4">
+										<div class="nk-block-between">
+											<div class="nk-block-head-content">
+												<h3 class="nk-block-title page-title text-headling-4 color-xanh-1">Danh sách công việc</h3>
+											</div><!-- .nk-block-head-content -->
+										</div><!-- .nk-block-between -->
+									</div><!-- .nk-block-head -->
+									<div class="pl-4 pr-4 row">
+										<div class="col-6">
+											<div class="card-inner bg-quahan pl-3 pr-3 pt-2 bd-rad">
+												<div class="card-title-group align-start mb-4">
+													<div class="card-title">
+														<h6 class="title text-headling-6 text-white">Công việc quá hạn</h6>
+													</div>
+												</div>
+												<div class="align-end gy-3 gx-5 flex-wrap flex-md-nowrap flex-lg-wrap flex-xxl-nowrap">
+													<div class="nk-sale-data-group flex-md-nowrap g-4">
+														<div class="nk-sale-data">
+															<span class="amount text-headling-0 text-white">30
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="card-inner bg-tkgt-corner-gardient-br-vt pl-3 pr-3 pt-2 bd-rad">
+												<div class="card-title-group align-start mb-4">
+													<div class="card-title">
+														<h6 class="title text-headling-6 text-white">Công việc hôm nay</h6>
+													</div>
+												</div>
+												<div class="align-end gy-3 gx-5 flex-wrap flex-md-nowrap flex-lg-wrap flex-xxl-nowrap">
+													<div class="nk-sale-data-group flex-md-nowrap g-4">
+														<div class="nk-sale-data">
+															<span class="amount text-headling-0 text-white">30
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 pt-5">
+											<div class="nk-tb-list mt-n2">
+												<div class="nk-tb-item nk-tb-head">
+													<div class="nk-tb-col tb-col-sm text-al-left  pl-1">
+														<span class="text-body-1 color-gray-5">Tên công việc</span>
+													</div>
+													<div class="nk-tb-col tb-col-sm text-right"><span class="text-body-1 color-gray-5">Quá hạn</span></div>
+													<div class="nk-tb-col tb-col-sm text-right pr-2 "><span class="text-body-1 color-gray-5">Hôm nay</span></div>
+												</div>
+												<div class="nk-tb-item">
+													<div class="nk-tb-col tb-col-sm text-al-left pl-1">
+														<div>
+															<span class="tb-lead color-xanh-3 text-headling-6">Chấm điểm KHCN đột xuất</span>
+														</div>
+													</div>
+													<div class="nk-tb-col tb-col-md text-right">
+														<span class="tb-lead text-body-3 color-xanh-3 ">03</span>
+													</div>
+													<div class="nk-tb-col tb-col-md text-right pr-2">
+														<span class="tb-lead text-body-3 color-gray-1 ">03</span>
+													</div>
+												</div>
+												<div class="nk-tb-item">
+													<div class="nk-tb-col tb-col-sm text-al-left pl-1">
+														<div>
+															<span class="tb-lead color-xanh-3 text-headling-6">Chấm điểm KHCN đột xuất</span>
+														</div>
+													</div>
+													<div class="nk-tb-col tb-col-md text-right">
+														<span class="tb-lead text-body-3 color-xanh-3 ">03</span>
+													</div>
+													<div class="nk-tb-col tb-col-md text-right pr-2">
+														<span class="tb-lead text-body-3 color-gray-1 ">03</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="nk-block col-8 pl-0 pt-2 pb-4">
+							<div class="card card-stretch">
+								<div class="card-inner-group">
+									<div class="nk-block-head nk-block-head-sm pl-4 pt-4">
+										<div class="nk-block-between">
+											<div class="nk-block-head-content">
+												<h3 class="nk-block-title page-title text-headling-4 color-xanh-1">Kết quả kinh doanh</h3>
+											</div><!-- .nk-block-head-content -->
+										</div><!-- .nk-block-between -->
+									</div><!-- .nk-block-head -->
+									<div class="ml-0 pl-4 pr-4 row">
+										<div class="row-ct border-bottom ">
+											<ul class="nav nav-tabs mt-n3 border-bottom-0">
+												<li class="nav-item">
+													<a class="nav-link" data-toggle="tab" href="#tabItemx1"><span>Danh sách công việc</span></a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link active" data-toggle="tab" href="#tabItemx2"><span>Báo cáo tổng hợp</span></a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" data-toggle="tab" href="#tabItemx3"><span>Hướng dẫn tác nghiệp</span></a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" data-toggle="tab" href="#tabItemx4"><span>Liên hệp</span></a>
+												</li>
+											</ul>
+										</div>
+										<div class="tab-pane active w-100 pt-3" id="tabItemx2">
+											<div class="nk-block">
+												<div class="nk-block-head nk-block-head-sm">
+													<div class="nk-block-between">
+														<div class="nk-block-head-content">
+															<h3 class="nk-block-title page-title text-headling-6 color-xanh-2">Tổng quan tổng lượng khách hàng hiện hữu</h3>
+														</div><!-- .nk-block-head-content -->
+														<div class="nk-block-head-content">
+															<ul><li><p class="text-body-5 color-gray-4 pr-4">Đơn vị: Số lượng khách hàng lũy kế</p></ul></li>
+														</div><!-- .nk-block-head-content -->
+													</div><!-- .nk-block-between -->
+												</div><!-- .nk-block-head -->
+												<div>
+													<div class="chart-wrap">
+													  <div id="chart"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 mt-4 pl-0 pr-0 row-ct" style="justify-content: space-between;">
+								<div class="card card-stretch col-8">
+									<div class="card-inner-group">
+										<div class="nk-block-head nk-block-head-sm pl-4 pt-4">
+											<div class="nk-block-between">
+												<div class="nk-block-head-content">
+													<h3 class="nk-block-title page-title text-headling-4 color-xanh-1">Năng suất lao động</h3>
+												</div><!-- .nk-block-head-content -->
+											</div><!-- .nk-block-between -->
+										</div><!-- .nk-block-head -->
+										<div class="ml-0 pl-4 pr-4 row">
+											<div class="row-ct border-bottom ">
+												<ul class="nav nav-tabs mt-n3 border-bottom-0">
+													<li class="nav-item">
+														<a class="nav-link" data-toggle="tab" href="#tabItemx1"><span>Năng suất cho vay</span></a>
+													</li>
+													<li class="nav-item">
+														<a class="nav-link active" data-toggle="tab" href="#tabItemx2"><span>Năng suất huy động vốn</span></a>
+													</li>
+												</ul>
+											</div>
+											<div class="tab-pane active w-100 pt-3" id="tabItemx2">
+												<div class="nk-block">
+													<div>
+														<div class="chart-wrap">
+														  <div id="chartcol"></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="card card-stretch col-31 mt-0 pr-0">
+									<div class="card-inner-group">
+										<div class="nk-block-head nk-block-head-sm pl-4 pt-4">
+											<div class="nk-block-between">
+												<div class="nk-block-head-content">
+													<h3 class="nk-block-title page-title text-headling-4 color-xanh-1">Lương SI tháng 06/2022</h3>
+												</div><!-- .nk-block-head-content -->
+											</div><!-- .nk-block-between -->
+										</div><!-- .nk-block-head -->
+										<div>
+											<div class="chart-wrap">
+											  <div id="chartbar"></div>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+                </div>
+                <!-- content @e -->
+                <!-- footer @s -->
+                <div class="nk-footer">
+                    <div class="container-fluid">
+                        <div class="nk-footer-wrap">
+						<img class="logo-img"  src="../images/logo2_company.png" srcset="../images/logo2_company.png" alt="logo">
+                            <div class="nk-footer-copyright"> 
+                            </div>
+                            <div class="nk-footer-links text-al-right">
+                               <span class="d-block"> © 2021 - Bản quyền thuộc về Ngân hàng TMCP Công thương Việt Nam</span>
+							   <span class="color-gray-6 fs-10px">Developed by DTSVN</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer @e -->
+            </div>
+            <!-- wrap @e -->
+        </div>
+        <!-- main @e -->
+		
+    </div>
+    <!-- app-root @e -->
+    <!-- JavaScript -->
+	<script>
+      window.Promise ||
+        document.write(
+          '<script src="../assets/js/dist/polyfill.min.js"><\/script>'
+        )
+      window.Promise ||
+        document.write(
+          '<script src="../assets/js/dist/classList.min.js"><\/script>'
+        )
+      window.Promise ||
+        document.write(
+          '<script src="../assets/js/dist/findindex_polyfill_mdn.js"><\/script>'
+        )
+    </script>
+	<script src="../assets/js/apex_pie_chart.js?ver=2.8.0"></script>
+	<script>
+	function showText(a){
+		$("#des").css("display","block");
+	}
+		
+		//line chart
+		 var optionsLine = {
+          series: [{
+            name: "Desktops",
+            data: [1,6,7,8,9,2]
+        },{
+            name: "Desktops",
+            data: [7,9,5,2,3,4]
+        },{
+            name: "Desktops",
+            data: [6, 7 , 8 , 9 ,1,2]
+        }],
+          chart: {
+		   toolbar: {
+				tools: {
+				  download: false
+				  }
+		  },
+          height: 350,
+          type: 'line',
+          zoom: {
+            enabled: false
+          }
+        },
+        dataLabels: {
+          enabled: false
+        },
+        stroke: {
+          curve: 'straight'
+        },
+		colors: ['#F4C54A', '#D6124C', '#014F97'],
+        grid: {
+          row: {
+            colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
+            opacity: 0.5
+          },
+        },
+        xaxis: {
+          categories: ['02/22', '02/22', '02/22', '02/22', '02/22', '02/22'],
+        }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart"), optionsLine);
+        chart.render();
+		
+		
+		
+		var options1 = {
+          series: [{
+          name: 'Net Profit',
+          data: [44, 55, 57]
+        }, {
+          name: 'Revenue',
+          data: [76, 85, 101]
+        }, {
+          name: 'Free Cash Flow',
+          data: [35, 41, 36]
+        }, {
+          name: 'Free Cash Flow 1',
+          data: [25, 56, 31]
+        }],	
+          chart: {
+		  toolbar: {
+				tools: {
+				  download: false
+				  }
+		  },
+          type: 'bar',
+          height: 350
+        },
+        plotOptions: {
+          bar: {
+            horizontal: false,
+            columnWidth: '55%',
+            endingShape: 'rounded'
+          },
+        },
+        dataLabels: {
+          enabled: false
+        },
+        stroke: {
+          show: true,
+          width: 2,
+          colors: ['transparent']
+        },
+		colors: ['#D6124C', '#E04D77', '#3F84AD','#014F97'],
+        xaxis: {
+          categories: ['Dư nợ bình quân', 'Dư nợ cuối kỳ', 'NII cho vay'],
+        },
+        fill: {
+          opacity: 1
+        },
+        tooltip: {
+          y: {
+            formatter: function (val) {
+              return "$ " + val + " thousands"
+            }
+          }
+        }
+        };
+
+        var chart1 = new ApexCharts(document.querySelector("#chartcol"), options1)
+        chart1.render();
+		
+		
+		
+		
+		var options12 = {
+          series: [
+          {
+            name: 'Actual',
+            data: [
+              {
+                x: '2011',
+                y: 12,
+                goals: [
+                  {
+                    name: 'Expected',
+                    value: 14,
+                    strokeWidth: 2,
+                    strokeDashArray: 2,
+                    strokeColor: '#775DD0'
+                  }
+                ]
+              },
+              {
+                x: '2012',
+                y: 44,
+                goals: [
+                  {
+                    name: 'Expected',
+                    value: 54,
+                    strokeWidth: 5,
+                    strokeHeight: 10,
+                    strokeColor: '#775DD0'
+                  }
+                ]
+              },
+              {
+                x: '2013',
+                y: 54,
+                goals: [
+                  {
+                    name: 'Expected',
+                    value: 52,
+                    strokeWidth: 10,
+                    strokeHeight: 0,
+                    strokeLineCap: 'round',
+                    strokeColor: '#775DD0'
+                  }
+                ]
+              },
+              {
+                x: '2014',
+                y: 66,
+                goals: [
+                  {
+                    name: 'Expected',
+                    value: 61,
+                    strokeWidth: 10,
+                    strokeHeight: 0,
+                    strokeLineCap: 'round',
+                    strokeColor: '#775DD0'
+                  }
+                ]
+              },
+              {
+                x: '2015',
+                y: 81,
+                goals: [
+                  {
+                    name: 'Expected',
+                    value: 66,
+                    strokeWidth: 10,
+                    strokeHeight: 0,
+                    strokeLineCap: 'round',
+                    strokeColor: '#775DD0'
+                  }
+                ]
+              },
+              {
+                x: '2016',
+                y: 67,
+                goals: [
+                  {
+                    name: 'Expected',
+                    value: 70,
+                    strokeWidth: 5,
+                    strokeHeight: 10,
+                    strokeColor: '#775DD0'
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+          chart: {
+		  toolbar: {
+				tools: {
+				  download: false
+				  }
+		  },
+          height: 350,
+          type: 'bar'
+        },
+        plotOptions: {
+          bar: {
+            horizontal: true,
+          }
+        },
+        colors: ['#00E396'],
+        dataLabels: {
+          formatter: function(val, opt) {
+            const goals =
+              opt.w.config.series[opt.seriesIndex].data[opt.dataPointIndex]
+                .goals
+        
+            if (goals && goals.length) {
+              return `${val} / ${goals[0].value}`
+            }
+            return val
+          }
+        },
+        legend: {
+          show: true,
+          showForSingleSeries: true,
+          customLegendItems: ['Actual', 'Expected'],
+          markers: {
+            fillColors: ['#00E396', '#775DD0']
+          }
+        }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chartbar"), options12);
+        chart.render();
+		
+	</script>
+    <script src="../assets/js/bundle.js?ver=2.8.0"></script>
+    <script src="../assets/js/scripts.js?ver=2.0.0"></script>
+	<script src="../assets/js/example-chart.js?ver=2.0.0"></script>
+	<script src="../assets/js/apexcharts.js?ver=2.0.0"></script>
+	
+</body>
+
+</html>
