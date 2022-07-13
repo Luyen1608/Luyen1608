@@ -3104,3 +3104,7 @@ body {
     background-color: #F4C3D3;
     background: radial-gradient( circle at right, #F4C3D3, #D6124C 66% );
 }
+@media (min-width: 1540px){
+.flex-xxl-nowrap {
+    flex-wrap: wrap !important;
+}}
