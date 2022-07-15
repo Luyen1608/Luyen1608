@@ -497,7 +497,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row-ct">
 						<div class="nk-block col-4 pl-0 pt-2 pb-4 col-12-1024">
 							<div class="card card-stretch">
 								<div class="card-inner-group">
@@ -632,7 +632,7 @@
 								</div>
 							</div>
 							<div class="col-12 mt-4 pl-0 pr-0 row-ct" style="justify-content: space-between;">
-								<div class="card card-stretch col-8">
+								<div class="card card-stretch col-57">
 									<div class="card-inner-group">
 										<div class="nk-block-head nk-block-head-sm pl-4 pt-4">
 											<div class="nk-block-between">
@@ -664,21 +664,117 @@
 										</div>
 									</div>
 								</div>
-								<div class="card card-stretch col-31 mt-0 pr-0">
+								<div class="card card-stretch col-5 mt-0 pr-0 pl-0">
 									<div class="card-inner-group">
-										<div class="nk-block-head nk-block-head-sm pl-4 pt-4">
+										<div class="nk-block-head nk-block-head-sm pl-3 pt-4">
 											<div class="nk-block-between">
 												<div class="nk-block-head-content">
 													<h3 class="nk-block-title page-title text-headling-4 color-xanh-1">Lương SI tháng 06/2022</h3>
 												</div><!-- .nk-block-head-content -->
 											</div><!-- .nk-block-between -->
 										</div><!-- .nk-block-head -->
-										<div>
-											<div class="chart-wrap">
-											  <div id="chartbar"></div>
+										<div class="ml-0 pl-3 pr-2 w-100 row">
+											<div class="row-ct border-bottom ">
+												<ul class="nav nav-tabs mt-n3 border-bottom-0">
+													<li class="nav-item">
+														<a class="nav-link active" data-toggle="tab" href="#tabItemx1"><span>Chi nhánh</span></a>
+													</li>
+													<li class="nav-item">
+														<a class="nav-link" data-toggle="tab" href="#tabItemx2"><span>Khu vực</span></a>
+													</li>
+													<li class="nav-item">
+														<a class="nav-link " data-toggle="tab" href="#tabItemx2"><span>Toàn hàng</span></a>
+													</li>
+												</ul>
+											</div>
+											<div class="tab-pane active w-100 pt-3" id="tabItemx2">
+												<div class="nk-block">
+													<div>
+														<div class="w-100">
+															<ul class="nk-support pr-2">
+																<li class="nk-activity-item pl-0 pr-0">
+																	<div class="nk-activity-media user-avatar bg-none">
+																		<img src="../images/rank1.png" alt="">
+																	</div>
+																	<div class="nk-activity-data">
+																		<span class="label text-headling-6 color-xanh-3">SonTH</span>
+																			<span class="user-avatar xs bg-danger d-inline-flex text-body-5 ranking-vtb ml-1">
+																				<em class="icon ni ni-arrow-down"></em>3
+																			</span>
+																	</div>
+																	<div class="nk-activity-data m-auto">
+																		<div class="label text-headling-6 color-green">+30</div>
+																	</div>
+																	<div class="nk-activity-data">
+																		<div class="label text-headling-6 color-xanh-4">16.000.000</div>
+																	</div>
+																</li>
+																<li class="nk-activity-item pl-0 pr-0">
+																	<div class="nk-activity-media user-avatar bg-none">
+																		<img src="../images/rank2.png" alt="">
+																	</div>
+																	<div class="nk-activity-data">
+																		<span class="label text-headling-6 color-xanh-3">Minh1323dt</span>
+																			<span class="user-avatar xs bg-green d-inline-flex text-body-5 ranking-vtb ml-1">
+																				<em class="icon ni ni-arrow-down"></em>1
+																			</span>
+																	</div>
+																	<div class="nk-activity-data m-auto">
+																		<div class="label text-headling-6 color-green">+30</div>
+																	</div>
+																	<div class="nk-activity-data">
+																		<div class="label text-headling-6 color-xanh-4">16.000.000</div>
+																	</div>
+																</li>
+																<li class="nk-activity-item pl-0 pr-0">
+																	<div class="nk-activity-media user-avatar bg-none">
+																		<img src="../images/rank3.png" alt="">
+																	</div>
+																	<div class="nk-activity-data">
+																		<span class="label text-headling-6 color-xanh-3">Qungnn</span>
+																			<span class="user-avatar xs bg-xanh-3 d-inline-flex text-body-5 ranking-vtb ml-1">
+																				-
+																			</span>
+																	</div>
+																	<div class="nk-activity-data m-auto">
+																		<div class="label text-headling-6 color-green">+30</div>
+																	</div>
+																	<div class="nk-activity-data">
+																		<div class="label text-headling-6 color-xanh-4">16.000.000</div>
+																	</div>
+																</li>
+																<li class="nk-activity-item pl-0 pr-0">
+																	<div class="nk-activity-media user-avatar bg-blue">50
+																	</div>
+																	<div class="nk-activity-data">
+																		<span class="label text-headling-6 color-xanh-3">Qungnn</span>
+																			<span class="user-avatar xs bg-xanh-3 d-inline-flex text-body-5 ranking-vtb ml-1">
+																				-
+																			</span>
+																	</div>
+																	<div class="nk-activity-data m-auto">
+																		<div class="label text-headling-6 color-green">+30</div>
+																	</div>
+																	<div class="nk-activity-data">
+																		<div class="label text-headling-6 color-xanh-4">16.000.000</div>
+																	</div>
+																</li>
+																<li class="nk-activity-item pl-0 pr-0 d-jus-between">
+																	<div class="nk-activity-data">
+																		<div class="label text-body-5 color-gray-3">Tổng lượng RM</div>
+																		<div class="label text-headling-6 color-xanh-3">190</div>
+																	</div>
+																	<div class="nk-activity-data">
+																		<div class="label text-body-5 color-gray-3">Lương SI bình quân</div>
+																		<div class="label text-headling-6 color-xanh-4 text-al-right">16.000.000</div>
+																	</div>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
 											</div>
 										</div>
-										
 									</div>
 								</div>
 							</div>
