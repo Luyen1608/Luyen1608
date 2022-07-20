@@ -3117,3 +3117,7 @@ body {
     width: 35px !important;
     border-radius: 9px !important;
 }
+.col-49{
+	 flex: 0 0 49%;
+    max-width: 49%;
+}

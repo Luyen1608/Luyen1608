@@ -3113,7 +3113,7 @@ body {
     max-width: 57%;
 }
 .ranking-vtb{
-	height: 15px !important;
+	height: 17px !important;
     width: 35px !important;
     border-radius: 9px !important;
 }
