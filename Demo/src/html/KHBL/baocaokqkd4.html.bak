@@ -410,6 +410,36 @@
 																								<div class="chart-wrap">
 																								  <div id="chartcol"></div>
 																								</div>
+																								<table class="table table-bordered mb-4">  
+																										<thead>    
+																											<tr>      
+																												<th scope="col" class="text-center"></th>      
+																												<th scope="col" class="text-center">Thứ hạng</th>      
+																												<th scope="col" class="text-center">Thứ hạng</th>       
+																												<th scope="col" class="text-center">Thứ hạng</th>   
+																											</tr>  
+																										</thead>  
+																									<tbody>    
+																										<tr>      
+																											<th scope="row text-center" class="text-center"><div class="timeline-status bg-xanh-4"></div></th>      
+																												<td class="color-xanh-3 text-center">50/320</td>      
+																												<td class="color-xanh-3 text-center">50/320</td>
+																												<td class="color-xanh-3 text-center">50/320</td>
+																											</tr>    
+																											<tr>      
+																											<th scope="row text-center" class="text-center"><div class="timeline-status bg-xanh-5"></div></th>      
+																												<td class="color-xanh-3 text-center">50/320</td>
+																												<td class="color-xanh-3 text-center">50/320</td>
+																												<td class="color-xanh-3 text-center">50/320</td>																												
+																											</tr>    
+																											<tr>      
+																											<th scope="row text-center" class="text-center"><div class="timeline-status bg-xanh-6"></div></th>      
+																												<td class="color-xanh-3 text-center">50/320</td>
+																												<td class="color-xanh-3 text-center">50/320</td>
+																												<td class="color-xanh-3 text-center">50/320</td>
+																											</tr>  
+																									</tbody>
+																								</table>
 																							</div>
 																						</div>
 																					</div>
@@ -548,48 +578,7 @@
 																		</div><!-- .card -->
 																	</div><!-- .nk-block -->
 																	
-																	<div class="w-100 row-ct mr-0 pt-4">
-																		<div class="col-6 pl-0">
-																			<div class="card card-stretch">
-																				<div class="card card-preview">
-																					<div class="card-inner">
-																						<div class="nk-block-head nk-block-head-sm pb-20px pt-22px">
-																							<div class="nk-block-between">
-																								<div class="nk-block-head-content">
-																									<h3 class="nk-block-title page-title text-headling-6 color-xanh-2">Hiệu quả bán hàng RM</h3>
-																								</div><!-- .nk-block-head-content -->
-																							</div>
-																						</div>
-																						<div class="col-12 pl-0 pr-0">
-																							<div class="chart-wrap">
-																							  <div id="chartchovay"></div>
-																							</div>
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																		<div class=" col-6 pr-0">
-																			<div class="card card-stretch">
-																				<div class="card card-preview">
-																					<div class="card-inner">
-																						<div class="nk-block-head nk-block-head-sm pb-20px pt-22px">
-																							<div class="nk-block-between">
-																								<div class="nk-block-head-content">
-																									<h3 class="nk-block-title page-title text-headling-6 color-xanh-2">Hiệu quả bán hàng RM</h3>
-																								</div><!-- .nk-block-head-content -->
-																							</div>
-																						</div>
-																						<div class="col-12 pl-0 pr-0">
-																							<div class="chart-wrap">
-																							  <div id="chartkh"></div>
-																							</div>
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
+																	
 																</div>
 															</div>
 														<div class="tab-pane " id="tabItemx1">
