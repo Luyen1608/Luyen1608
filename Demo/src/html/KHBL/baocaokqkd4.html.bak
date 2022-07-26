@@ -413,7 +413,7 @@
 																								<table class="table table-bordered mb-4">  
 																										<thead>    
 																											<tr>      
-																												<th scope="col" class="text-center"></th>      
+																												<th scope="col" class="text-center w-1-2rem"></th>      
 																												<th scope="col" class="text-center">Thứ hạng</th>      
 																												<th scope="col" class="text-center">Thứ hạng</th>       
 																												<th scope="col" class="text-center">Thứ hạng</th>   
