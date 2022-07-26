@@ -18,6 +18,10 @@
     <link id="skin-default" rel="stylesheet" href="../assets/css/theme.css?ver=2.0.0">
 </head>
 <style>
+.tooltip {
+    font-size: 15px !important;
+    line-height: 20px!important;
+}
 </style>
 
 <body class="nk-body bg-lighter npc-default has-sidebar ">
@@ -327,6 +331,7 @@
 													<div class="card-title-group align-start mb-4">
 														<div class="card-title">
 															<h6 class="title text-headling-6 color-xanh-3">Cho vay</h6>
+															<em class="icon ni ni-info pl-1 fs-22px m-auto" style="margin-top: 3px!important;" data-toggle="tooltip" data-placement="top" title="Tooltip on top"></em>
 														</div>
 														<div class="card-tools mt-auto">
 															<span class="text-headling-7 color-xanh-3">GAP 65%</span>
