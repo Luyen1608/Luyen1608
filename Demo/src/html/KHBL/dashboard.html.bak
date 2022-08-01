@@ -329,9 +329,9 @@
 											<div class="card">
 												<div class="card-inner bg-tkgt-corner-gardient-pink-vt pl-3 pr-3 pt-2">
 													<div class="card-title-group align-start mb-4">
-														<div class="card-title">
+														<div class="card-title row-ct">
 															<h6 class="title text-headling-6 color-xanh-3">Cho vay</h6>
-															<em class="icon ni ni-info pl-1 fs-22px m-auto" style="margin-top: 3px!important;" data-toggle="tooltip" data-placement="top" title="Tooltip on top"></em>
+															<em class="icon ni ni-info pl-1 fs-15px m-auto" data-toggle="tooltip" data-placement="top" title="Tooltip on top"></em>
 														</div>
 														<div class="card-tools mt-auto">
 															<span class="text-headling-7 color-xanh-3">GAP 65%</span>
@@ -712,12 +712,12 @@
 													<div>
 														<div class="w-100">
 															<ul class="nk-support pr-2">
-																<li class="nk-activity-item pl-0 pr-0">
+																<li class="nk-activity-item pl-0 pr-0 pt-1 pb-1">
 																	<div class="nk-activity-media user-avatar bg-none">
 																		<img src="../images/rank1.png" alt="">
 																	</div>
-																	<div class="nk-activity-data">
-																		<span class="label text-headling-6 color-xanh-3">SonTH</span>
+																	<div class="nk-activity-data mw-namesi">
+																		<span class="label text-headling-6 color-xanh-3 ">ngnganngan</span><br class="d-none d-block-1500" />
 																			<span class="user-avatar xs bg-danger d-inline-flex text-body-5 ranking-vtb ml-1">
 																				<em class="icon ni ni-arrow-down"></em>3
 																			</span>
@@ -725,16 +725,67 @@
 																	<div class="nk-activity-data m-auto">
 																		<div class="label text-headling-6 color-green">+30</div>
 																	</div>
-																	<div class="nk-activity-data">
-																		<div class="label text-headling-6 color-xanh-4">16.000.000</div>
+																	<div class="nk-activity-data mw-luongsi">
+																		<div class="label text-headling-6 color-xanh-4 float-right">160.000.000</div>
 																	</div>
 																</li>
-																<li class="nk-activity-item pl-0 pr-0">
+																<li class="nk-activity-item pl-0 pr-0 pt-1 pb-1">
+																	<div class="nk-activity-media user-avatar bg-none">
+																		<img src="../images/rank1.png" alt="">
+																	</div>
+																	<div class="nk-activity-data mw-namesi">
+																		<span class="label text-headling-6 color-xanh-3">ngan.vtttqrưe</span><br class="d-none d-block-1500" />
+																			<span class="user-avatar xs bg-danger d-inline-flex text-body-5 ranking-vtb ml-1">
+																				<em class="icon ni ni-arrow-down"></em>3
+																			</span>
+																	</div>
+																	<div class="nk-activity-data m-auto">
+																		<div class="label text-headling-6 color-green">+30</div>
+																	</div>
+																	<div class="nk-activity-data mw-luongsi">
+																		<div class="label text-headling-6 color-xanh-4 float-right">160.000.000</div>
+																	</div>
+																</li>
+																<li class="nk-activity-item pl-0 pr-0 pt-1 pb-1">
+																	<div class="nk-activity-media user-avatar bg-none">
+																		<img src="../images/rank1.png" alt="">
+																	</div>
+																	<div class="nk-activity-data mw-namesi">
+																		<span class="label text-headling-6 color-xanh-3">ngan.vtttqưe</span><br class="d-none d-block-1500" />
+																			<span class="user-avatar xs bg-danger d-inline-flex text-body-5 ranking-vtb ml-1">
+																				<em class="icon ni ni-arrow-down"></em>3
+																			</span>
+																	</div>
+																	<div class="nk-activity-data m-auto">
+																		<div class="label text-headling-6 color-green">+9999</div>
+																	</div>
+																	<div class="nk-activity-data mw-luongsi">
+																		<div class="label text-headling-6 color-xanh-4 float-right">160.000</div>
+																	</div>
+																</li>
+																<li class="nk-activity-item pl-0 pr-0 pt-1 pb-1">
+																	<div class="nk-activity-media user-avatar bg-none">
+																		<img src="../images/rank1.png" alt="">
+																	</div>
+																	<div class="nk-activity-data mw-namesi">
+																		<span class="label text-headling-6 color-xanh-3">ngan.vtttqrưe</span><br class="d-none d-block-1500" />
+																			<span class="user-avatar xs bg-danger d-inline-flex text-body-5 ranking-vtb ml-1">
+																				<em class="icon ni ni-arrow-down"></em>3
+																			</span>
+																	</div>
+																	<div class="nk-activity-data m-auto">
+																		<div class="label text-headling-6 color-green">+30</div>
+																	</div>
+																	<div class="nk-activity-data mw-luongsi">
+																		<div class="label text-headling-6 color-xanh-4 float-right">16.000.000</div>
+																	</div>
+																</li>
+																<li class="nk-activity-item pl-0 pr-0 pt-1 pb-1">
 																	<div class="nk-activity-media user-avatar bg-none">
 																		<img src="../images/rank2.png" alt="">
 																	</div>
-																	<div class="nk-activity-data">
-																		<span class="label text-headling-6 color-xanh-3">Minh1323dt</span>
+																	<div class="nk-activity-data mw-namesi">
+																		<span class="label text-headling-6 color-xanh-3 d-block-1500">Minh1323dt</span><br class="d-none d-block-1500" />
 																			<span class="user-avatar xs bg-green d-inline-flex text-body-5 ranking-vtb ml-1">
 																				<em class="icon ni ni-arrow-down"></em>1
 																			</span>
@@ -742,16 +793,16 @@
 																	<div class="nk-activity-data m-auto">
 																		<div class="label text-headling-6 color-green">+30</div>
 																	</div>
-																	<div class="nk-activity-data">
-																		<div class="label text-headling-6 color-xanh-4">16.000.000</div>
+																	<div class="nk-activity-data mw-luongsi">
+																		<div class="label text-headling-6 color-xanh-4 float-right">160.000.000</div>
 																	</div>
 																</li>
-																<li class="nk-activity-item pl-0 pr-0">
+																<li class="nk-activity-item pl-0 pr-0 pt-1 pb-1">
 																	<div class="nk-activity-media user-avatar bg-none">
 																		<img src="../images/rank3.png" alt="">
 																	</div>
-																	<div class="nk-activity-data">
-																		<span class="label text-headling-6 color-xanh-3">Qungnn</span>
+																	<div class="nk-activity-data mw-namesi">
+																		<span class="label text-headling-6 color-xanh-3">Qungnn</span><br class="d-none d-block-1500" />
 																			<span class="user-avatar xs bg-xanh-3 d-inline-flex text-body-5 ranking-vtb ml-1">
 																				-
 																			</span>
@@ -759,15 +810,15 @@
 																	<div class="nk-activity-data m-auto">
 																		<div class="label text-headling-6 color-green">+30</div>
 																	</div>
-																	<div class="nk-activity-data">
-																		<div class="label text-headling-6 color-xanh-4">16.000.000</div>
+																	<div class="nk-activity-data mw-luongsi">
+																		<div class="label text-headling-6 color-xanh-4 float-right">16.000.000</div>
 																	</div>
 																</li>
-																<li class="nk-activity-item pl-0 pr-0">
+																<li class="nk-activity-item pl-0 pr-0 pt-1 pb-1">
 																	<div class="nk-activity-media user-avatar bg-blue">50
 																	</div>
-																	<div class="nk-activity-data">
-																		<span class="label text-headling-6 color-xanh-3">Qungnn</span>
+																	<div class="nk-activity-data mw-namesi">
+																		<span class="label text-headling-6 color-xanh-3">Qungnn</span><br class="d-none d-block-1500" />
 																			<span class="user-avatar xs bg-xanh-3 d-inline-flex text-body-5 ranking-vtb ml-1">
 																				-
 																			</span>
@@ -775,8 +826,8 @@
 																	<div class="nk-activity-data m-auto">
 																		<div class="label text-headling-6 color-green">+30</div>
 																	</div>
-																	<div class="nk-activity-data">
-																		<div class="label text-headling-6 color-xanh-4">16.000.000</div>
+																	<div class="nk-activity-data mw-luongsi">
+																		<div class="label text-headling-6 color-xanh-4 float-right">16.000.000</div>
 																	</div>
 																</li>
 																<li class="nk-activity-item pl-0 pr-0 d-jus-between">

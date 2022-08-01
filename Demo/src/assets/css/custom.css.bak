@@ -3117,3 +3117,32 @@ body {
     width: 35px !important;
     border-radius: 9px !important;
 }
+.col-49{
+	 flex: 0 0 49%;
+    max-width: 49%;
+}
+.mw-namesi{
+	min-width: 35%;
+}
+.mw-luongsi{
+	min-width: 21%;
+}
+@media (max-width: 1800px){
+	.mw-namesi{
+		min-width: 40%;
+	}
+	.mw-luongsi{
+		min-width: 24%;
+	}
+}
+@media (max-width: 1500px){
+	.d-block-1500{
+		display: block !important;
+	}
+}
+.img-360product{
+	height: 170px !important;
+	width: 322px !important;
+}
+
+

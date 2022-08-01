@@ -30,20 +30,6 @@
 .btn-icon-outline .icon, .dt-buttons .btn-secondary .icon {
     width: 2.75rem;
 }
-.custom-control-pro.no-control .custom-control-input:checked ~ .custom-control-label {
-    background-color: #D6124C !important;
-}
-.custom-control-input:checked ~ .custom-control-label::before {
-    color: #fff;
-    border-color: #D6124C;
-    background-color: #D6124C;
-}
-.custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
-    border-color: #D6124C;
-}
-.custom-control-pro.no-control .custom-control-input:not(:disabled):active ~ .custom-control-label {
-    border-color: #D6124C;
-}
 </style>
 
 <body class="nk-body bg-lighter npc-default has-sidebar ">
@@ -197,154 +183,82 @@
 												</li>
 											</ul>
                                         </div><!-- .nk-block-head-content -->
+										<div class="nk-block-head-content">
+												<a href="KHBL/addcamnang.html" class="btn bg-xanh-7 text-headling-6 color-xanh-3">Thêm mới cẩm nang</a>
+										</div><!-- .nk-block-head-content -->
                                     </div><!-- .nk-block-between -->
                                 </div><!-- .nk-block-head -->
                                 <div class="nk-block row-ct">
                                     <div class="w-100">
 											<div class="card-preview">
 												<div class="pb-0">
+													<div class="row-ct border-bottom">
+														<ul class="nav nav-tabs mt-n3 border-bottom-0">
+															<li class="nav-item">
+																<a class="nav-link active" data-toggle="tab" href="#tabItem1"><span>Thông tin Sản phẩm</span></a>
+															</li>
+															<li class="nav-item">
+																<a class="nav-link " data-toggle="tab" href="html/tuvancamnang.html"><span>Tư vấn sản phẩm</span></a>
+															</li>
+														</ul>
+													</div>
 													<div class="tab-content">
-														<div class="nk-block pt-3 pb-3">
-															<div class="card card-stretch">
-																<div class="card-inner-group">
-																	<div class="card-inner position-relative card-tools-toggle p-20-25">
-																		<div class="col-12 row-ct pl-0 pr-0 border-bottom">
-																			<div class="col-4 pl-0  pb-3 pr-5">
-																				<div class="form-group">
-																					<label class="form-label text-headling-7 color-gray-3" for="fv-phone">GIỚI TÍNH</label>
-																					<div class="form-control-wrap">
-																						<ul class="custom-control-group">
-																							<li>
-																								<div class="custom-control custom-radio custom-control-pro no-control">
-																									<input type="radio" class="custom-control-input" name="fv-sex" id="sex-male" required>
-																									<label class="custom-control-label" for="sex-male">Nam</label>
+														<div class="tab-pane " id="tabItem2">
+														</div>
+														<div class="tab-pane active" id="tabItem1">
+															<div class="nk-block pt-3 pb-3">
+																<div class="card card-stretch">
+																	<div class="card-inner-group">
+																		<div class="card-inner position-relative card-tools-toggle p-20-25">
+																			<div class="card-title-group">
+																				<div class="card-tools">
+																					<ul class="btn-toolbar gx-1 ">
+																						<li>
+																							<div class="form-group">
+																								<div class="form-control-wrap">
+																									<select class="form-select" data-ui="xl" id="outlined-select1">
+																										<option value="default_option">Chọn nhóm sản phẩm</option>
+																										<option value="option_select_name">Option select name</option>
+																										<option value="option_select_name">Option select name</option>
+																									</select>
 																								</div>
-																							</li>
-																							<li>
-																								<div class="custom-control custom-radio custom-control-pro no-control">
-																									<input type="radio" class="custom-control-input" name="fv-sex" id="sex-female" required>
-																									<label class="custom-control-label" for="sex-female">Nữ</label>
+																							</div>
+																						</li><!-- li -->
+																						<li>
+																							<div class="form-group">
+																								<div class="form-control-wrap">
+																									<select class="form-select" data-ui="xl" id="outlined-select">
+																										<option value="default_option">Chọn loại sản phẩm</option>
+																										<option value="option_select_name">Option select name</option>
+																										<option value="option_select_name">Option select name</option>
+																									</select>
 																								</div>
-																							</li>
-																						</ul>
-																					</div>
-																				</div>
-																				<div class="form-group">
-																					<label class="form-label text-headling-7 color-gray-3" for="fv-topics">SẢN PHẨM QUAN TÂM</label>
-																					<div class="form-control-wrap ">
-																						<select class="form-control form-select" id="fv-topics1" name="fv-topics1" data-placeholder="Select a option" required>
-																							<option label="empty" value=""></option>
-																							<option value="fv-gq">General Question</option>
-																							<option value="fv-tq">Tachnical Question</option>
-																							<option value="fv-ab">Account &amp; Billing</option>
-																						</select>
-																					</div>
-																				</div>
-																			</div>
-																			<div class="border-left col-4 mb-2 pl-5 pr-5 border-right">
-																				<div class="form-group">
-																					<label class="form-label text-headling-7 color-gray-3" for="fv-topics">ĐỘ TUỔI</label>
-																					<div class="form-control-wrap ">
-																						<select class="form-control form-select" id="fv-topics2" name="fv-topics2" data-placeholder="Select a option" required>
-																							<option label="empty" value=""></option>
-																							<option value="fv-gq">General Question</option>
-																							<option value="fv-tq">Tachnical Question</option>
-																							<option value="fv-ab">Account &amp; Billing</option>
-																						</select>
-																					</div>
-																				</div>
-																				<div class="form-group">
-																					<label class="form-label text-headling-7 color-gray-3" for="fv-topics">THU NHẬP ( TRIỆU VND)</label>
-																					<div class="form-control-wrap ">
-																						<select class="form-control form-select" id="fv-topics" name="fv-topics" data-placeholder="Select a option" required>
-																							<option label="empty" value=""></option>
-																							<option value="fv-gq">General Question</option>
-																							<option value="fv-tq">Tachnical Question</option>
-																							<option value="fv-ab">Account &amp; Billing</option>
-																						</select>
-																					</div>
-																				</div>
-																			</div>
-																			<div class="col-4 pr-0 pb-3 pl-5">
-																				<div class="form-group">
-																					<label class="form-label text-headling-7 color-gray-3">SỞ THÍCH</label>
-																					<ul class="custom-control-group g-3 align-center">
-																						<li>
-																							<div class="custom-control custom-checkbox">
-																								<input type="checkbox" class="custom-control-input" name="fv-com" id="fv-com-email" required>
-																								<label class="custom-control-label" for="fv-com-email">Email</label>
 																							</div>
-																						</li>
+																						</li><!-- li -->
 																						<li>
-																							<div class="custom-control custom-checkbox">
-																								<input type="checkbox" class="custom-control-input" name="fv-com" id="fv-com-email" required>
-																								<label class="custom-control-label" for="fv-com-email">Email</label>
+																							<div class="form-group max-w-brand">
+																								<div class="form-control-wrap">
+																									<input type="text" class="form-control form-control-xl form-control-outlined" id="default-03" placeholder="Tìm kiếm theo từ khóa">
+																								</div>
 																							</div>
-																						</li>
+																						</li><!-- li -->
 																						<li>
-																							<div class="custom-control custom-checkbox">
-																								<input type="checkbox" class="custom-control-input" name="fv-com" id="fv-com-email" required>
-																								<label class="custom-control-label" for="fv-com-email">Email</label>
-																							</div>
-																						</li>
+																							<a href="KHDN/list-customer.html" class="btn  btn-select-outline  btn-round btn-icon btn-icon-outline bg-blu-light-3-vt"><em class="icon ni ni-undo"></em></a>
+																						</li><!-- li -->
 																						<li>
-																							<div class="custom-control custom-checkbox">
-																								<input type="checkbox" class="custom-control-input" name="fv-com" id="fv-com-email" required>
-																								<label class="custom-control-label" for="fv-com-email">Email</label>
-																							</div>
-																						</li>
-																						<li>
-																							<div class="custom-control custom-checkbox">
-																								<input type="checkbox" class="custom-control-input" name="fv-com" id="fv-com-email" required>
-																								<label class="custom-control-label" for="fv-com-email">Email</label>
-																							</div>
-																						</li>
-																						<li>
-																							<div class="custom-control custom-checkbox">
-																								<input type="checkbox" class="custom-control-input" name="fv-com" id="fv-com-email" required>
-																								<label class="custom-control-label" for="fv-com-email">Email</label>
-																							</div>
-																						</li>
-																						<li>
-																							<div class="custom-control custom-checkbox">
-																								<input type="checkbox" class="custom-control-input" name="fv-com" id="fv-com-sms" required>
-																								<label class="custom-control-label" for="fv-com-sms">SMS</label>
-																							</div>
-																						</li>
-																						<li>
-																							<div class="custom-control custom-checkbox">
-																								<input type="checkbox" class="custom-control-input" name="fv-com" id="fv-com-phone" required>
-																								<label class="custom-control-label" for="fv-com-phone">Phone</label>
-																							</div>
-																						</li>
-																					</ul>
-																				</div>
-																			</div>
-																		</div>
-																		<div class="col-12 pr-0 text-center row-ct mt-2 d-jus-end">
-																			<div class="text-center pl-0 pr-025">
-																				<a href="#" class="col-12 btn btn-xl bg-xanh-3">
-																					<span class="text-headling-6 color-white">TÌm sản phẩm phù hợp</span>
-																				</a>
-																			</div>
-																			<div class="text-center pr-0 pl-025">
-																				<a href="#" class="btn bg-xanh-7 text-headling-6 color-xanh-3">
-																					<em class="icon ni ni-undo"></em><span>Reset bộ lọc</span> </a>
-																				
-																			</div>
+																							<a href="#" class="btn-select-outline btn bg-xanh-3 text-headling-6 text-white">Tìm kiếm sản phẩm</a>
+																						</li><!-- li -->
+																						
+																						
+																					</ul><!-- .btn-toolbar -->
+																				</div><!-- .card-tools -->
+																			</div><!-- .card-title-group -->
 																		</div>
 																	</div>
 																</div>
 															</div>
-														</div>
-														<div class="nk-block-head nk-block-head-sm pt-2">
-															<div class="nk-block-between">
-																<div class="nk-block-head-content">
-																	<h3 class="nk-block-title page-title text-headling-5 color-gray-5">Sản phẩm phù hợp</h3>
-																</div><!-- .nk-block-head-content -->
-															</div>
-														</div>
-														<div class="nk-block pt-0">
+																	
+															<div class="nk-block">
 																<div class="card-giaiphap col-12 row pb-3 pt-2 bg-transparent pl-0 pr-0">
 																	<div class="col-md-3 col-xxl-3 col-4-1366 nk-tb-item hover-none pl-0 pr-4">
 																		<div class="card pricing bg-white hover-div">
@@ -478,6 +392,7 @@
 																	</div>
 																</div>
 															</div>
+														</div>
 													</div>
 												</div>
 											</div><!-- .card-preview -->
@@ -527,7 +442,165 @@
         )
     </script>
 	<script src="../assets/js/apex_pie_chart.js?ver=2.8.0"></script>
-	
+	<script>
+	function showText(a){
+		$("#des").css("display","block");
+	}
+	var options = {
+          series: [{
+          name: 'Tổng số lượng khách hàng hiện hữu',
+          data: [44, 55, 57, 56, 61, 58, 63, 60, 66, 57, 56, 61,]
+        }, {
+          name: 'Khách hàng ưu tiên',
+          data: [76, 85, 101, 98, 87, 105, 91, 114, 94, 87, 105, 91]
+        }],
+          chart: {
+			  toolbar: {
+					tools: {
+					  download: false
+					  }
+			  },
+          type: 'bar',
+          height: 350
+        },
+		colors: ['#054AA1','#D6124C'],
+        plotOptions: {
+          bar: {
+            horizontal: false,
+            columnWidth: '55%',
+            endingShape: 'rounded'
+          },
+        },
+        dataLabels: {
+          enabled: false
+        },
+        stroke: {
+          show: false,
+          width: 2,
+          colors: ['transparent']
+        },
+        xaxis: {
+          categories: ['03/21', '04/21', '05/21', '06/21', '07/21', '08/21', '09/21', '10/21', '11/21', '12/21', '01/22', '02/22'],
+        },
+		yaxis: {
+          show: false
+        },
+        fill: {
+          opacity: 1
+        },
+        tooltip: {
+          y: {
+            formatter: function (val) {
+              return val + " Khách hàng"
+            }
+          }
+        }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
+		
+		
+		
+		var optionskh = {
+          series: [{
+          name: 'PRODUCT A',
+          data: [44, 55, 41, 67, 22, 43]
+        }, {
+          name: 'PRODUCT B',
+          data: [13, 23, 20, 8, 13, 27]
+        }, {
+          name: 'PRODUCT C',
+          data: [11, 17, 15, 15, 21, 14]
+        }, {
+          name: 'PRODUCT D',
+          data: [21, 7, 25, 13, 22, 8]
+        }],
+          chart: {
+          type: 'bar',
+          height: 350,
+          stacked: true,
+          toolbar: {
+            show: false
+          },
+          zoom: {
+            enabled: true
+          }
+        },
+        responsive: [{
+          breakpoint: 480,
+          options: {
+            legend: {
+              position: 'bottom',
+              offsetX: -10,
+              offsetY: 0
+            }
+          }
+        }],
+        plotOptions: {
+          bar: {
+            horizontal: false,
+            borderRadius: 10
+          },
+        },
+        xaxis: {
+          type: 'datetime',
+          categories: ['01/01/2011 GMT', '01/02/2011 GMT', '01/03/2011 GMT', '01/04/2011 GMT',
+            '01/05/2011 GMT', '01/06/2011 GMT'
+          ],
+        },
+        fill: {
+          opacity: 1
+        }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chartkh"), optionskh);
+        chart.render();
+		
+		
+		var optionschovay = {
+          series: [{
+            name: "Nhóm 1",
+            data: [54, 41, 35, 31, 49, 43, 69, 63, 163]
+        },{
+            name: "Nhóm 2",
+            data: [10, 36, 57, 51, 29, 62, 41, 233, 41]
+        },{
+            name: "Nhóm 3",
+            data: [10, 21, 35, 41, 49, 24, 45, 83, 148]
+        }],
+          chart: {
+		  toolbar: {
+				tools: {
+				  download: false
+				  }
+		  },
+          height: 350,
+          type: 'line',
+          zoom: {
+            enabled: false
+          }
+        },
+        dataLabels: {
+          enabled: false
+        },
+        stroke: {
+          curve: 'straight'
+        },
+        grid: {
+          row: {
+            colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
+            opacity: 0.5
+          },
+        },
+        xaxis: {
+          categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],
+        }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chartchovay"), optionschovay);
+        chart.render();
+	</script>
     <script src="../assets/js/bundle.js?ver=2.8.0"></script>
     <script src="../assets/js/scripts.js?ver=2.0.0"></script>
 	<script src="../assets/js/example-chart.js?ver=2.0.0"></script>
