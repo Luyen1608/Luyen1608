@@ -3142,7 +3142,11 @@ body {
 }
 .img-360product{
 	height: 170px !important;
-	width: 322px !important;
 }
 
-
+.link-list-menu li.active > a, .link-list-menu a.active, .link-list-menu a:hover, .link-list-menu li.active > a .icon, .link-list-menu a.active .icon, .link-list-menu a:hover .icon, .link-list-menu li.active > a:after, .link-list-menu a.active:after, .link-list-menu a:hover:after{
+	color: #014F97 !important;
+}
+.border-left-blu-3{
+	border-left: 5px solid #014F97;
+}

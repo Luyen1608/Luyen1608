@@ -288,7 +288,7 @@
 																								</div><!-- .card-inner -->
 																								<div class="card-inner p-0">
 																									<ul class="link-list-menu">
-																										<li class="bg-tkgt-corner-gardient-vt border-left-blu-3"><a class="active" href="KHBL/camnangbanhang-detail1.html"><em class="icon ni ni-user-fill-c mt-auto"></em><span class=" text-headling-6">Đặc điểm sản phẩm</span></a></li>
+																										<li class="bg-tkgt-corner-gardient-vt"><a class="active" href="KHBL/camnangbanhang-detail1.html"><em class="icon ni ni-user-fill-c mt-auto"></em><span class=" text-headling-6">Đặc điểm sản phẩm</span></a></li>
 																										<li><a href="KHBL/camnangbanhang-detail2.html"><em class="icon ni ni-bell-fill mt-auto "></em><span class="color-cham-2 text-headling-6">Khuyến mại</span></a></li>
 																										<li><a href="html/user-profile-activity.html"><em class="icon ni ni-activity-round-fill mt-auto "></em><span class="color-cham-2 text-headling-6">Chính sách sản phẩm</span></a></li>
 																										<li><a href="html/user-profile-setting.html"><em class="icon ni ni-lock-alt-fill mt-auto "></em><span class="color-cham-2 text-headling-6">Ấn phẩm</span></a></li>

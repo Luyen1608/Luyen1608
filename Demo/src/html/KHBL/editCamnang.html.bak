@@ -98,9 +98,7 @@
                                             <a href="KHBL/reportCustomer.html" class="nk-menu-link"><span class="nk-menu-text text-headling-7">Báo cáo kết quả</span></a>
                                         </li>
                                     </ul><!-- .nk-menu-sub -->
-                                </li><!-- .nk-menu-item -->
-								
-														
+                                </li><!-- .nk-menu-item -->			
                             </ul><!-- .nk-menu -->
                         </div><!-- .nk-sidebar-menu -->
                     </div><!-- .nk-sidebar-content -->
@@ -171,144 +169,210 @@
                 <!-- main header @e -->
                 <!-- content @s -->
                 <div class="nk-content pl-4-1366 pr-4-1366">
-                    <div class="container-fluid pl-0-1024 pr-0-1024">
+                    <div class="container-fluid pl-0-1024 pr-0-1024 pl-0 pr-0">
                         <div class="nk-content-inner">
                             <div class="nk-content-body">
+								<div class="nk-block-head nk-block-head-sm">
+                                    <div class="nk-block-between">
+                                        <div class="nk-block-head-content">
+                                            <ul class="btn-toolbar gx-1">
+												<li style="margin: auto;">
+													<a href="KHBL/list-customer.html"><em class="icon ni ni-back-ios"></em></a>
+												</li><!-- li -->
+												<li class="btn-toolbar-sep  mr-1 ml-1 "></li><!-- li -->
+												<li>
+													<h3 class="nk-block-title page-title color-xanh-1 text-headling-0">Chỉnh sửa cẩm nang bán hàng mới</h3>
+												</li>
+											</ul>
+                                        </div><!-- .nk-block-head-content -->
+                                    </div><!-- .nk-block-between -->
+                                </div><!-- .nk-block-head -->
+								<div class="card-giaiphap col-12 mb-3 mt-2 nk-block">
+										<div class="row-ct  g-gs">
+											<div class="col-4 steps-vt bg-white steps-vt text-center">
+												<span class="color-gray-3 text-headling-7">1. Chọn cẩm nang</span>
+											</div>
+											<div class="col-4 steps-vt text-center bg-blu-light-vt text-center">
+												<span class="color-xanh-3 text-headling-7">2. Chỉnh sửa cẩm nang bán hàng</span>
+											</div>
+											<div class=" bg-white col-4 steps-active-vt text-center"
+												onclick="directChoose()">
+												<span class="color-gray-3 text-headling-7">3. Lưu chỉnh sửa cẩm nang bán hàng</span>
+											</div>
+										</div>
+									</div>
+									<div class="nk-block-head nk-block-head-sm">
+										<div class="nk-block-between d-jus-center pb-2">
+											<div class="nk-block-head-content">
+												<h3 class="nk-block-title page-title color-xanh-1 text-headling-3">Chỉnh sửa cẩm nang bán hàng</h3>
+											</div><!-- .nk-block-head-content -->
+										</div><!-- .nk-block-between -->
+									</div><!-- .nk-block-head -->
                                 <div class="nk-block row-ct">
-                                    <div class="w-100">
-											<div class="card-preview">
-												<div class="pb-0">
-													<div class="row-ct border-bottom">
-														<ul class="nav nav-tabs mt-n3 border-bottom-0">
-															<li class="nav-item">
-																<a class="nav-link active" data-toggle="tab" href="#tabItem1"><span>Thông tin Sản phẩm</span></a>
-															</li>
-															<li class="nav-item">
-																<a class="nav-link " href="KHBL/tuvancamnang.html"<span>Tư vấn sản phẩm</span></a>
-															</li>
-														</ul>
-													</div>
-													<div class="tab-content">
-														<div class="tab-pane " id="tabItem2">
-														</div>
-														<div class="tab-pane active" id="tabItem1">
-															<div class="nk-block pt-3 pb-3">
-																<div class="card card-stretch">
-																	<div class="card-inner-group">
-																		<div class="card-inner position-relative card-tools-toggle p-20-25">
-																			<div class="card-title-group">
-																				<div class="card-tools">
-																					<ul class="btn-toolbar gx-1 ">
-																						<li>
-																							<div class="form-group">
-																								<div class="form-control-wrap">
-																									<select class="form-select" data-ui="xl" id="outlined-select1">
-																										<option value="default_option">Chọn nhóm sản phẩm</option>
-																										<option value="option_select_name">Option select name</option>
-																										<option value="option_select_name">Option select name</option>
-																									</select>
-																								</div>
-																							</div>
-																						</li><!-- li -->
-																						<li>
-																							<div class="form-group">
-																								<div class="form-control-wrap">
-																									<select class="form-select" data-ui="xl" id="outlined-select">
-																										<option value="default_option">Chọn loại sản phẩm</option>
-																										<option value="option_select_name">Option select name</option>
-																										<option value="option_select_name">Option select name</option>
-																									</select>
-																								</div>
-																							</div>
-																						</li><!-- li -->
-																						<li>
-																							<div class="form-group max-w-brand">
-																								<div class="form-control-wrap">
-																									<input type="text" class="form-control form-control-xl form-control-outlined" id="default-03" placeholder="Tìm kiếm theo từ khóa">
-																								</div>
-																							</div>
-																						</li><!-- li -->
-																						<li>
-																							<a href="KHDN/list-customer.html" class="btn  btn-select-outline  btn-round btn-icon btn-icon-outline bg-blu-light-3-vt"><em class="icon ni ni-undo"></em></a>
-																						</li><!-- li -->
-																						<li>
-																							<a href="#" class="btn-select-outline btn bg-xanh-3 text-headling-6 text-white">Tìm kiếm sản phẩm</a>
-																						</li><!-- li -->
+                                    <div class="col-12 pl-0 pr-0">
+												<div class="container-fluid pl-0 pr-0">
+													<div class="nk-content-inner">
+														<div class="nk-content-body">
+															<div class="nk-block">
+																<div class="card">
+																	<div class="card-aside-wrap">
+																		<div class="card-inner card-inner-lg">
+																			<div class="nk-block-head nk-block-head-lg pb-4">
+																				<div class="nk-block-between">
+																					<div class="nk-block-head-content">
+																						<h4 class="nk-block-title color-xanh-3 text-headling-5">Thông tin chung</h4>
 																						
-																						
-																					</ul><!-- .btn-toolbar -->
-																				</div><!-- .card-tools -->
-																			</div><!-- .card-title-group -->
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<div class="">
-																<div class="container-fluid pl-0 pr-0">
-																	<div class="nk-content-inner">
-																		<div class="nk-content-body">
-																			<div class="nk-block">
-																				<div class="card">
-																					<div class="card-aside-wrap">
-																						<div class="card-inner card-inner-lg">
-																							<div class="nk-block-head nk-block-head-lg">
-																								<div class="nk-block-between">
-																									<div class="nk-block-head-content">
-																										<h4 class="nk-block-title color-xanh-3 text-headling-5">Đặc điểm sản phẩm</h4>
-																										<div class="nk-block-des">
-																											<p class="color-cham-1 text-body-4">20/10/2021 - 20/10/2022</p>
-																										</div>
-																									</div>
-																									<div class="nk-block-head-content align-self-start d-lg-none">
-																										<a href="#" class="toggle btn btn-icon btn-trigger mt-n1" data-target="userAside"><em class="icon ni ni-menu-alt-r"></em></a>
-																									</div>
-																								</div>
-																							</div><!-- .nk-block-head -->
-																							<div class="nk-block h-100">
-																								<div class="card card-bordered" style="min-height: 80%">
-																									<ul class="list p-4">
-																										<li class="color-cham-1 text-body-2 pb-3">Miễn phí duy trì tài khoản, duy trì Vietinbank iPay</li>
-																										<li class="color-cham-1 text-body-2 pb-3">Miễn phí duy trì dịch vụ biến động thông tin TK qua OTT/SMS</li>
-																										<li class="color-cham-1 text-body-2 pb-3">Miễn phí giao dịch chuyển khoản trong/ngoài hệ thống trên iPay Mobile </li>
-																										<li class="color-cham-1 text-body-2 pb-3">Thời gian thu phí duy trì Gói (nếu số dư BQ/tháng của TK thấp hơn mức quy định tối thiểu)</li>
-																										<li class="color-cham-1 text-body-2 pb-3">Thời gian thu phí duy trì Gói (nếu số dư BQ/tháng của TK thấp hơn mức quy định tối thiểu)</li>
-																										<li class="color-cham-1 text-body-2 pb-3">Đối với KH mở Gói TK mới:  Vào ngày 15 hàng tháng. Kỳ thu phí đầu tiên đảm bảo điều kiện ≥ 30 ngày kể từ thời điểm TK đăng ký Gói TK</li>
-																									</ul>
-																								</div><!-- data-list -->
-																							</div><!-- .nk-block -->
+																					</div>
+																					<div class="nk-block-head-content align-self-start d-lg-none">
+																						<a href="#" class="toggle btn btn-icon btn-trigger mt-n1" data-target="userAside"><em class="icon ni ni-menu-alt-r"></em></a>
+																					</div>
+																				</div>
+																			</div><!-- .nk-block-head -->
+																			
+																			<div class="nk-block h-100 row-ct">
+																				<div class=" p-4 col-6" style="min-height: 80%">
+																					<div class="form-group text-body-3">
+																						<div class="form-control-wrap text-body-3">
+																							<div class="form-group">
+																								<label class="form-label color-gray-2 text-body-4" for="default-1-02">Tên sản phẩm</label>
+																								<input type="text" class="form-control" id="default-1-02" value="">
+																							</div>
 																						</div>
-																						<div class="card-aside card-aside-left user-aside toggle-slide toggle-slide-left toggle-break-lg" data-content="userAside" data-toggle-screen="lg" data-toggle-overlay="true">
-																							<div class="card-inner-group" data-simplebar>
-																								<div class="card-inner">
-																									<div class="user-account-info py-0">
-																										<h6 class=" color-cham-1 text-body-4">Sản phẩm thẻ</h6>
-																										<div class="user-balance color-xanh-3 text-headling-4 pt-1 pb-2">Thẻ MasterCard Cashback</div>
-																										<div class="user-balance-sub color-cham-1 text-body-4">20/10/2021 - 20/10/2022</div>
-																									</div>
-																								</div><!-- .card-inner -->
-																								<div class="card-inner p-0">
-																									<ul class="link-list-menu">
-																										<li class="bg-tkgt-corner-gardient-vt border-left-blu-3"><a class="active" href="KHBL/camnangbanhang-detail1.html"><em class="icon ni ni-user-fill-c mt-auto"></em><span class=" text-headling-6">Đặc điểm sản phẩm</span></a></li>
-																										<li><a href="KHBL/camnangbanhang-detail2.html"><em class="icon ni ni-bell-fill mt-auto "></em><span class="color-cham-2 text-headling-6">Khuyến mại</span></a></li>
-																										<li><a href="html/user-profile-activity.html"><em class="icon ni ni-activity-round-fill mt-auto "></em><span class="color-cham-2 text-headling-6">Chính sách sản phẩm</span></a></li>
-																										<li><a href="html/user-profile-setting.html"><em class="icon ni ni-lock-alt-fill mt-auto "></em><span class="color-cham-2 text-headling-6">Ấn phẩm</span></a></li>
-																										<li><a href="html/user-profile-setting.html"><em class="icon ni ni-lock-alt-fill mt-auto "></em><span class="color-cham-2 text-headling-6">Biểu phí | Lãi suất</span></a></li>
-																										<li><a href="html/user-profile-setting.html"><em class="icon ni ni-lock-alt-fill mt-auto "></em><span class="color-cham-2 text-headling-6">Thi đua | khen thưởng</span></a></li>
-																									</ul>
-																								</div><!-- .card-inner -->
-																							</div><!-- .card-inner-group -->
-																						</div><!-- card-aside -->
-																					</div><!-- .card-aside-wrap -->
-																				</div><!-- .card -->
+																					</div>
+																					<div class="form-group text-body-3">
+																						<div class="form-control-wrap text-body-3">
+																							<div class="form-group">
+																								<label class="form-label color-gray-2 text-body-4" for="default-1-02">Tên sản phẩm</label>
+																								<div class="form-control-wrap">
+																									<select class="form-select form-control form-control-lg">
+																										<option value="default_option">Default Option</option>
+																										<option value="option_select_name">Option select name</option>
+																										<option value="option_select_name">Option select name</option>
+																									</select>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="form-group text-body-3">
+																						<div class="form-control-wrap text-body-3">
+																							<div class="form-group">
+																								<label class="form-label color-gray-2 text-body-4 mb-3" for="default-1-02">Loại sản phẩm</label>
+																								<ul class="btn-toolbar gx-1 w-100">
+																									<li class="col-6">
+																										<div class="form-group">
+																											<div class="form-control-wrap">
+																												<div class="form-icon form-icon-right">
+																													<em class="icon ni ni-calendar-alt"></em>
+																												</div>
+																												<input type="text" class="form-control form-control-xl form-control-outlined date-picker" id="outlined-date-picker">
+																												<label class="form-label-outlined" for="outlined-date-picker">Ngày bắt đầu</label>
+																											</div>
+																										</div>
+																									</li><!-- li -->
+																									<li class="col-6">
+																										<div class="form-group">
+																											<div class="form-control-wrap">
+																												<div class="form-icon form-icon-right">
+																													<em class="icon ni ni-calendar-alt"></em>
+																												</div>
+																												<input type="text" class="form-control form-control-xl form-control-outlined date-picker" id="outlined-date-picker">
+																												<label class="form-label-outlined" for="outlined-date-picker">Ngày kết thúc</label>
+																											</div>
+																										</div>
+																									</li><!-- li -->
+																								</ul><!-- .btn-toolbar -->
+																							</div>
+																						</div>
+																					</div>
+																					
+																				</div><!-- data-list -->
+																				<div class=" p-4 col-6 mt-0" style="min-height: 80%">
+																					<div class="form-group text-body-3">
+																						<div class="form-control-wrap text-body-3">
+																							<div class="form-group">
+																								<label class="form-label color-gray-2 text-body-4" for="default-1-02">Tên sản phẩm</label>
+																								<input type="text" class="form-control" id="default-1-02" value="">
+																							</div>
+																						</div>
+																					</div>
+																					<div class="form-group text-body-3">
+																						<div class="form-control-wrap text-body-3">
+																							<div class="form-group">
+																								<label class="form-label color-gray-2 text-body-4" for="default-1-02">Tên sản phẩm</label>
+																								<div class="form-control-wrap">
+																									<select class="form-select form-control form-control-lg">
+																										<option value="default_option">Default Option</option>
+																										<option value="option_select_name">Option select name</option>
+																										<option value="option_select_name">Option select name</option>
+																									</select>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="form-group text-body-3">
+																						<div class="form-control-wrap text-body-3">
+																							<div class="form-group">
+																								<label class="form-label color-gray-2 text-body-4 mb-3" for="default-1-02">Loại sản phẩm</label>
+																								<ul class="btn-toolbar gx-1 w-100">
+																									<li class="col-6">
+																										<div class="form-group">
+																											<div class="form-control-wrap">
+																												<div class="form-icon form-icon-right">
+																													<em class="icon ni ni-calendar-alt"></em>
+																												</div>
+																												<input type="text" class="form-control form-control-xl form-control-outlined date-picker" id="outlined-date-picker">
+																												<label class="form-label-outlined" for="outlined-date-picker">Ngày bắt đầu</label>
+																											</div>
+																										</div>
+																									</li><!-- li -->
+																									<li class="col-6">
+																										<div class="form-group">
+																											<div class="form-control-wrap">
+																												<div class="form-icon form-icon-right">
+																													<em class="icon ni ni-calendar-alt"></em>
+																												</div>
+																												<input type="text" class="form-control form-control-xl form-control-outlined date-picker" id="outlined-date-picker">
+																												<label class="form-label-outlined" for="outlined-date-picker">Ngày kết thúc</label>
+																											</div>
+																										</div>
+																									</li><!-- li -->
+																								</ul><!-- .btn-toolbar -->
+																							</div>
+																						</div>
+																					</div>
+																					
+																				</div><!-- data-list -->
 																			</div><!-- .nk-block -->
 																		</div>
-																	</div>
-																</div>
-															</div>
+																		<div class="card-aside card-aside-left user-aside toggle-slide toggle-slide-left toggle-break-lg" data-content="userAside" data-toggle-screen="lg" data-toggle-overlay="true">
+																			<div class="card-inner-group" data-simplebar>
+																				<div class="card-inner">
+																					<div class="user-account-info py-0">
+																						<h6 class=" color-cham-1 text-body-4">Sản phẩm thẻ</h6>
+																						<div class="user-balance color-xanh-3 text-headling-4 pt-1 pb-2">Thẻ MasterCard Cashback</div>
+																						<div class="user-balance-sub color-cham-1 text-body-4">20/10/2021 - 20/10/2022</div>
+																					</div>
+																				</div><!-- .card-inner -->
+																				<div class="card-inner p-0">
+																					<ul class="link-list-menu">
+																						<li class="bg-tkgt-corner-gardient-vt border-left-blu-3"><a class="active" href="KHBL/camnangbanhang-detail1.html"><em class="icon ni ni-user-fill-c mt-auto"></em>
+																							<span class=" text-headling-6">Thông tin chung</span></a></li>
+																						<li><a href="KHBL/camnangbanhang-detail2.html"><em class="icon ni ni-bell-fill mt-auto "></em><span class="color-cham-2 text-headling-6">Khuyến mại</span></a></li>
+																						<li><a href="html/user-profile-activity.html"><em class="icon ni ni-activity-round-fill mt-auto "></em><span class="color-cham-2 text-headling-6">Chính sách sản phẩm</span></a></li>
+																						<li><a href="html/user-profile-setting.html"><em class="icon ni ni-lock-alt-fill mt-auto "></em><span class="color-cham-2 text-headling-6">Ấn phẩm</span></a></li>
+																						<li><a href="html/user-profile-setting.html"><em class="icon ni ni-lock-alt-fill mt-auto "></em><span class="color-cham-2 text-headling-6">Biểu phí | Lãi suất</span></a></li>
+																						<li><a href="html/user-profile-setting.html"><em class="icon ni ni-lock-alt-fill mt-auto "></em><span class="color-cham-2 text-headling-6">Thi đua | khen thưởng</span></a></li>
+																					</ul>
+																				</div><!-- .card-inner -->
+																			</div><!-- .card-inner-group -->
+																		</div><!-- card-aside -->
+																	</div><!-- .card-aside-wrap -->
+																</div><!-- .card -->
+															</div><!-- .nk-block -->
 														</div>
 													</div>
 												</div>
-											</div><!-- .card-preview -->
+											</div>
 										</div>
 								
                                 </div><!-- .nk-block -->
