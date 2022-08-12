@@ -3153,3 +3153,6 @@ body {
 .border-radius-10{
 	border-radius: 10px;
 }
+.d-jusSpace{
+	justify-content: space-evenly;
+}
