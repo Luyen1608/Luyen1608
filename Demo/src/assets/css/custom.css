@@ -3156,3 +3156,11 @@ body {
 .d-jusSpace{
 	justify-content: space-evenly;
 }
+.text-break{
+	word-wrap: break-word;
+}
+.scroll-link{
+	height: 300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
