@@ -3164,3 +3164,11 @@ body {
     overflow-x: hidden;
     overflow-y: scroll;
 }
+.col-25per {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.col-73per {
+    flex: 0 0 73%;
+    max-width: 73%;
+}
