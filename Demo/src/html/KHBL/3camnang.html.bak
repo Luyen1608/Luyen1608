@@ -506,14 +506,35 @@
 																						</div>
 																					</div><!-- .card-inner -->
 																					<div class="p-4 col-8 mt-0 border-left" style="min-height: 80%">
-																						<ul class="list">
-																							<li class="color-cham-1 text-body-2 pb-3">Miễn phí duy trì tài khoản, duy trì Vietinbank iPay</li>
-																							<li class="color-cham-1 text-body-2 pb-3">Miễn phí duy trì dịch vụ biến động thông tin TK qua OTT/SMS</li>
-																							<li class="color-cham-1 text-body-2 pb-3">Miễn phí giao dịch chuyển khoản trong/ngoài hệ thống trên iPay Mobile </li>
-																							<li class="color-cham-1 text-body-2 pb-3">Thời gian thu phí duy trì Gói (nếu số dư BQ/tháng của TK thấp hơn mức quy định tối thiểu)</li>
-																							<li class="color-cham-1 text-body-2 pb-3">Thời gian thu phí duy trì Gói (nếu số dư BQ/tháng của TK thấp hơn mức quy định tối thiểu)</li>
-																							<li class="color-cham-1 text-body-2 pb-3">Đối với KH mở Gói TK mới:  Vào ngày 15 hàng tháng. Kỳ thu phí đầu tiên đảm bảo điều kiện ≥ 30 ngày kể từ thời điểm TK đăng ký Gói TK</li>
-																						</ul>
+																						<div class="row-ct">
+																							<div class="col-3">
+																								<img class=" pl-0 pr-0 card-img-top border-radius-10" src="../images/bg-login.png" alt="">
+																							</div>
+																							<div class="col-3">
+																								<img class=" pl-0 pr-0 card-img-top border-radius-10" src="../images/bg-login.png" alt="">
+																							</div>
+																							<div class="col-3">
+																								<img class=" pl-0 pr-0 card-img-top border-radius-10" src="../images/bg-login.png" alt="">
+																							</div>
+																							<div class="col-3">
+																								<img class=" pl-0 pr-0 card-img-top border-radius-10" src="../images/bg-login.png" alt="">
+																							</div>
+																						</div>
+																						<div class="row-ct pt-2">
+																							<div class="col-3">
+																								<img class=" pl-0 pr-0 card-img-top border-radius-10" src="../images/bg-login.png" alt="">
+																							</div>
+																							<div class="col-3">
+																								<img class=" pl-0 pr-0 card-img-top border-radius-10" src="../images/bg-login.png" alt="">
+																							</div>
+																							<div class="col-3">
+																								<img class=" pl-0 pr-0 card-img-top border-radius-10" src="../images/bg-login.png" alt="">
+																							</div>
+																							<div class="col-3">
+																								<img class=" pl-0 pr-0 card-img-top border-radius-10" src="../images/bg-login.png" alt="">
+																							</div>
+																						</div>
+																						
 																					</div><!-- data-list -->
 																				</div><!-- .nk-block -->
 																			</div>
@@ -522,7 +543,7 @@
 																	<div class="col-12 m-auto pt-3 text-center row-ct d-jus-center">
 																		<div class="col-2 pl-0">
 																			<a href="#" data-dismiss="modal" aria-label="Close" 
-																				class="h-50px d-jus-center col-12 btn btn-xl color-white text-headling-6 bg-cham-4">Quay lại</a>
+																				class="h-50px d-jus-center col-12 btn btn-xl color-xanh-3 text-headling-6 bg-cham-4">Quay lại</a>
 																		</div>
 																		<div class="col-2 pl-0 pr-0">
 																			<a class="h-50px d-jus-center col-12 btn btn-xl bg-xanh-3 text-headling-6  color-white">Lưu cẩm nang</a>
