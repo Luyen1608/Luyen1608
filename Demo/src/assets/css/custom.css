@@ -3172,3 +3172,14 @@ body {
     flex: 0 0 73%;
     max-width: 73%;
 }
+.txt-ellip{
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.scroll-y {
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    display: inline-block!important;
+}
