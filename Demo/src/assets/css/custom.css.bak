@@ -3177,9 +3177,9 @@ body {
     white-space: nowrap;
     overflow: hidden;
 }
-.scroll-w {
+.scroll-y {
     white-space: nowrap;
-    overflow-x: scroll;
-    overflow-y: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     display: inline-block!important;
 }

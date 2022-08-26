@@ -3183,3 +3183,6 @@ body {
     overflow-y: scroll;
     display: inline-block!important;
 }
+.mh-auto{
+	min-height: auto;
+}

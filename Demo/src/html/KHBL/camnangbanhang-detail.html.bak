@@ -277,7 +277,7 @@
 																								</div><!-- data-list -->
 																							</div><!-- .nk-block -->
 																						</div>
-																						<div class="card-aside card-aside-left user-aside toggle-slide toggle-slide-left toggle-break-lg" data-content="userAside" data-toggle-screen="lg" data-toggle-overlay="true">
+																						<div class="mh-auto card-aside card-aside-left user-aside toggle-slide toggle-slide-left toggle-break-lg" data-content="userAside" data-toggle-screen="lg" data-toggle-overlay="true">
 																							<div class="card-inner-group" data-simplebar>
 																								<div class="card-inner">
 																									<div class="user-account-info py-0">
@@ -288,12 +288,29 @@
 																								</div><!-- .card-inner -->
 																								<div class="card-inner p-0">
 																									<ul class="link-list-menu">
-																										<li class="bg-tkgt-corner-gardient-vt"><a class="active" href="KHBL/camnangbanhang-detail1.html"><em class="icon ni ni-user-fill-c mt-auto"></em><span class=" text-headling-6">Đặc điểm sản phẩm</span></a></li>
+																										<li class="bg-tkgt-corner-gardient-vt border-left-blu-3"><a class="active" href="KHBL/camnangbanhang-detail1.html"><em class="icon ni ni-user-fill-c mt-auto"></em><span class=" text-headling-6">Đặc điểm sản phẩm</span></a></li>
 																										<li><a href="KHBL/camnangbanhang-detail2.html"><em class="icon ni ni-bell-fill mt-auto "></em><span class="color-cham-2 text-headling-6">Khuyến mại</span></a></li>
 																										<li><a href="html/user-profile-activity.html"><em class="icon ni ni-activity-round-fill mt-auto "></em><span class="color-cham-2 text-headling-6">Chính sách sản phẩm</span></a></li>
 																										<li><a href="html/user-profile-setting.html"><em class="icon ni ni-lock-alt-fill mt-auto "></em><span class="color-cham-2 text-headling-6">Ấn phẩm</span></a></li>
 																										<li><a href="html/user-profile-setting.html"><em class="icon ni ni-lock-alt-fill mt-auto "></em><span class="color-cham-2 text-headling-6">Biểu phí | Lãi suất</span></a></li>
 																										<li><a href="html/user-profile-setting.html"><em class="icon ni ni-lock-alt-fill mt-auto "></em><span class="color-cham-2 text-headling-6">Thi đua | khen thưởng</span></a></li>
+																										<li><a href="html/user-profile-setting.html"><em class="icon ni ni-lock-alt-fill mt-auto "></em><span class="color-cham-2 text-headling-6">Thi đua | khen thưởng</span></a></li>
+																									</ul>
+																									<ul class="custom-control-group w-100 d-jusSpace pt-4">
+																										<li class="">
+																											<div class="preview-icon-box p-0">
+																												<div class="preview-icon-wrap pb-0 " data-toggle="modal" data-target="#modalLink" >
+																													<em class="icon ni ni-unlink color-cham-1" style="font-size:35px!important"></em>
+																												</div>
+																												<span class="preview-icon-name color-cham-1 fs-12px-1200 fs-12px-vt">Link liên kết</span></div>
+																										</li>
+																										<li>
+																											<div class="preview-icon-box p-0">
+																												<div class="preview-icon-wrap pb-0">
+																													<em class="icon ni ni-share-alt color-cham-1" style="font-size:35px!important"></em>
+																												</div>
+																												<span class="preview-icon-name color-cham-1 fs-12px-1200 fs-12px-vt">Chỉnh sửa</span></div>
+																										</li>
 																									</ul>
 																								</div><!-- .card-inner -->
 																							</div><!-- .card-inner-group -->
@@ -310,7 +327,86 @@
 												</div>
 											</div><!-- .card-preview -->
 										</div>
-								
+								<div class="modal fade " tabindex="-1" id="modalLink">
+								<div class="modal-dialog max-w600px" role="document">
+									<div class="col-12 pl-0 pr-0">
+										<div class="modal-content col-12 pt-4 pb-0">
+											
+											<div class="modal-header border-bottom-0 m-auto pt-0">
+												<h5 class="modal-title color-cham-2 text-headling-6"><em class="icon ni ni-globe color-red-1 " style="font-size:100px!important"></em></h5>
+											</div>
+											<div class="modal-header border-bottom-0 m-auto pb-1 pt-0">
+												<h5 class="modal-title color-xanh-2 text-headling-5 d-block  color-red-2">Truy cập link liên kết</h5>
+											</div>
+											<div class="modal-body pt-1 pb-3 mb-3 pl-2 pr-2 scroll-link">
+												<div class="bg-xanh-8 col-12 pb-2 pl-0 pl-3 pr-0 pr-3 pt-2 row-ct mt-2">
+													<div class="col-11 row-ct pl-0 pr-0">
+														<div class="col-12 pl-0 pr-0 col-12-1024">
+															<span class="float-left color-cham-1 text-body-2">Liên kết 1</span>
+														</div>
+														<div class="col-12 pl-0 pr-0 col-12-1024 text-break">
+															<span class="">http://intranet.vietinbank.vn/intranet.vietinbank.vn/KBL/trungtamthe/Pages/ttt_spdv.aspx?Root%...</span>
+														</div>
+													</div>	
+													<div class="col-1 row-ct pl-0 pr-0">
+														<a href="#" class="btn me-n2 "><em class="icon ni ni-forward-ios"></em></a>
+													</div>
+												</div>
+												<div class="bg-xanh-8 col-12 pb-2 pl-0 pl-3 pr-0 pr-3 pt-2 row-ct mt-2">
+													<div class="col-11 row-ct pl-0 pr-0">
+														<div class="col-12 pl-0 pr-0 col-12-1024">
+															<span class="float-left color-cham-1 text-body-2">Liên kết 1</span>
+														</div>
+														<div class="col-12 pl-0 pr-0 col-12-1024 text-break">
+															<span class="">http://intranet.vietinbank.vn/intranet.vietinbank.vn/KBL/trungtamthe/Pages/ttt_spdv.aspx?Root%...</span>
+														</div>
+													</div>	
+													<div class="col-1 row-ct pl-0 pr-0">
+														<a href="#" class="btn me-n2 "><em class="icon ni ni-forward-ios"></em></a>
+													</div>
+												</div>
+												<div class="bg-xanh-8 col-12 pb-2 pl-0 pl-3 pr-0 pr-3 pt-2 row-ct mt-2">
+													<div class="col-11 row-ct pl-0 pr-0">
+														<div class="col-12 pl-0 pr-0 col-12-1024">
+															<span class="float-left color-cham-1 text-body-2">Liên kết 1</span>
+														</div>
+														<div class="col-12 pl-0 pr-0 col-12-1024 text-break">
+															<span class="">http://intranet.vietinbank.vn/intranet.vietinbank.vn/KBL/trungtamthe/Pages/ttt_spdv.aspx?Root%...</span>
+														</div>
+													</div>	
+													<div class="col-1 row-ct pl-0 pr-0">
+														<a href="#" class="btn me-n2 "><em class="icon ni ni-forward-ios"></em></a>
+													</div>
+												</div>
+												<div class="bg-xanh-8 col-12 pb-2 pl-0 pl-3 pr-0 pr-3 pt-2 row-ct mt-2">
+													<div class="col-11 row-ct pl-0 pr-0">
+														<div class="col-12 pl-0 pr-0 col-12-1024">
+															<span class="float-left color-cham-1 text-body-2">Liên kết 1</span>
+														</div>
+														<div class="col-12 pl-0 pr-0 col-12-1024 text-break">
+															<span class="">http://intranet.vietinbank.vn/intranet.vietinbank.vn/KBL/trungtamthe/Pages/ttt_spdv.aspx?Root%...</span>
+														</div>
+													</div>	
+													<div class="col-1 row-ct pl-0 pr-0">
+														<a href="#" class="btn me-n2 "><em class="icon ni ni-forward-ios"></em></a>
+													</div>
+												</div>
+											</div>
+											<div class="col-7 m-auto pt-1 text-center row-ct pb-5">
+												<div class="col-6 pl-0">
+													<a href="#" data-dismiss="modal" aria-label="Close" 
+														class="d-jus-center col-12 btn btn-xl color-xanh-3 text-headling-6 bg-cham-4">Hủy bỏ</a>
+												</div>
+												<div class="col-6 pl-0 pr-0">
+													<a class="d-jus-center col-12 btn btn-xl bg-xanh-3 text-headling-6  color-white">Cập nhật</a>
+												</div>
+											  
+												
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
                                 </div><!-- .nk-block -->
                             </div>
                         </div>
