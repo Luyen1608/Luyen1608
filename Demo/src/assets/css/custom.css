@@ -3164,3 +3164,26 @@ body {
     overflow-x: hidden;
     overflow-y: scroll;
 }
+.w-spdv{
+	width: 289px;
+	height: 506px;
+}
+.w-other{
+	width: 289px;
+	height: 243px;
+}
+.w-dmsp{
+	width: 78px;
+	height: 85px;
+}
+.p-10{
+	padding: 10px;
+}
+.overflow-x{
+	overflow-x: auto;
+	overflow-y: hidden;
+	
+}
+.w-other-all{
+	width: -webkit-calc(100% - 315px);
+}
