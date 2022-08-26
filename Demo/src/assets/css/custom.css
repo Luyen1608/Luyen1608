@@ -3187,3 +3187,25 @@ body {
 .w-other-all{
 	width: -webkit-calc(100% - 315px);
 }
+.col-25per {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.col-73per {
+    flex: 0 0 73%;
+    max-width: 73%;
+}
+.txt-ellip{
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.scroll-y {
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    display: inline-block!important;
+}
+.mh-auto{
+	min-height: auto;
+}

@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+
+<head>
+    <base href="../">
+    <meta charset="utf-8">
+    <meta name="author" content="Softnio">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A powerful and conceptual apps base dashboard template that especially build for developers and programmers.">
+    <!-- Fav Icon  -->
+    <link rel="shortcut icon" href="../images/favicon.png">
+    <!-- Page Title  -->
+    <title>Detail Customer</title>
+    <!-- StyleSheets  -->
+    <link rel="stylesheet" href="../assets/css/dashlite.css?ver=2.0.0">
+	<link rel="stylesheet" href="../assets/css/dashlite1.css?ver=2.0.0">
+	<link rel="stylesheet" href="../assets/css/custom.css?ver=2.0.0">
+    <link id="skin-default" rel="stylesheet" href="../assets/css/theme.css?ver=2.0.0">
+</head>
+<style>
+.list li:before {
+	color: #014F97;
+}
+.select2-container--default.select2-xl .select2-selection--single .select2-selection__rendered {
+    padding: 0.425rem calc(3.25rem + 1px) 0.625rem 1.25rem;
+}
+.btn-select-outline{
+    padding: 0.775rem 1.5rem;
+}
+.btn-icon-outline .icon, .dt-buttons .btn-secondary .icon {
+    width: 2.75rem;
+}
+</style>
+
+<body class="nk-body bg-lighter npc-default has-sidebar ">
+    <div class="nk-app-root">
+        <!-- main @s -->
+        <div class="nk-main ">
+            <!-- sidebar @s -->
+            <div class="nk-sidebar nk-sidebar-fixed is-light  is-compact" data-content="sidebarMenu">
+                <div class="nk-sidebar-element nk-sidebar-head">
+                    <div class="nk-sidebar-brand">
+                        <a href="KHBL/index.html" class="logo-link nk-sidebar-logo">
+                            <img class="logo-light logo-img" src="../images/favicon.png" srcset="../images/favicon.png 2x" alt="logo">
+                            <img class="logo-dark logo-img" src="../images/favicon.png" srcset="../images/favicon.png 2x" alt="logo-dark">
+                            <img class="logo-small logo-img logo-img-small" src="../images/favicon.png" srcset="../images/favicon.png 2x" alt="logo-small">
+                        </a>
+                    </div>
+                    <div class="nk-menu-trigger mr-n2">
+                        <a href="#" class="nk-nav-toggle nk-quick-nav-icon d-xl-none" data-target="sidebarMenu"><em class="icon ni ni-arrow-left"></em></a>
+                        <a href="#" class="nk-nav-compact nk-quick-nav-icon d-none d-xl-inline-flex" data-target="sidebarMenu"><em class="icon ni ni-menu"></em></a>
+                    </div>
+                </div><!-- .nk-sidebar-element -->
+                <div class="nk-sidebar-element">
+                    <div class="nk-sidebar-content">
+                        <div class="nk-sidebar-menu" data-simplebar>
+                            <ul class="nk-menu">
+                                <li class="nk-menu-heading">
+                                    <h6 class="overline-title text-primary-alt">Dashboards</h6>
+                                </li><!-- .nk-menu-item -->
+                                <li class="nk-menu-item">
+                                    <a href="KHBL/home-salesupport.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-home-fill"></em></span>
+                                        <span class="nk-menu-text text-headling-6">Trang chủ</span>
+                                    </a>
+                                </li><!-- .nk-menu-item -->
+                                <li class="nk-menu-item ">
+                                    <a href="KHBL/list-customer.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-user-fill"></em></span>
+                                        <span class="nk-menu-text text-headling-6">Khách hàng</span>
+                                    </a>
+                                </li><!-- .nk-menu-item -->
+								<li class="nk-menu-item ">
+                                    <a href="KHBL/nhacviec.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-bell"></em></span>
+                                        <span class="nk-menu-text text-headling-6">Nhắc Việc</span>
+                                    </a>
+                                </li><!-- .nk-menu-item -->		
+								<li class="nk-menu-item ">
+                                    <a href="KHBL/reportCustomer.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-reports"></em></span>
+                                        <span class="nk-menu-text text-headling-6">Báo cáo</span>
+                                    </a>
+                                </li><!-- .nk-menu-item -->	
+								<li class="nk-menu-item has-sub">
+                                    <a href="#" class="nk-menu-link nk-menu-toggle">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-users-fill"></em></span>
+                                        <span class="nk-menu-text text-headling-6">Chiến dịch</span>
+                                    </a>
+                                    <ul class="nk-menu-sub">
+                                        <li class="nk-menu-item">
+                                            <a href="KHBL/list-campaign.html" class="nk-menu-link"><span class="nk-menu-text text-headling-7">Tổng quan chiến dịch</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="KHBL/detailCampaign.html" class="nk-menu-link"><span class="nk-menu-text text-headling-7">Chi tiết chiến dịch</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="KHBL/reportCustomer.html" class="nk-menu-link"><span class="nk-menu-text text-headling-7">Báo cáo kết quả</span></a>
+                                        </li>
+                                    </ul><!-- .nk-menu-sub -->
+                                </li><!-- .nk-menu-item -->
+								
+														
+                            </ul><!-- .nk-menu -->
+                        </div><!-- .nk-sidebar-menu -->
+                    </div><!-- .nk-sidebar-content -->
+                </div><!-- .nk-sidebar-element -->
+            </div>
+            <!-- sidebar @e -->
+            <!-- wrap @s -->
+            <div class="nk-wrap ">
+                <!-- main header @s -->
+                <div class="nk-header nk-header-fixed is-light bg-gra-vt">
+                    <div class="container-fluid">
+                        <div class="nk-header-wrap classInfo">
+                            <div class="nk-header-search ml-3 ml-xl-0">
+                                <em class="icon ni ni-search color-white"></em>
+                                <input type="text" class="text-white form-control border-transparent form-focus-none" placeholder="Search anything">
+                            </div><!-- .nk-header-news -->
+                            <div class="nk-header-tools">
+                                <ul class="nk-quick-nav">
+                                    <li class="dropdown notification-dropdown">
+                                        <a href="#" class="dropdown-toggle nk-quick-nav-icon color-white" data-toggle="dropdown">
+                                            <div class="icon-status icon-status-info"><em class="icon ni ni-bell"></em></div>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown user-dropdown">
+                                        <a href="#" class="dropdown-toggle mr-n1" data-toggle="dropdown">
+                                            <div class="user-toggle">
+                                                <div class="user-avatar sm">
+                                                    <em class="icon ni ni-user-alt"></em>
+                                                </div>
+                                                <div class="user-info d-none d-xl-block">
+                                                    <div class="user-status user-status-unverified color-white">LuyenDv</div>
+                                                    <div class="user-name dropdown-indicator color-white">Đoàn Văn Luyện</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-md dropdown-menu-right">
+                                            <div class="dropdown-inner user-card-wrap bg-lighter d-none d-md-block">
+                                                <div class="user-card">
+                                                    <div class="user-avatar">
+                                                        <span>AB</span>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <span class="lead-text">Đoàn Văn Luyện</span>
+                                                        <span class="sub-text">luyendv@dtsvn.net</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-inner">
+                                                <ul class="link-list">
+                                                    <li><a href="KHBL/user-profile-regular.html"><em class="icon ni ni-user-alt"></em><span>View Profile</span></a></li>
+                                                    <li><a href="KHBL/user-profile-setting.html"><em class="icon ni ni-setting-alt"></em><span>Account Setting</span></a></li>
+                                                    <li><a href="KHBL/user-profile-activity.html"><em class="icon ni ni-activity-alt"></em><span>Login Activity</span></a></li>
+                                                    <li><a class="dark-switch" href="#"><em class="icon ni ni-moon"></em><span>Dark Mode</span></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="dropdown-inner">
+                                                <ul class="link-list">
+                                                    <li><a href="#"><em class="icon ni ni-signout"></em><span>Sign out</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><!-- .nk-header-wrap -->
+                    </div><!-- .container-fliud -->
+                </div>
+                <!-- main header @e -->
+                <!-- content @s -->
+                <div class="nk-content pl-4-1366 pr-4-1366">
+                    <div class="container-fluid pl-0-1024 pr-0-1024">
+                        <div class="nk-content-inner">
+                            <div class="nk-content-body">
+								<div class="nk-block-head nk-block-head-sm">
+                                    <div class="nk-block-between">
+                                        <div class="nk-block-head-content">
+                                            <ul class="btn-toolbar gx-1">
+												<li style="margin: auto;">
+													<a href="KHBL/list-customer.html"><em class="icon ni ni-back-ios"></em></a>
+												</li><!-- li -->
+												<li class="btn-toolbar-sep  mr-1 ml-1 "></li><!-- li -->
+												<li>
+													<h3 class="nk-block-title page-title color-xanh-1 text-headling-0">Tạo mới cẩm nang bán hàng mới</h3>
+												</li>
+											</ul>
+                                        </div><!-- .nk-block-head-content -->
+                                    </div><!-- .nk-block-between -->
+                                </div><!-- .nk-block-head -->
+								<div class="card-giaiphap col-12 mb-3 mt-2 nk-block">
+										<div class="row-ct  g-gs">
+											<div class="col-4 bg-white text-center">
+												<span class="color-xanh-3 text-headling-7">1. Chọn Nhóm cẩm nang</span>
+											</div>
+											<div class="col-4  text-center   bg-white text-center">
+												<span class="color-xanh-3 text-headling-7">2. Thiết lập cẩm nang bán hàng</span>
+											</div>
+											<div class=" col-4  steps-vt  bg-xanh-7 text-center">
+												<span class="color-xanh-3 text-headling-7">3. Lưu cẩm nang bán hàng</span>
+											</div>
+										</div>
+									</div>
+									<div class="nk-block-head nk-block-head-sm">
+										<div class="nk-block-between d-jus-center pb-2">
+											<div class="nk-block-head-content">
+												<h3 class="nk-block-title page-title color-xanh-1 text-headling-3">Lưu cẩm nang bán hàng</h3>
+											</div><!-- .nk-block-head-content -->
+										</div><!-- .nk-block-between -->
+									</div><!-- .nk-block-head -->
+                                <div class="nk-block row-ct col-12 d-jus-center">
+                                    <div class="nk-block pt-2">
+										<div class="card-giaiphap col-12 row pl-4 pr-4 pb-5">
+											<div class=" col-xxl-12">
+												<div class="nk-block-head nk-block-head-sm">
+													<div class="nk-block-between pt-34px pb-4">
+														<div class="nk-block-head-content">
+															<h3 class="nk-block-title page-title color-xanh-2 text-headling-3 ">Thẻ tín dụng quốc tế JCB Ultimate</h3>
+														</div><!-- .nk-block-head-content -->
+													</div><!-- .nk-block-between -->
+												</div><!-- .nk-block-head -->
+											</div>
+											<div class="col-md-6 col-xxl-4 col-4-1366 nk-tb-item hover-none">
+												<div class="card pricing bg-xanh-8 pr-2 pl-2 hover-div">
+													<div class="pricing-head border-bt-none pb-20px">
+														<div class="pricing-title float-left">
+															<div class="custom-control custom-checkbox pl-0">
+																<span class="color-xanh-2 text-headling-5" >
+																		Đặc  điểm | Tính năng</span>
+															</div>
+														</div>
+													</div>
+													<div class="toolbar-sep-vt">
+													</div>
+													<div class="pricing-body pt-22px">
+														<ul class="list">
+															<li class="color-cham-1 text-body-2 pb-3">Miễn phí duy trì tài khoản, duy trì Vietinbank iPay</li>
+															<li class="color-cham-1 text-body-2 pb-3">Miễn phí duy trì dịch vụ biến động thông tin TK qua OTT/SMS</li>
+															<li class="color-cham-1 text-body-2 pb-3">Miễn phí giao dịch chuyển khoản trong/ngoài hệ thống trên iPay Mobile </li>
+															<li class="color-cham-1 text-body-2 pb-3">Thời gian thu phí duy trì Gói (nếu số dư BQ/tháng của TK thấp hơn mức quy định tối thiểu)</li>
+															<li class="color-cham-1 text-body-2 pb-3">Thời gian thu phí duy trì Gói (nếu số dư BQ/tháng của TK thấp hơn mức quy định tối thiểu)</li>
+															<li class="color-cham-1 text-body-2 pb-3">Đối với KH mở Gói TK mới:  Vào ngày 15 hàng tháng. Kỳ thu phí đầu tiên đảm bảo điều kiện ≥ 30 ngày kể từ thời điểm TK đăng ký Gói TK</li>
+														</ul>
+														
+													</div>
+												</div>
+											</div>
+											<div class="col-md-6 col-xxl-4 col-4-1366 nk-tb-item hover-none">
+												<div class="card pricing bg-xanh-8 pr-2 pl-2 hover-div">
+													<div class="pricing-head border-bt-none pb-20px">
+														<div class="pricing-title float-left">
+															<div class="custom-control custom-checkbox pl-0">
+																<span class="color-xanh-2 text-headling-5" >
+																		Chính sách</span>
+															</div>
+														</div>
+													</div>
+													<div class="toolbar-sep-vt">
+													</div>
+													<div class="pricing-body pt-22px">
+														<ul class="list">
+															<li class="color-cham-1 text-body-2 pb-3">Miễn phí duy trì tài khoản, duy trì Vietinbank iPay</li>
+															<li class="color-cham-1 text-body-2 pb-3">Miễn phí duy trì dịch vụ biến động thông tin TK qua OTT/SMS</li>
+															<li class="color-cham-1 text-body-2 pb-3">Miễn phí giao dịch chuyển khoản trong/ngoài hệ thống trên iPay Mobile </li>
+															<li class="color-cham-1 text-body-2 pb-3">Thời gian thu phí duy trì Gói (nếu số dư BQ/tháng của TK thấp hơn mức quy định tối thiểu)</li>
+															<li class="color-cham-1 text-body-2 pb-3">Thời gian thu phí duy trì Gói (nếu số dư BQ/tháng của TK thấp hơn mức quy định tối thiểu)</li>
+															<li class="color-cham-1 text-body-2 pb-3">Đối với KH mở Gói TK mới:  Vào ngày 15 hàng tháng. Kỳ thu phí đầu tiên đảm bảo điều kiện ≥ 30 ngày kể từ thời điểm TK đăng ký Gói TK</li>
+														</ul>
+														
+													</div>
+												</div>
+											</div>
+											<div class="col-md-6 col-xxl-4 col-4-1366 nk-tb-item hover-none">
+												<div class="card pricing bg-xanh-8 pr-2 pl-2 hover-div">
+													<div class="pricing-head border-bt-none pb-20px">
+														<div class="pricing-title float-left">
+															<div class="custom-control custom-checkbox pl-0">
+																<span class="color-xanh-2 text-headling-5" >
+																		Lãi suất | Phí</span>
+															</div>
+														</div>
+													</div>
+													<div class="toolbar-sep-vt">
+													</div>
+													<div class="pricing-body pt-22px">
+														<ul class="list">
+															<li class="color-cham-1 text-body-2 pb-3">Miễn phí duy trì tài khoản, duy trì Vietinbank iPay</li>
+															<li class="color-cham-1 text-body-2 pb-3">Miễn phí duy trì dịch vụ biến động thông tin TK qua OTT/SMS</li>
+															<li class="color-cham-1 text-body-2 pb-3">Miễn phí giao dịch chuyển khoản trong/ngoài hệ thống trên iPay Mobile </li>
+															<li class="color-cham-1 text-body-2 pb-3">Thời gian thu phí duy trì Gói (nếu số dư BQ/tháng của TK thấp hơn mức quy định tối thiểu)</li>
+															<li class="color-cham-1 text-body-2 pb-3">Thời gian thu phí duy trì Gói (nếu số dư BQ/tháng của TK thấp hơn mức quy định tối thiểu)</li>
+															<li class="color-cham-1 text-body-2 pb-3">Đối với KH mở Gói TK mới:  Vào ngày 15 hàng tháng. Kỳ thu phí đầu tiên đảm bảo điều kiện ≥ 30 ngày kể từ thời điểm TK đăng ký Gói TK</li>
+														</ul>
+														
+													</div>
+												</div>
+											</div>
+											<div class="col-md-6 col-xxl-4 col-4-1366 nk-tb-item hover-none pt-3">
+												<div class="card pricing bg-xanh-8 pr-2 pl-2 hover-div">
+													<div class="pricing-head border-bt-none pb-20px">
+														<div class="pricing-title float-left">
+															<div class="custom-control custom-checkbox pl-0">
+																<span class="color-xanh-2 text-headling-5" >
+																		Chương trình khuyến mại</span>
+															</div>
+														</div>
+													</div>
+													<div class="toolbar-sep-vt">
+													</div>
+													<div class="pricing-body pt-22px">
+														<h3 class="color-xanh-2 text-headling-6">Mở thẻ online 5 phút - Sử dụng trọn đời</h3>
+														<span class="text-body-1 color-cham-1">VietinBank hỗ trợ bạn chủ động mở thẻ TDQT mà không cần phải đến quầy giao dịch. 
+														Chỉ cần tải/cập nhật VietinBank iPay Mobile phiên bản 5.3.4, 
+														bạn có thể mở thẻ TDQT online chỉ bằng vài thao tác đơn giản với hạn mức lên đến 300 triệu đồng.</span>
+														</div>
+												</div>
+											</div>
+											<div class="col-md-6 col-xxl-4 col-4-1366 nk-tb-item hover-none pt-3">
+												<div class="card pricing bg-xanh-8 pr-2 pl-2 hover-div">
+													<div class="pricing-head border-bt-none pb-20px">
+														<div class="pricing-title float-left">
+															<div class="custom-control custom-checkbox pl-0">
+																<span class="color-xanh-2 text-headling-5" >
+																		Hình ảnh</span>
+															</div>
+														</div>
+													</div>
+													<div class="toolbar-sep-vt">
+													</div>
+													<div class="pricing-body pt-22px">
+														<img class="card-img-top" src="../images/bg-login.png" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="col-md-6 col-xxl-4 col-4-1366 nk-tb-item hover-none pt-3">
+												<div class="card pricing bg-xanh-8 pr-2 pl-2 hover-div">
+													<div class="pricing-head border-bt-none pb-20px">
+														<div class="pricing-title float-left">
+															<div class="custom-control custom-checkbox pl-0">
+																<span class="color-xanh-2 text-headling-5" >
+																		Link liên kết</span>
+															</div>
+														</div>
+													</div>
+													<div class="toolbar-sep-vt">
+													</div>
+													<div class="pricing-body pt-22px">
+														<ul class="list">
+															<li class=" pb-3"><span class="color-xanh-2 text-headling-6">Link liên kết #1</span><br>
+																<span class="text-body-2 color-cham-1">https://www.vietinbank.vn/vn/ca-nhan/tin-khuyen-mai/Mo-the-online-5-phut-Su-dung-tron-doi-20220324162441.html</span></li>
+															<li class=" pb-3"><span class="color-xanh-2 text-headling-6">Link liên kết #2</span><br>
+																<span class="text-body-2 color-cham-1">https://www.vietinbank.vn/vn/ca-nhan/tin-khuyen-mai/Mo-the-online-5-phut-Su-dung-tron-doi-20220324162441.html</span></li>
+															
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+										<div class="col-12 pt-xxl-2 text-center row-ct  pl-0 pr-0 mt-3">
+											<div class="col-6 text-center pl-0 pr-025">
+												<a href="#" class="col-12 btn btn-xl bg-cham-4 h-60px">
+													<span class="text-headling-6 color-xanh-3">Quay lại</span>
+												</a>
+											</div>
+											<div class="col-6 text-center pr-0 pl-025">
+												<a href="KHBL/saveGiaiphap.html" class="col-12 btn btn-xl bg-xanh-3 color-white	 h-60px">
+													<span class="text-headling-6 color-white">Tiếp tục</span>
+												</a>
+											</div>
+										</div>
+									</div>
+                                </div><!-- .nk-block -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- content @e -->
+                <!-- footer @s -->
+                <div class="nk-footer">
+                    <div class="container-fluid">
+                        <div class="nk-footer-wrap">
+						<img class="logo-img"  src="../images/logo2_company.png" srcset="../images/logo2_company.png" alt="logo">
+                            <div class="nk-footer-copyright"> 
+                            </div>
+                            <div class="nk-footer-links text-al-right">
+                               <span class="d-block"> © 2021 - Bản quyền thuộc về Ngân hàng TMCP Công thương Việt Nam</span>
+							   <span class="color-gray-6 fs-10px">Developed by DTSVN</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer @e -->
+            </div>
+            <!-- wrap @e -->
+        </div>
+        <!-- main @e -->
+		
+    </div>
+    <!-- app-root @e -->
+    <!-- JavaScript -->
+	<script>
+      window.Promise ||
+        document.write(
+          '<script src="../assets/js/dist/polyfill.min.js"><\/script>'
+        )
+      window.Promise ||
+        document.write(
+          '<script src="../assets/js/dist/classList.min.js"><\/script>'
+        )
+      window.Promise ||
+        document.write(
+          '<script src="../assets/js/dist/findindex_polyfill_mdn.js"><\/script>'
+        )
+    </script>
+	<script src="../assets/js/apex_pie_chart.js?ver=2.8.0"></script>
+    <script src="../assets/js/bundle.js?ver=2.8.0"></script>
+    <script src="../assets/js/scripts.js?ver=2.0.0"></script>
+	<script src="../assets/js/example-chart.js?ver=2.0.0"></script>
+	<script src="../assets/js/apexcharts.js?ver=2.0.0"></script>
+	
+</body>
+
+</html>

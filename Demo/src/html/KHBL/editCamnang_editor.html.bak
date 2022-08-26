@@ -229,36 +229,14 @@
 																				</div>
 																			</div><!-- .nk-block-head -->
 																			
-																			<div class="nk-block row-ct border border-gray-7">
-																				<div class=" p-4 col-6" style="min-height: 80%">
-																					<div class="form-group text-body-3">
-																						<div class="form-control-wrap text-body-3">
-																							<div class="form-group">
-																								<label class="form-label color-gray-2 text-body-4" for="default-1-02">Tên sản phẩm</label>
-																								<input type="text" class="form-control" id="default-1-02" value="">
-																							</div>
-																						</div>
-																					</div>
-																					<div class="form-group text-body-3">
-																						<div class="form-control-wrap text-body-3">
-																							<div class="form-group">
-																								<label class="form-label color-gray-2 text-body-4" for="default-1-02">Tên sản phẩm</label>
-																								<div class="form-control-wrap">
-																									<select class="form-select form-control form-control-lg">
-																										<option value="default_option">Default Option</option>
-																										<option value="option_select_name">Option select name</option>
-																										<option value="option_select_name">Option select name</option>
-																									</select>
-																								</div>
-																							</div>
-																						</div>
-																					</div>
+																			<div class="nk-block row-ct d-jus-between">
+																				<div class=" p-4 col-25per border border-gray-7" style="min-height: 80%">
 																					<div class="form-group text-body-3">
 																						<div class="form-control-wrap text-body-3">
 																							<div class="form-group">
 																								<label class="form-label color-gray-2 text-body-4 mb-3" for="default-1-02">Thời gian</label>
 																								<ul class="btn-toolbar gx-1 w-100">
-																									<li class="col-6">
+																									<li class="col-12">
 																										<div class="form-group">
 																											<div class="form-control-wrap">
 																												<div class="form-icon form-icon-right">
@@ -269,7 +247,7 @@
 																											</div>
 																										</div>
 																									</li><!-- li -->
-																									<li class="col-6">
+																									<li class="col-12 pt-2">
 																										<div class="form-group">
 																											<div class="form-control-wrap">
 																												<div class="form-icon form-icon-right">
@@ -288,7 +266,7 @@
 																						<div class="form-control-wrap text-body-3">
 																							<div class="form-group row-ct">
 																								<label class="form-label color-gray-2 text-body-4" for="default-1-02">Link liên kết</label>
-																								<input type="text" class="form-control w-90" id="default-1-02" value="">
+																								<input type="text" class="form-control w-85" id="default-1-02" value="">
 																								<em class="icon ni ni-trash align-center fs-22px m-auto color-red-1"></em>
 																							</div>
 																						</div>
@@ -302,33 +280,15 @@
 																					</div>
 																					
 																				</div><!-- data-list -->
-																				<div class="p-4 col-6 mt-0 border-left" style="min-height: 80%">
-																					<div class="form-group text-body-3">
-																							<div class="form-control-wrap text-body-3">
-																								<div class="form-group">
-																									<label class="form-label color-gray-2 text-body-4" for="default-1-02">Hình ảnh sản phẩm</label>
-																								</div>
-																							</div>
-																						</div>
-																					<div class="border border-gray-7 p-4">
-																						
-																						<div class="form-group text-body-3">
-																							<div class="form-control-wrap text-body-3">
-																								<div class="form-group">
-																									<img class="card-img-top border-radius-10" src="../images/bg-login.png" alt="">
-																								</div>
-																							</div>
-																						</div>
-																						<div class="col-12 m-auto pt-3 text-center row-ct">
-																							<div class="col-6 pl-0">
-																								<a href="#" data-dismiss="modal" aria-label="Close" 
-																									class="d-jus-center col-12 btn btn-xl color-red-1 text-headling-6 bg-red-5">Xóa hình ảnh</a>
-																							</div>
-																							<div class="col-6 pl-0 pr-0">
-																								<a class="d-jus-center col-12 btn btn-xl bg-cham-4 text-headling-6  color-xanh-3">Thay đổi hình ảnh</a>
-																							</div>
-																						</div>
-																					</div>
+																				<div class="p-4 col-73per mt-0 border border-gray-7" style="min-height: 80%">
+																					<ul class="list">
+																						<li class="color-cham-1 text-body-2 pb-3">Miễn phí duy trì tài khoản, duy trì Vietinbank iPay</li>
+																						<li class="color-cham-1 text-body-2 pb-3">Miễn phí duy trì dịch vụ biến động thông tin TK qua OTT/SMS</li>
+																						<li class="color-cham-1 text-body-2 pb-3">Miễn phí giao dịch chuyển khoản trong/ngoài hệ thống trên iPay Mobile </li>
+																						<li class="color-cham-1 text-body-2 pb-3">Thời gian thu phí duy trì Gói (nếu số dư BQ/tháng của TK thấp hơn mức quy định tối thiểu)</li>
+																						<li class="color-cham-1 text-body-2 pb-3">Thời gian thu phí duy trì Gói (nếu số dư BQ/tháng của TK thấp hơn mức quy định tối thiểu)</li>
+																						<li class="color-cham-1 text-body-2 pb-3">Đối với KH mở Gói TK mới:  Vào ngày 15 hàng tháng. Kỳ thu phí đầu tiên đảm bảo điều kiện ≥ 30 ngày kể từ thời điểm TK đăng ký Gói TK</li>
+																					</ul>
 																				</div><!-- data-list -->
 																			</div><!-- .nk-block -->
 																		</div>
