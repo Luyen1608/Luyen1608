@@ -3209,3 +3209,7 @@ body {
 .mh-auto{
 	min-height: auto;
 }
+.mh-image-post{
+	width: auto;
+    max-height: 159px;
+}

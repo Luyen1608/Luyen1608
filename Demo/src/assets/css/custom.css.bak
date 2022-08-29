@@ -3164,6 +3164,29 @@ body {
     overflow-x: hidden;
     overflow-y: scroll;
 }
+.w-spdv{
+	width: 289px;
+	height: 506px;
+}
+.w-other{
+	width: 289px;
+	height: 243px;
+}
+.w-dmsp{
+	width: 78px;
+	height: 85px;
+}
+.p-10{
+	padding: 10px;
+}
+.overflow-x{
+	overflow-x: auto;
+	overflow-y: hidden;
+	
+}
+.w-other-all{
+	width: -webkit-calc(100% - 315px);
+}
 .col-25per {
     flex: 0 0 25%;
     max-width: 25%;
@@ -3182,4 +3205,11 @@ body {
     overflow-x: hidden;
     overflow-y: scroll;
     display: inline-block!important;
+}
+.mh-auto{
+	min-height: auto;
+}
+.mh-image-post{
+	width: auto;
+    height: 159px;
 }

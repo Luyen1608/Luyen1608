@@ -507,22 +507,34 @@
 																					</div><!-- .card-inner -->
 																					<div class="p-4 col-8 mt-0 border-left" style="min-height: 80%">
 																						<div class="row-ct">
-																							<div class="col-3">
-																								<img class=" pl-0 pr-0 card-img-top border-radius-10" src="../images/bg-login.png" alt="">
+																							<div class="col-3 text-center">
+																								<img class=" pl-0 pr-0 card-img-top border-radius-10 mh-image-post" src="../images/bg-login1.png" alt="">
+																								<div class="team-view pt-1">
+																									<a href="" class="pt-1 pb-1 btn btn-round btn-outline-light"><span>View Profile</span> <em class="icon ni ni-cross"></em></a>
+																								</div>
 																							</div>
-																							<div class="col-3">
-																								<img class=" pl-0 pr-0 card-img-top border-radius-10" src="../images/bg-login.png" alt="">
+																							<div class="col-3 text-center">
+																								<img class=" pl-0 pr-0 card-img-top border-radius-10 mh-image-post" src="../images/bg-login2.png" alt="">
+																								<div class="team-view pt-1">
+																									<a href="" class="pt-1 pb-1 btn btn-round btn-outline-light"><span>View Profile</span> <em class="icon ni ni-cross"></em></a>
+																								</div>
 																							</div>
-																							<div class="col-3">
-																								<img class=" pl-0 pr-0 card-img-top border-radius-10" src="../images/bg-login.png" alt="">
+																							<div class="col-3 text-center">
+																								<img class=" pl-0 pr-0 card-img-top border-radius-10 mh-image-post" src="../images/bg-login3.png" alt="">
+																								<div class="team-view pt-1">
+																									<a href="" class="pt-1 pb-1 btn btn-round btn-outline-light"><span>View Profile</span> <em class="icon ni ni-cross"></em></a>
+																								</div>
 																							</div>
-																							<div class="col-3">
-																								<img class=" pl-0 pr-0 card-img-top border-radius-10" src="../images/bg-login.png" alt="">
+																							<div class="col-3 text-center">
+																								<img class=" pl-0 pr-0 card-img-top border-radius-10 mh-image-post" src="../images/bg-login.png" alt="">
+																								<div class="team-view pt-1">
+																									<a href="" class="pt-1 pb-1 btn btn-round btn-outline-light"><span>View Profile</span> <em class="icon ni ni-cross"></em></a>
+																								</div>
 																							</div>
 																						</div>
 																						<div class="row-ct pt-3">
-																							<div class="col-3">
-																								<img class=" pl-0 pr-0 card-img-top border-radius-10" src="../images/bg-login.png" alt="">
+																							<div class="col-3 text-center">
+																								<img class=" pl-0 pr-0 card-img-top border-radius-10 mh-image-post" src="../images/bg-login.png" alt="">
 																								<div class="team-view pt-1">
 																									<a href="" class="pt-1 pb-1 btn btn-round btn-outline-light"><span>View Profile</span> <em class="icon ni ni-cross"></em></a>
 																								</div>
