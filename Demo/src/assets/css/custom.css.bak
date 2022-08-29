@@ -3211,5 +3211,8 @@ body {
 }
 .mh-image-post{
 	width: auto;
-    height: 159px;
+    max-height: 157px;
+}
+.h-159{
+	height: 159px;
 }
