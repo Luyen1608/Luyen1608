@@ -507,7 +507,7 @@
 							<div class="modal-header border-bottom-0 m-auto pb-1 pt-0">
 								<h5 class="modal-title text-body-3 d-block  color-gray-2">Lựa chọn sản phẩm</h5>
 							</div>
-							<div class="d-jus-content col-10 pl-3 pr-3 row-ct col-12 m-auto pt-3">
+							<div class="d-jus-content col-10 pl-3 pr-3 row-ct m-auto pt-3">
 									<div class="pricing-head pt-0 pr-0 pl-0 pb-1" style="border-bottom: none;">
 										<div class="pt-0 w-dmsp">
 											<div class="bg-xanh-7 w-dmsp card card-bordered pricing">
