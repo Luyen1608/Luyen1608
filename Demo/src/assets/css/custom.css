@@ -3216,3 +3216,7 @@ body {
 .h-159{
 	height: 159px;
 }
+.col-18per{
+	flex: 0 0 18%;
+    max-width: 18%;
+}

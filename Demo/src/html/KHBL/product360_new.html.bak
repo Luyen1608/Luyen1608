@@ -283,7 +283,7 @@
 																	<h4 class="text-body-5 color-xanh-3" style="float: left;">
 																			Tín dụng Tín</h4>
 																</div>
-																<div class=" pl-10px mt-auto" style="border-bottom: none;">
+																<div class="mb-02 mt-auto pl-10px" style="border-bottom: none;">
 																	<div class="pricing-title">
 																		<h4 class="text-headling-1 text-white float-left">
 																			<em class="icon ni ni-offer-fill fs-30px color-xanh-3"></em></h4>
@@ -298,7 +298,7 @@
 																	<h4 class="text-body-5 color-xanh-3" style="float: left;">
 																			Tín dụng</h4>
 																</div>
-																<div class=" pl-10px mt-auto" style="border-bottom: none;">
+																<div class="mb-02 mt-auto pl-10px" style="border-bottom: none;">
 																	<div class="pricing-title">
 																		<h4 class="text-headling-1 text-white float-left">
 																			<em class="icon ni ni-offer-fill fs-30px color-xanh-3"></em></h4>
@@ -311,43 +311,11 @@
 														<div class="pricing-head pt-0 pr-0 pl-0 pb-1" style="border-bottom: none;">
 														<div class="pt-0 w-dmsp">
 															<div class="bg-xanh-7 w-dmsp card card-bordered pricing">
-																<div class="pricing-body p-10 pb-0">
-																	<h4 class="text-body-5 color-xanh-3" style="float: left;">
-																			Tín dụng</h4>
-																</div>
-																<div class=" pl-10px mt-auto" style="border-bottom: none;">
-																	<div class="pricing-title">
-																		<h4 class="text-headling-1 text-white float-left">
-																			<em class="icon ni ni-offer-fill fs-30px color-xanh-3"></em></h4>
-																	</div>
-																</div>
-																
-															</div>
-														</div>
-														<div class="pt-1 w-dmsp">
-															<div class="bg-xanh-7 w-dmsp card card-bordered pricing">
-																<div class="pricing-body p-10  pb-0">
-																	<h4 class="text-body-5 color-xanh-3" style="float: left;">
-																			Tín dụng</h4>
-																</div>
-																<div class=" pl-10px mt-auto" style="border-bottom: none;">
-																	<div class="pricing-title">
-																		<h4 class="text-headling-1 text-white float-left">
-																			<em class="icon ni ni-offer-fill fs-30px color-xanh-3"></em></h4>
-																	</div>
-																</div>
-																
-															</div>
-														</div>
-														</div>
-													<div class="pricing-head pt-0 pr-0 pl-0 pb-1" style="border-bottom: none;">
-														<div class="pt-0 w-dmsp">
-															<div class="bg-xanh-7 w-dmsp card card-bordered pricing">
-																<div class="pricing-body p-10 pb-0">
+																<div class="pricing-body p-10 pb-0 text-left">
 																	<h4 class="text-body-5 color-xanh-3" style="float: left;">
 																			Tín dụng Tín</h4>
 																</div>
-																<div class=" pl-10px mt-auto" style="border-bottom: none;">
+																<div class="mb-02 mt-auto pl-10px" style="border-bottom: none;">
 																	<div class="pricing-title">
 																		<h4 class="text-headling-1 text-white float-left">
 																			<em class="icon ni ni-offer-fill fs-30px color-xanh-3"></em></h4>
@@ -358,11 +326,43 @@
 														</div>
 														<div class="pt-1 w-dmsp">
 															<div class="bg-xanh-7 w-dmsp card card-bordered pricing">
-																<div class="pricing-body p-10  pb-0">
+																<div class="pricing-body p-10  pb-0 text-left">
 																	<h4 class="text-body-5 color-xanh-3" style="float: left;">
 																			Tín dụng</h4>
 																</div>
-																<div class=" pl-10px mt-auto" style="border-bottom: none;">
+																<div class="mb-02 mt-auto pl-10px" style="border-bottom: none;">
+																	<div class="pricing-title">
+																		<h4 class="text-headling-1 text-white float-left">
+																			<em class="icon ni ni-offer-fill fs-30px color-xanh-3"></em></h4>
+																	</div>
+																</div>
+																
+															</div>
+														</div>
+														</div>
+														<div class="pricing-head pt-0 pr-0 pl-0 pb-1" style="border-bottom: none;">
+														<div class="pt-0 w-dmsp">
+															<div class="bg-xanh-7 w-dmsp card card-bordered pricing">
+																<div class="pricing-body p-10 pb-0 text-left">
+																	<h4 class="text-body-5 color-xanh-3" style="float: left;">
+																			Tín dụng Tín</h4>
+																</div>
+																<div class="mb-02 mt-auto pl-10px" style="border-bottom: none;">
+																	<div class="pricing-title">
+																		<h4 class="text-headling-1 text-white float-left">
+																			<em class="icon ni ni-offer-fill fs-30px color-xanh-3"></em></h4>
+																	</div>
+																</div>
+																
+															</div>
+														</div>
+														<div class="pt-1 w-dmsp">
+															<div class="bg-xanh-7 w-dmsp card card-bordered pricing">
+																<div class="pricing-body p-10  pb-0 text-left">
+																	<h4 class="text-body-5 color-xanh-3" style="float: left;">
+																			Tín dụng</h4>
+																</div>
+																<div class="mb-02 mt-auto pl-10px" style="border-bottom: none;">
 																	<div class="pricing-title">
 																		<h4 class="text-headling-1 text-white float-left">
 																			<em class="icon ni ni-offer-fill fs-30px color-xanh-3"></em></h4>

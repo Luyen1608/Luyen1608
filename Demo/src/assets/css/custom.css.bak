@@ -3166,7 +3166,7 @@ body {
 }
 .w-spdv{
 	width: 289px;
-	height: 506px;
+	height: 511px;
 }
 .w-other{
 	width: 289px;
@@ -3215,4 +3215,8 @@ body {
 }
 .h-159{
 	height: 159px;
+}
+.col-18per{
+	flex: 0 0 18%;
+    max-width: 21%;
 }
