@@ -3185,7 +3185,7 @@ body {
 	
 }
 .w-other-all{
-	width: -webkit-calc(100% - 315px);
+	width: calc(100% - 315px);
 }
 .col-25per {
     flex: 0 0 25%;
