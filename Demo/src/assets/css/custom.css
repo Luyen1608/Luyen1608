@@ -3220,3 +3220,19 @@ body {
 	flex: 0 0 18%;
     max-width: 18%;
 }
+.w-135px{
+	width: 135px;
+}
+.w-170px{
+	width: 170px;
+}
+.border-radius-5 {
+    border-radius: 5px;
+}
+.w-calc-170-4 {
+	width: calc((100% - 200px)/4)
+}
+.w-modal-90per{
+	width: 90%;
+    max-width: 90%;
+}
