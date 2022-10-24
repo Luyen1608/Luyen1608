@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "SVN-Gilroy-Light";
   src: url("../fonts/SVN-Gilroy/SVN-GilroyLight.woff2") format("woff2"), url("../fonts/SVN-Gilroy/SVN-GilroyLight.woff") format("woff");
@@ -3042,7 +3043,7 @@ body {
   border: 1px solid gray;
 }
 .bg-gray-8{
-	background-color: #F5F6FA;
+	background-color: #F5F6FA !important;
 }
 .d-none-scroll{
 	width: 1px;
@@ -3185,7 +3186,7 @@ body {
 	
 }
 .w-other-all{
-	width: -webkit-calc(100% - 315px);
+	width: calc(100% - 315px);
 }
 .col-25per {
     flex: 0 0 25%;
@@ -3218,5 +3219,74 @@ body {
 }
 .col-18per{
 	flex: 0 0 18%;
-    max-width: 21%;
+    max-width: 18%;
 }
+.w-135px{
+	width: 135px;
+}
+.w-170px{
+	width: 170px;
+}
+.border-radius-5 {
+    border-radius: 5px;
+}
+.w-calc-170-4 {
+	width: calc((100% - 200px)/4)
+}
+.w-modal-90per{
+	width: 90%;
+    max-width: 90%;
+}
+.w-49{
+	width: 49%;
+}
+/* table scroll left*/
+.table-scroll {
+	position:relative;
+	max-width:100%;
+	margin:auto;
+	overflow:hidden;
+	/*border:1px solid #000;*/
+}
+.table-wrap {
+	width:100%;
+	overflow:auto;
+}
+.table-scroll table {
+	width:100%;
+	margin:auto;
+	border-collapse:separate;
+	border-spacing:0;
+}
+.table-scroll th, .table-scroll td {
+	padding:5px 10px;
+	border-bottom: 1px solid #DBDFEA;
+	background:#fff;
+	white-space:nowrap;
+	vertical-align:top;
+}
+.table-scroll thead, .table-scroll tfoot {
+	background:#f9f9f9;
+}
+.clone {
+	position:absolute;
+	top:0;
+	left:0;
+	pointer-events:none;
+}
+.clone th, .clone td {
+	visibility:hidden
+}
+.clone td, .clone th {
+	border-color:transparent
+}
+.clone tbody th {
+	visibility:visible;
+	color:red;
+}
+.clone .fixed-side {
+	border-bottom: 1px solid #DBDFEA;
+    background: #f5f8fb;
+    visibility: visible;
+}
+.clone thead, .clone tfoot{background:transparent;}

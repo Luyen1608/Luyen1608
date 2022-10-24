@@ -3286,7 +3286,7 @@ body {
 }
 .clone .fixed-side {
 	border-bottom: 1px solid #DBDFEA;
-    background: #f5f8fb;
+    background: #fff;
     visibility: visible;
 }
 .clone thead, .clone tfoot{background:transparent;}
