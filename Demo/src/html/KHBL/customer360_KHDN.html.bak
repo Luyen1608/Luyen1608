@@ -1425,7 +1425,7 @@ margin: -0.25rem -0.25rem;
 																							<li class="nk-block-tools-opt">
 																								<div class="drodown">
 																									<a href="#" class="dropdown-toggle" data-toggle="dropdown">123123123</a>
-																									<div class="dropdown-menu dropdown-menu-right" style="left: 100px!important;">
+																									<div class="dropdown-menu dropdown-menu-right" style="    left: 100px!important;">
 																										<ul class="link-list-opt no-bdr">
 																											<li><a href="#" ><span>Số dư tài khoản (tỷ VND)</span><span>100,000,000</span></a></li>
 																											<li><a href="#" ><span>Ngày giải ngân</span><span>20/10/2022</span></a></li>
