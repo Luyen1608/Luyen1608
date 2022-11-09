@@ -861,7 +861,16 @@
 		font-family: 'Mulish-SemiB';
 	}
 }
-@media ( min-width:1366px) {
+@media(min-width:1919px) {
+	.col-3-1920{
+			flex: 0 0 25%;
+			max-width: 25%;
+	}
+	.scroll-h {
+		display: flex!important;
+	}
+}
+@media (min-width:1366px) {
 	/*.scroll-h {
 		overflow-x: hidden !important;
 	} */
@@ -872,7 +881,6 @@
 		flex: 0 0 79%;
 		max-width: 79%;
 	}
-	
 }
 @media ( max-width:1366px) {
 	.width-166{
@@ -2742,7 +2750,7 @@ body {
 	white-space: nowrap;
     overflow-x: scroll;
     overflow-y: hidden;
-    display: inline-block!important;;
+	display: inline-block;
 
 }
 .popover__content {
@@ -2993,7 +3001,7 @@ body {
   background: radial-gradient( circle at top right, #ffffff, #014F97 70% )
 }
 .width-acp{
-		max-width: calc(100vw - 480px) !important;
+		width: calc(100% - 180px) !important;
 	}
 /* Table Fix header and scroll
 */	
